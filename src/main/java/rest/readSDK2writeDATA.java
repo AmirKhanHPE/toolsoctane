@@ -263,6 +263,73 @@ public class readSDK2writeDATA {
     }
 
 
+
+
+    public static Octane.Builder GetStories2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\stories\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_stories.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("stories").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature;Priority");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voStoryType = (EntityModel) mlArrayList.get(i).getValue("feature_type").getValue();
+            EntityModel voPhase = (EntityModel) mlArrayList.get(i).getValue("phase").getValue();
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            EntityModel voParent = (EntityModel) mlArrayList.get(i).getValue("parent").getValue();
+            EntityModel voPriority = (EntityModel) mlArrayList.get(i).getValue("priority").getValue();
+            String vsPriority="";
+            if (voPriority ==null)
+            {
+                vsPriority= "";
+
+            } else {
+                vsPriority=(String) voPriority.getValue("id").getValue();
+            }
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+
+            if (voStoryType!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + IfNULL((String) voStoryType.getValue("id").getValue())
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + IfNULL((String)voParent.getValue("id").getValue())
+                                + ";" + vsPriority);
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";;"
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + IfNULL((String)voParent.getValue("id").getValue())
+                                + ";" + vsPriority);
+
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
+
     public static String IfNULL(String vsInput)
     {
         String vsReturn;
