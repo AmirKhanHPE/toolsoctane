@@ -1,0 +1,45 @@
+ID; Name; Logical_Name
+21001;New;phase.defect.new
+21009;New;phase.test_manual.new
+21014;New;phase.gherkin_test.new
+21019;New;phase.epic.new
+21023;New;phase.feature.new
+21027;New;phase.story.new
+21031;New;phase.quality_story.new
+21034;New;phase.task.new
+36078;Draft;phase.requirement_document.draft
+21002;Opened;phase.defect.opened
+21010;In Design;phase.test_manual.indesign
+21015;In Design;phase.gherkin_test.indesign
+21020;In Progress;phase.epic.inprogress
+21024;In Progress;phase.feature.inprogress
+21028;In Progress;phase.story.inprogress
+21032;In Progress;phase.quality_story.inprogress
+21035;In Progress;phase.task.inprogress
+36079;Accepted;phase.requirement_document.accepted
+21003;Fixed;phase.defect.fixed
+21011;Awaiting Review;phase.test_manual.awaitingreview
+21016;Awaiting Review;phase.gherkin_test.awaitingreview
+21021;In Testing;phase.epic.intesting
+21025;In Testing;phase.feature.intesting
+21029;In Testing;phase.story.intesting
+21033;Done;phase.quality_story.done
+21036;Completed;phase.task.completed
+21005;Proposed Closed;phase.defect.proposeclose
+21012;Ready;phase.test_manual.ready
+21017;Ready;phase.gherkin_test.ready
+21022;Done;phase.epic.done
+21026;Done;phase.feature.done
+21030;Done;phase.story.done
+36080;In Design;phase.requirement_document.indesign
+21004;Closed;phase.defect.closed
+21013;Obsolete;phase.test_manual.obsolete
+21018;Obsolete;phase.gherkin_test.obsolete
+36081;In Review;phase.requirement_document.inreview
+21006;Deferred;phase.defect.deferred
+36082;Approved;phase.requirement_document.approved
+21007;Duplicate;phase.defect.duplicate
+36083;Deferred;phase.requirement_document.deferred
+21008;Rejected;phase.defect.rejected
+36084;Rejected;phase.requirement_document.rejected
+39044;Ready for Retest;x4ywl7k7xopn0c4v4d7wvgr6n

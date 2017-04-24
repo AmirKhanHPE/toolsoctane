@@ -1,0 +1,19 @@
+ID,Name;Feature_type;Phase;Author;Stories;Epic;Priority;Defects
+66002;Delete a broadcast group;;21023;;1;;15016;0
+64003;General;;21026;;0;;15015;16
+82014;Internet Zugang;;21023;;2;;;0
+99002;Login;;;21023;;0;;;0
+102001;Login to App;;;21023;;0;;;0
+63039;Login to Application;;;21023;;1;;;0
+100015;Login to hpe mercury tours app;;21023;;0;;;0
+100010;Login to mercury web tours demo application;;21023;;0;;;2
+64002;Manage Contacts;;21023;;3;;15014;1
+64007;Manage Notifications;;21024;;1;;15018;0
+64001;Manage single chat;;21025;;3;;15016;3
+64008;Manage Sounds;;21025;;1;;15017;0
+99006;Matt Long;;;21023;;0;;;0
+91049;Product and Services on Sale;;;21023;;3;;;0
+64005;Search Contacts;;21025;;2;;15017;2
+64006;Search in messages;;21026;;1;;15014;0
+64004;Send message;;21023;;4;;15018;3
+78002;User Access;;;21023;;3;;;0
