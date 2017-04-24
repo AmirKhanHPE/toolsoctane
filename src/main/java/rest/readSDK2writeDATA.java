@@ -683,6 +683,53 @@ public class readSDK2writeDATA {
         return voOctane;
     }
 
+    public static Octane.Builder GetAutomatedRuns2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\runs\\automated_runs\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_automated_runs.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("automated_runs").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;status;test;test_name;last_modified;past_status");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voTest = (EntityModel) mlArrayList.get(i).getValue("test").getValue();
+            EntityModel voStatus = (EntityModel) mlArrayList.get(i).getValue("native_status").getValue();
+            if (voTest!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voStatus.getValue("id").getValue()
+                                + ";" + voTest.getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("test_name").getValue()
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("past_status").getValue());
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voStatus.getValue("id").getValue()
+                                + ";;"
+                                + ";" + mlArrayList.get(i).getValue("test_name").getValue()
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("past_status").getValue());
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
 
     public static String IfNULL(String vsInput)
     {
@@ -693,7 +740,7 @@ public class readSDK2writeDATA {
         else
         {vsReturn=vsInput;}
 
-        return "";
+        return vsReturn;
     }
 
 }

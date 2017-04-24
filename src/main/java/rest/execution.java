@@ -32,6 +32,9 @@ public class execution {
         //octane = readSDK2writeDATA.GetTasks2File(octane,2004,10001);
         octane = readSDK2writeDATA.GetManualRuns2File(octane,2004,10001);
 
+        //Forbidden and in Beta
+        //octane = readSDK2writeDATA.GetAutomatedRuns2File(octane,2004,10001);
+
 
     }
 

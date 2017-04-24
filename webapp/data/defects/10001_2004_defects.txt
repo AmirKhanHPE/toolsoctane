@@ -1,49 +1,49 @@
 ID,Name;Story_type;Phase;Author;Last_modified;Feature
-61035;[MC] production coverage widget: when interval between from and to is too small;defect;21003;;Wed Jan 18 17:30:38 CET 2017;:15004
-61015;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;defect;21003;;Wed Mar 15 10:01:37 CET 2017;:15003
-61018;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;defect;21003;;Wed Jan 18 17:30:07 CET 2017;:15004
-63021;After deletion chat still appears in the list;defect;21008;;Tue Apr 18 09:00:13 CEST 2017;:15003
-61024;After upgrade SVN integration isn't working;defect;21003;;Wed Jan 18 17:30:20 CET 2017;:15006
-61027;After upgrade SVN integration isn't working;defect;21003;;Wed Jan 18 17:30:25 CET 2017;:15006
-61010;After upgrade we see the same build twice;defect;21002;;Wed Jan 18 17:29:55 CET 2017;:15004
-98049;Amir Khan posted this defect via REST API;defect;21008;;Sun Apr 16 13:52:30 CEST 2017;:15003
-98032;Amir Khans Defect;defect;21001;;Wed Mar 22 14:13:43 CET 2017;:15004
-63019;App crashed when Other permissions were disabled;defect;21002;;Wed Jan 18 17:29:24 CET 2017;:15006
-63016;App crashes when In-app purchases permission is not granted;defect;21007;;Wed Jan 18 17:29:12 CET 2017;:15005
-63018;App failed to start after Photos, Media, Files permissions were removed;defect;21008;;Wed Jan 18 17:29:25 CET 2017;:15002
-63040;app not starting;defect;21001;;Tue Jan 24 13:44:52 CET 2017;:15004
-63017;App starts although no permissions to access contacts;defect;21004;;Wed Jan 18 17:29:25 CET 2017;:15006
-63007;Broadcast groups are not presented in contact details;defect;21002;;Thu Apr 13 14:58:11 CEST 2017;:15005
-61020;Build number font size in Pipeline live view;defect;21001;;Wed Jan 18 17:30:10 CET 2017;:15003
-63020;Cannot edit contact secondary phone num;defect;21004;;Wed Jan 18 17:29:26 CET 2017;:15005
-63006;Cannot scroll between the images;defect;21005;;Wed Mar 08 12:13:58 CET 2017;:15004
-84037;CS defect;defect;21001;;Tue Mar 07 08:58:48 CET 2017;:
-61021;Cut pipeline header;defect;21002;;Wed Jan 18 17:30:10 CET 2017;:15004
-61008;Exception shown while closing the configuration dialog;defect;21001;;Fri Apr 07 11:40:29 CEST 2017;:15003
-63022;Failed to find contact by name when name contains special chars;defect;21007;;Wed Jan 18 17:29:15 CET 2017;:15005
-63023;Failed to find contact by phone num - no results;defect;21007;;Wed Jan 18 17:29:27 CET 2017;:15005
-63003;Failed to send message;defect;21005;;Thu Apr 13 15:22:19 CEST 2017;:15006
-99011;Fehler beim Test 2;defect;21001;;Thu Apr 13 15:13:09 CEST 2017;:15005
-88037;flurstrasse;defect;21002;;Mon Mar 27 14:10:29 CEST 2017;:
-61025;Icons looks clickable in File Changes pane;defect;21006;;Wed Jan 18 17:30:20 CET 2017;:15003
-61028;Icons looks clickable in File Changes pane;defect;21006;;Wed Jan 18 17:30:25 CET 2017;:15003
-61032;Icons looks clickable in File Changes pane;defect;21003;;Wed Jan 18 17:30:29 CET 2017;:15003
-61013;Icons should be aligned to left, and minimized;defect;21002;;Wed Jan 18 17:30:01 CET 2017;:15004
-63004;Indicator is displayed before message reached recepient;defect;21003;;Wed Mar 08 12:13:50 CET 2017;:15002
-97028;Link to feature defect;defect;21001;;Thu Apr 13 15:16:48 CEST 2017;:
-98050;Login funktioniert nicht;defect;21006;;Tue Apr 18 09:04:58 CEST 2017;:15006
-60034;Login not successful;defect;21003;;Thu Apr 06 09:09:17 CEST 2017;:15006
-63012;Missing notification when sound is muted and trying to make a call;defect;21006;;Wed Jan 18 17:29:29 CET 2017;:15003
-100024;order is not created. app crashed;defect;21001;;Tue Apr 18 09:33:33 CEST 2017;:
-98055;POST DEMO: this defect via REST API;defect;21008;;Tue Apr 18 11:06:06 CEST 2017;:15003
-107001;POST DEMO: this defect via REST API;defect;21008;;Sun Apr 23 16:17:14 CEST 2017;:15003
-61037;Product area with long name doens't show up in tree map.;defect;21001;;Wed Jan 18 17:30:38 CET 2017;:15002
-63010;Received broadcast message although contact is blocked;defect;21007;;Wed Jan 18 17:29:29 CET 2017;:15003
-61012;Sort by of build number should be by default most descending;defect;21003;;Wed Mar 08 12:12:53 CET 2017;:15003
-61030;SVN integration isn't working;defect;21004;;Wed Jan 18 17:30:29 CET 2017;:15006
-63008;Tell a Friend - download link is cut in the message;defect;21006;;Wed Jan 18 17:29:29 CET 2017;:15002
-63009;User receives unclear notification when someone pays for them;defect;21006;;Wed Jan 18 17:29:38 CET 2017;:15004
-63014;Wrong help URL on Android;defect;21005;;Wed Jan 18 17:29:38 CET 2017;:15006
-63005;Wrong order in group media;defect;21007;;Thu Apr 13 14:58:07 CEST 2017;:15002
-63013;Wrong status is presented for short calls;defect;21002;;Wed Jan 18 17:29:39 CET 2017;:15006
-63011;Wrong warning is displayed when trying to call offline user;defect;21006;;Tue Feb 14 13:19:58 CET 2017;:15002
+61035;[MC] production coverage widget: when interval between from and to is too small;defect;21003;43001;Wed Jan 18 17:30:38 CET 2017;60033:15004
+61015;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;defect;21003;43001;Wed Mar 15 10:01:37 CET 2017;60033:15003
+61018;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;defect;21003;43001;Wed Jan 18 17:30:07 CET 2017;60033:15004
+63021;After deletion chat still appears in the list;defect;21008;43001;Tue Apr 18 09:00:13 CEST 2017;64001:15003
+61024;After upgrade SVN integration isn't working;defect;21003;43001;Wed Jan 18 17:30:20 CET 2017;60033:15006
+61027;After upgrade SVN integration isn't working;defect;21003;43001;Wed Jan 18 17:30:25 CET 2017;60033:15006
+61010;After upgrade we see the same build twice;defect;21002;43001;Wed Jan 18 17:29:55 CET 2017;60033:15004
+98049;Amir Khan posted this defect via REST API;defect;21008;43001;Sun Apr 16 13:52:30 CEST 2017;60033:15003
+98032;Amir Khans Defect;defect;21001;43001;Wed Mar 22 14:13:43 CET 2017;60033:15004
+63019;App crashed when Other permissions were disabled;defect;21002;43001;Wed Jan 18 17:29:24 CET 2017;64003:15006
+63016;App crashes when In-app purchases permission is not granted;defect;21007;43001;Wed Jan 18 17:29:12 CET 2017;64003:15005
+63018;App failed to start after Photos, Media, Files permissions were removed;defect;21008;43001;Wed Jan 18 17:29:25 CET 2017;64003:15002
+63040;app not starting;defect;21001;43001;Tue Jan 24 13:44:52 CET 2017;64004:15004
+63017;App starts although no permissions to access contacts;defect;21004;43001;Wed Jan 18 17:29:25 CET 2017;64003:15006
+63007;Broadcast groups are not presented in contact details;defect;21002;43001;Thu Apr 13 14:58:11 CEST 2017;64003:15005
+61020;Build number font size in Pipeline live view;defect;21001;43001;Wed Jan 18 17:30:10 CET 2017;60033:15003
+63020;Cannot edit contact secondary phone num;defect;21004;43001;Wed Jan 18 17:29:26 CET 2017;64002:15005
+63006;Cannot scroll between the images;defect;21005;43001;Wed Mar 08 12:13:58 CET 2017;64003:15004
+84037;CS defect;defect;21001;43001;Tue Mar 07 08:58:48 CET 2017;64004:
+61021;Cut pipeline header;defect;21002;43001;Wed Jan 18 17:30:10 CET 2017;60033:15004
+61008;Exception shown while closing the configuration dialog;defect;21001;43001;Fri Apr 07 11:40:29 CEST 2017;60033:15003
+63022;Failed to find contact by name when name contains special chars;defect;21007;43001;Wed Jan 18 17:29:15 CET 2017;64005:15005
+63023;Failed to find contact by phone num - no results;defect;21007;43001;Wed Jan 18 17:29:27 CET 2017;64005:15005
+63003;Failed to send message;defect;21005;43001;Thu Apr 13 15:22:19 CEST 2017;64003:15006
+99011;Fehler beim Test 2;defect;21001;43001;Thu Apr 13 15:13:09 CEST 2017;100010:15005
+88037;flurstrasse;defect;21002;43001;Mon Mar 27 14:10:29 CEST 2017;60033:
+61025;Icons looks clickable in File Changes pane;defect;21006;43001;Wed Jan 18 17:30:20 CET 2017;60033:15003
+61028;Icons looks clickable in File Changes pane;defect;21006;43001;Wed Jan 18 17:30:25 CET 2017;60033:15003
+61032;Icons looks clickable in File Changes pane;defect;21003;43001;Wed Jan 18 17:30:29 CET 2017;60033:15003
+61013;Icons should be aligned to left, and minimized;defect;21002;43001;Wed Jan 18 17:30:01 CET 2017;60033:15004
+63004;Indicator is displayed before message reached recepient;defect;21003;43001;Wed Mar 08 12:13:50 CET 2017;64003:15002
+97028;Link to feature defect;defect;21001;43001;Thu Apr 13 15:16:48 CEST 2017;100010:
+98050;Login funktioniert nicht;defect;21006;43001;Tue Apr 18 09:04:58 CEST 2017;64001:15006
+60034;Login not successful;defect;21003;43001;Thu Apr 06 09:09:17 CEST 2017;64004:15006
+63012;Missing notification when sound is muted and trying to make a call;defect;21006;43001;Wed Jan 18 17:29:29 CET 2017;64003:15003
+100024;order is not created. app crashed;defect;21001;43001;Tue Apr 18 09:33:33 CEST 2017;64001:
+98055;POST DEMO: this defect via REST API;defect;21008;43001;Tue Apr 18 11:06:06 CEST 2017;60033:15003
+107001;POST DEMO: this defect via REST API;defect;21008;43001;Sun Apr 23 16:17:14 CEST 2017;60033:15003
+61037;Product area with long name doens't show up in tree map.;defect;21001;43001;Wed Jan 18 17:30:38 CET 2017;60033:15002
+63010;Received broadcast message although contact is blocked;defect;21007;43001;Wed Jan 18 17:29:29 CET 2017;64003:15003
+61012;Sort by of build number should be by default most descending;defect;21003;43001;Wed Mar 08 12:12:53 CET 2017;60033:15003
+61030;SVN integration isn't working;defect;21004;43001;Wed Jan 18 17:30:29 CET 2017;60033:15006
+63008;Tell a Friend - download link is cut in the message;defect;21006;43001;Wed Jan 18 17:29:29 CET 2017;64003:15002
+63009;User receives unclear notification when someone pays for them;defect;21006;43001;Wed Jan 18 17:29:38 CET 2017;64003:15004
+63014;Wrong help URL on Android;defect;21005;43001;Wed Jan 18 17:29:38 CET 2017;64003:15006
+63005;Wrong order in group media;defect;21007;43001;Thu Apr 13 14:58:07 CEST 2017;64003:15002
+63013;Wrong status is presented for short calls;defect;21002;43001;Wed Jan 18 17:29:39 CET 2017;64003:15006
+63011;Wrong warning is displayed when trying to call offline user;defect;21006;43001;Tue Feb 14 13:19:58 CET 2017;64003:15002

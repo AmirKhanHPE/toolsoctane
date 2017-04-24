@@ -1,43 +1,43 @@
 ID,Name;Story_type;Phase;Author;Last_modified;Feature
-66003;As an user i want to delete the broadcast group;story;21027;;Wed Mar 08 12:16:48 CET 2017;
-82015;As an user i want to have access to swisscom ALM octane instance from the internet;story;21027;;Wed Mar 08 12:21:55 CET 2017;
-82016;As an user i want to have access using VPN;story;21027;;Wed Mar 08 12:21:57 CET 2017;
-98039;as an user i want to have customization option with octane;story;21028;;Mon Apr 10 09:39:01 CEST 2017;
-88040;Car Rental;story;21027;;Fri Mar 17 12:24:54 CET 2017;
-89049;Flight Tickets;story;21027;;Fri Mar 17 12:25:05 CET 2017;
-89050;Hotel Reservation;story;21027;;Fri Mar 17 12:25:17 CET 2017;
-60036;Login as Guest;story;21027;;Tue Apr 18 09:01:55 CEST 2017;
-80001;Login to app with admin account;story;21027;;Mon Mar 06 10:56:52 CET 2017;
-79002;Login to app with registered user;story;21027;;Mon Mar 06 10:56:49 CET 2017;
-79001;Login to application with guest account;story;21029;;Tue Mar 07 08:52:59 CET 2017;
-61031;US#10033 - as a user i want to add new test in test suite;story;21030;;Wed Jan 18 17:30:29 CET 2017;
-61038;US#10109 - as a user i want to run test suite from the test tab;story;21028;;Wed Jan 18 17:30:38 CET 2017;
-61011;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;;Wed Mar 15 09:39:33 CET 2017;
-61016;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;;Wed Jan 18 17:30:02 CET 2017;
-61019;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;;Wed Jan 18 17:30:07 CET 2017;
-61023;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;;Wed Jan 18 17:30:11 CET 2017;
-61017;US#7571 - As a user, I can enter a module with my last favorite auto-loaded.;story;21028;;Wed Jan 18 17:30:06 CET 2017;
-61022;US#7571 - As a user, I can enter a module with my last favorite auto-loaded.;story;21028;;Wed Jan 18 17:30:11 CET 2017;
-61014;US#7571 - user can create suite that includes only one type.;story;21028;;Wed Jan 18 17:30:01 CET 2017;
-61009;US#7571 -JI: [technical] add right side filter component in dashboard module.;story;21028;;Thu Apr 13 15:24:47 CEST 2017;
-61034;US#8791 - As a user, I can group entities by a multi-valued reference field;story;21027;;Wed Jan 18 17:30:30 CET 2017;
-61036;US#9490 - Runs in Suite tab;story;21027;;Wed Jan 18 17:30:38 CET 2017;
-61026;US#9525 - As a user I can select all items;story;21029;;Wed Jan 18 17:30:20 CET 2017;
-61029;US#9525 - As a user I can select all items;story;21029;;Wed Jan 18 17:30:25 CET 2017;
-61033;US#9525 - As a user I can select all items;story;21029;;Wed Jan 18 17:30:30 CET 2017;
-63024;User can add a contact;story;21029;;Tue Apr 18 09:03:13 CEST 2017;
-63025;User can delete a contact;story;21028;;Tue Apr 18 09:03:59 CEST 2017;
-63029;User can delete an existing chat;story;21030;;Mon Apr 10 09:37:00 CEST 2017;
-63026;User can edit contact details;story;21027;;Wed Mar 08 12:15:37 CET 2017;
-63032;User can search a contact by name;story;21027;;Wed Jan 18 17:29:33 CET 2017;
-63033;User can search contact by phone num;story;21030;;Wed Jan 18 17:29:18 CET 2017;
-63034;User can search specific text in messages;story;21028;;Wed Mar 08 12:15:58 CET 2017;
-63028;User can select when sounds are played;story;21030;;Wed Jan 18 17:29:34 CET 2017;
-63027;User can select which notifications are on;story;21027;;Wed Mar 15 09:41:37 CET 2017;
-63036;User can send a message;story;21030;;Wed Mar 15 09:37:47 CET 2017;
-63030;User can send a message in an existing chat;story;21029;;Tue Apr 18 09:03:59 CEST 2017;
-63037;User can send a message in foreign language;story;21030;;Wed Mar 08 12:16:18 CET 2017;
-63038;User can send a mixed message (multiple languages);story;21030;;Wed Mar 08 12:16:22 CET 2017;
-63031;User can start a new chat;story;21030;;Tue Apr 18 09:03:18 CEST 2017;
-63035;User can use any keyboard to send message;story;21028;;Wed Mar 15 09:37:34 CET 2017;
-98051;Userstory 01;story;21027;;Tue Apr 18 09:05:48 CEST 2017;
+66003;As an user i want to delete the broadcast group;story;21027;43001;Wed Mar 08 12:16:48 CET 2017;66002
+82015;As an user i want to have access to swisscom ALM octane instance from the internet;story;21027;43001;Wed Mar 08 12:21:55 CET 2017;82014
+82016;As an user i want to have access using VPN;story;21027;43001;Wed Mar 08 12:21:57 CET 2017;82014
+98039;as an user i want to have customization option with octane;story;21028;43001;Mon Apr 10 09:39:01 CEST 2017;60033
+88040;Car Rental;story;21027;43001;Fri Mar 17 12:24:54 CET 2017;91049
+89049;Flight Tickets;story;21027;43001;Fri Mar 17 12:25:05 CET 2017;91049
+89050;Hotel Reservation;story;21027;43001;Fri Mar 17 12:25:17 CET 2017;91049
+60036;Login as Guest;story;21027;43001;Tue Apr 18 09:01:55 CEST 2017;63039
+80001;Login to app with admin account;story;21027;43001;Mon Mar 06 10:56:52 CET 2017;78002
+79002;Login to app with registered user;story;21027;43001;Mon Mar 06 10:56:49 CET 2017;78002
+79001;Login to application with guest account;story;21029;43001;Tue Mar 07 08:52:59 CET 2017;78002
+61031;US#10033 - as a user i want to add new test in test suite;story;21030;43001;Wed Jan 18 17:30:29 CET 2017;60033
+61038;US#10109 - as a user i want to run test suite from the test tab;story;21028;43001;Wed Jan 18 17:30:38 CET 2017;60033
+61011;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;43001;Wed Mar 15 09:39:33 CET 2017;60033
+61016;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;43001;Wed Jan 18 17:30:02 CET 2017;60033
+61019;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;43001;Wed Jan 18 17:30:07 CET 2017;60033
+61023;US#10761 - As a user, I can pin/unpin a shared favorite.;story;21027;43001;Wed Jan 18 17:30:11 CET 2017;60033
+61017;US#7571 - As a user, I can enter a module with my last favorite auto-loaded.;story;21028;43001;Wed Jan 18 17:30:06 CET 2017;60033
+61022;US#7571 - As a user, I can enter a module with my last favorite auto-loaded.;story;21028;43001;Wed Jan 18 17:30:11 CET 2017;60033
+61014;US#7571 - user can create suite that includes only one type.;story;21028;43001;Wed Jan 18 17:30:01 CET 2017;60033
+61009;US#7571 -JI: [technical] add right side filter component in dashboard module.;story;21028;43001;Thu Apr 13 15:24:47 CEST 2017;60033
+61034;US#8791 - As a user, I can group entities by a multi-valued reference field;story;21027;43001;Wed Jan 18 17:30:30 CET 2017;60033
+61036;US#9490 - Runs in Suite tab;story;21027;43001;Wed Jan 18 17:30:38 CET 2017;60033
+61026;US#9525 - As a user I can select all items;story;21029;43001;Wed Jan 18 17:30:20 CET 2017;60033
+61029;US#9525 - As a user I can select all items;story;21029;43001;Wed Jan 18 17:30:25 CET 2017;60033
+61033;US#9525 - As a user I can select all items;story;21029;43001;Wed Jan 18 17:30:30 CET 2017;60033
+63024;User can add a contact;story;21029;43001;Tue Apr 18 09:03:13 CEST 2017;64002
+63025;User can delete a contact;story;21028;43001;Tue Apr 18 09:03:59 CEST 2017;64002
+63029;User can delete an existing chat;story;21030;43001;Mon Apr 10 09:37:00 CEST 2017;64001
+63026;User can edit contact details;story;21027;43001;Wed Mar 08 12:15:37 CET 2017;64002
+63032;User can search a contact by name;story;21027;43001;Wed Jan 18 17:29:33 CET 2017;64005
+63033;User can search contact by phone num;story;21030;43001;Wed Jan 18 17:29:18 CET 2017;64005
+63034;User can search specific text in messages;story;21028;43001;Wed Mar 08 12:15:58 CET 2017;64006
+63028;User can select when sounds are played;story;21030;43001;Wed Jan 18 17:29:34 CET 2017;64008
+63027;User can select which notifications are on;story;21027;43001;Wed Mar 15 09:41:37 CET 2017;64007
+63036;User can send a message;story;21030;43001;Wed Mar 15 09:37:47 CET 2017;64004
+63030;User can send a message in an existing chat;story;21029;43001;Tue Apr 18 09:03:59 CEST 2017;64001
+63037;User can send a message in foreign language;story;21030;43001;Wed Mar 08 12:16:18 CET 2017;64004
+63038;User can send a mixed message (multiple languages);story;21030;43001;Wed Mar 08 12:16:22 CET 2017;64004
+63031;User can start a new chat;story;21030;43001;Tue Apr 18 09:03:18 CEST 2017;64001
+63035;User can use any keyboard to send message;story;21028;43001;Wed Mar 15 09:37:34 CET 2017;64004
+98051;Userstory 01;story;21027;43001;Tue Apr 18 09:05:48 CEST 2017;60033

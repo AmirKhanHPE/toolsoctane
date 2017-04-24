@@ -1,45 +1,45 @@
 ID,Name;Phase;Author;Last_modified;steps_num;automation_status
-59088;Add contact and see that it appears in the app;21018;;Wed Jan 18 17:32:56 CET 2017;1;15111
-59099;Add video from gallery as attachment;21018;;Wed Jan 18 17:33:12 CET 2017;1;15111
-89003;Address Options;21014;;Fri Mar 17 13:05:56 CET 2017;3;15111
-59095;Change notification settings and make sure they are applied;21018;;Wed Jan 18 17:33:19 CET 2017;1;15111
-59096;Change sound settings and make sure they are applied;21018;;Wed Jan 18 17:33:21 CET 2017;1;15111
-59089;Change status and check that it is presented correctly in contact details;21015;;Wed Jan 18 17:33:24 CET 2017;1;15111
-59081;Check that in case of double indicator message was indeed received;21014;;Wed Jan 18 17:34:32 CET 2017;1;15111
-59090;Check that the correct avatar is presented for each contact, shortly after it is changed;21018;;Wed Jan 18 17:34:38 CET 2017;1;15111
-59083;Check the order of existing chats represents last message time;21018;;Wed Jan 18 17:34:49 CET 2017;1;15111
-89002;Complex Gherkin Test;21014;;Thu Mar 16 10:56:28 CET 2017;3;15111
-59087;Delete a broadcast group;21016;;Fri Feb 10 10:19:59 CET 2017;1;15112
-59097;Delete an account;21015;;Wed Jan 18 17:34:56 CET 2017;1;15111
-59093;Edit contact phone numbers;21014;;Wed Jan 18 17:35:09 CET 2017;1;15111
-95007;Example GT;21014;;Mon Apr 17 13:43:03 CEST 2017;1;15111
-72001;First Feature Testing;21018;;Wed Mar 01 11:19:47 CET 2017;1;15112
-59084;Groups E2E;21018;;Wed Jan 18 18:09:30 CET 2017;1;15111
-63003;Login;21017;;Fri Mar 17 08:39:05 CET 2017;1;15114
-80003;Login CS;21014;;Tue Mar 07 09:07:53 CET 2017;1;15111
-71001;Login sample;21017;;Mon Mar 20 12:45:19 CET 2017;1;15113
-95009;Login to app;21014;;Tue Apr 18 09:41:20 CEST 2017;1;15111
-97001;Login to App;21014;;Tue Apr 18 11:32:52 CEST 2017;1;15112
-75001;Login to app with registered user;21014;;Thu Mar 02 10:48:08 CET 2017;1;15113
-73002;Login to application;21014;;Wed Mar 01 16:33:09 CET 2017;1;15111
-82007;Login to application;21017;;Fri Mar 24 09:08:20 CET 2017;1;15113
-96005;Login to application;21014;;Fri Apr 07 11:18:17 CEST 2017;1;15114
-70004;Login to HPE ALM Octane;21014;;Tue Feb 28 09:41:27 CET 2017;3;15112
-94008;Login to hpe mercury flight reservation app;21015;;Fri Apr 07 11:27:10 CEST 2017;1;15114
-94001;Login to mercury web tours;21017;;Tue Apr 04 07:45:08 CEST 2017;1;15113
-96004;Login to mercury web tours application;21017;;Tue Apr 04 07:47:30 CEST 2017;1;15114
-95002;Login whatever;21014;;Tue Apr 04 07:45:08 CEST 2017;1;15113
-59101;Make a new call when user is offline;21015;;Wed Jan 18 17:35:20 CET 2017;1;15111
-73001;My First Feature File;21017;;Wed Mar 08 14:22:06 CET 2017;1;15113
-59091;Pay for another user and make sure he gets a notification and can use the app;21015;;Wed Jan 18 17:35:33 CET 2017;1;15111
-59082;Search for specific text in messages;21014;;Wed Jan 18 17:35:48 CET 2017;1;15111
-59085;See all group media in a list, ordered by date;21014;;Wed Jan 18 17:35:50 CET 2017;1;15111
-59086;See basic group info;21016;;Wed Jan 18 17:35:53 CET 2017;1;15111
-59098;See that both options are displayed - camera and gallery;21018;;Wed Jan 18 17:36:07 CET 2017;1;15111
-59100;Send contact from phonebook as attachment;21017;;Wed Jan 18 17:36:11 CET 2017;1;15111
-59080;Send message in more than one language;21016;;Wed Jan 18 17:36:16 CET 2017;1;15111
-59079;Send messages using different keyboards;21018;;Wed Jan 18 17:36:19 CET 2017;1;15111
-85002;Swisscom - Login use case;21017;;Fri Mar 24 09:08:20 CET 2017;1;15120
-59092;Try to block a contact and see no messages are received from him;21017;;Wed Jan 18 17:36:24 CET 2017;1;15111
-74001;User Login to LinkedIn Portal;21014;;Wed Mar 01 16:27:40 CET 2017;1;15111
-59094;Verify user details are correct in user profile;21018;;Wed Jan 18 17:32:32 CET 2017;0;15111
+59088;Add contact and see that it appears in the app;21018;43001;Wed Jan 18 17:32:56 CET 2017;1;15111
+59099;Add video from gallery as attachment;21018;43001;Wed Jan 18 17:33:12 CET 2017;1;15111
+89003;Address Options;21014;43001;Fri Mar 17 13:05:56 CET 2017;3;15111
+59095;Change notification settings and make sure they are applied;21018;43001;Wed Jan 18 17:33:19 CET 2017;1;15111
+59096;Change sound settings and make sure they are applied;21018;43001;Wed Jan 18 17:33:21 CET 2017;1;15111
+59089;Change status and check that it is presented correctly in contact details;21015;43001;Wed Jan 18 17:33:24 CET 2017;1;15111
+59081;Check that in case of double indicator message was indeed received;21014;43001;Wed Jan 18 17:34:32 CET 2017;1;15111
+59090;Check that the correct avatar is presented for each contact, shortly after it is changed;21018;43001;Wed Jan 18 17:34:38 CET 2017;1;15111
+59083;Check the order of existing chats represents last message time;21018;43001;Wed Jan 18 17:34:49 CET 2017;1;15111
+89002;Complex Gherkin Test;21014;43001;Thu Mar 16 10:56:28 CET 2017;3;15111
+59087;Delete a broadcast group;21016;43001;Fri Feb 10 10:19:59 CET 2017;1;15112
+59097;Delete an account;21015;43001;Wed Jan 18 17:34:56 CET 2017;1;15111
+59093;Edit contact phone numbers;21014;43001;Wed Jan 18 17:35:09 CET 2017;1;15111
+95007;Example GT;21014;43001;Mon Apr 17 13:43:03 CEST 2017;1;15111
+72001;First Feature Testing;21018;43001;Wed Mar 01 11:19:47 CET 2017;1;15112
+59084;Groups E2E;21018;43001;Wed Jan 18 18:09:30 CET 2017;1;15111
+63003;Login;21017;43001;Fri Mar 17 08:39:05 CET 2017;1;15114
+80003;Login CS;21014;43001;Tue Mar 07 09:07:53 CET 2017;1;15111
+71001;Login sample;21017;43001;Mon Mar 20 12:45:19 CET 2017;1;15113
+95009;Login to app;21014;43001;Tue Apr 18 09:41:20 CEST 2017;1;15111
+97001;Login to App;21014;43001;Tue Apr 18 11:32:52 CEST 2017;1;15112
+75001;Login to app with registered user;21014;43001;Thu Mar 02 10:48:08 CET 2017;1;15113
+73002;Login to application;21014;43001;Wed Mar 01 16:33:09 CET 2017;1;15111
+82007;Login to application;21017;43001;Fri Mar 24 09:08:20 CET 2017;1;15113
+96005;Login to application;21014;43001;Fri Apr 07 11:18:17 CEST 2017;1;15114
+70004;Login to HPE ALM Octane;21014;43001;Tue Feb 28 09:41:27 CET 2017;3;15112
+94008;Login to hpe mercury flight reservation app;21015;43001;Fri Apr 07 11:27:10 CEST 2017;1;15114
+94001;Login to mercury web tours;21017;43001;Tue Apr 04 07:45:08 CEST 2017;1;15113
+96004;Login to mercury web tours application;21017;43001;Tue Apr 04 07:47:30 CEST 2017;1;15114
+95002;Login whatever;21014;43001;Tue Apr 04 07:45:08 CEST 2017;1;15113
+59101;Make a new call when user is offline;21015;43001;Wed Jan 18 17:35:20 CET 2017;1;15111
+73001;My First Feature File;21017;43001;Wed Mar 08 14:22:06 CET 2017;1;15113
+59091;Pay for another user and make sure he gets a notification and can use the app;21015;43001;Wed Jan 18 17:35:33 CET 2017;1;15111
+59082;Search for specific text in messages;21014;43001;Wed Jan 18 17:35:48 CET 2017;1;15111
+59085;See all group media in a list, ordered by date;21014;43001;Wed Jan 18 17:35:50 CET 2017;1;15111
+59086;See basic group info;21016;43001;Wed Jan 18 17:35:53 CET 2017;1;15111
+59098;See that both options are displayed - camera and gallery;21018;43001;Wed Jan 18 17:36:07 CET 2017;1;15111
+59100;Send contact from phonebook as attachment;21017;43001;Wed Jan 18 17:36:11 CET 2017;1;15111
+59080;Send message in more than one language;21016;43001;Wed Jan 18 17:36:16 CET 2017;1;15111
+59079;Send messages using different keyboards;21018;43001;Wed Jan 18 17:36:19 CET 2017;1;15111
+85002;Swisscom - Login use case;21017;43001;Fri Mar 24 09:08:20 CET 2017;1;15120
+59092;Try to block a contact and see no messages are received from him;21017;43001;Wed Jan 18 17:36:24 CET 2017;1;15111
+74001;User Login to LinkedIn Portal;21014;43001;Wed Mar 01 16:27:40 CET 2017;1;15111
+59094;Verify user details are correct in user profile;21018;43001;Wed Jan 18 17:32:32 CET 2017;0;15111
