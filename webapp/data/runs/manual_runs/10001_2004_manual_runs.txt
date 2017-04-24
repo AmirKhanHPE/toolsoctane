@@ -1,0 +1,71 @@
+ID,Name;author;run_by;status;test;test_name;last_modified
+63001;Add members to an existing group;;;15090;59031;Add members to an existing group;Wed Jan 18 18:10:16 CET 2017
+91884;Complex Gherkin Test;;;15091;89002;Complex Gherkin Test;Thu Mar 16 10:56:34 CET 2017
+93032;Complex Gherkin Test;;;15091;89002;Complex Gherkin Test;Thu Mar 16 10:54:50 CET 2017
+94009;Complex Gherkin Test;;;15091;89002;Complex Gherkin Test;Thu Mar 16 10:53:12 CET 2017
+94010;Complex Gherkin Test;;;15091;89002;Complex Gherkin Test;Thu Mar 16 10:55:27 CET 2017
+94011;Complex Gherkin Test;;;15091;89002;Complex Gherkin Test;Thu Mar 16 10:56:39 CET 2017
+99011;Create a new chat with a person;;;;15093;59001;Send image in existing chat via API;Thu Apr 06 08:39:10 CEST 2017
+99012;Create a new chat with a person;;;;15093;59025;Messaging E2E;Thu Apr 06 08:39:11 CEST 2017
+99013;Create a new chat with a person;;;;15093;59027;Check that when there is one indicator, message was sent;Thu Apr 06 08:39:12 CEST 2017
+77005;First Feature Testing;;;15090;72001;First Feature Testing;Wed Mar 01 11:04:12 CET 2017
+61107;Login;;;15089;59126;Login;Thu Jan 19 12:53:29 CET 2017
+62061;Login;;;15090;59126;Login;Thu Jan 19 12:53:23 CET 2017
+68192;Login;;;15090;63003;Login;Tue Feb 14 13:19:10 CET 2017
+92177;Login;;;15090;63003;Login;Fri Mar 17 08:39:42 CET 2017
+98049;Login;;;15091;94006;Login;Mon Apr 03 09:37:21 CEST 2017
+99008;Login;;;15091;94006;Login;Mon Apr 03 09:38:25 CEST 2017
+100017;Login;;;15091;94006;Login;Mon Apr 03 09:38:30 CEST 2017
+101026;Login;;;15090;94006;Login;Mon Apr 03 09:35:34 CEST 2017
+101027;Login;;;15091;94006;Login;Mon Apr 03 09:36:17 CEST 2017
+83374;Login CS;;;15091;80003;Login CS;Tue Mar 07 09:11:30 CET 2017
+101033;Login testen;;;15089;95005;Login testen;Sun Apr 16 15:29:58 CEST 2017
+100026;Login to app;;;15090;95009;Login to app;Tue Apr 18 09:40:17 CEST 2017
+100027;Login to app;;;15090;95009;Login to app;Tue Apr 18 09:40:35 CEST 2017
+102001;Login to App;;;15090;97001;Login to App;Tue Apr 18 11:32:37 CEST 2017
+76004;Login to app with registered user;;;15090;75001;Login to app with registered user;Thu Mar 02 08:18:52 CET 2017
+79003;Login to app with registered user;;;15090;75001;Login to app with registered user;Thu Mar 02 10:49:20 CET 2017
+83393;Login to application;;;15090;82007;Login to application;Wed Mar 08 14:24:00 CET 2017
+84151;Login to application;;;15090;82007;Login to application;Wed Mar 08 14:23:54 CET 2017
+98050;Login to application;;;15090;96005;Login to application;Thu Apr 06 08:55:33 CEST 2017
+99009;Login to application;;;15093;94007;Login to application;Thu Apr 06 08:38:29 CEST 2017
+100022;Login to Application;;;15089;94011;Login to Application;Tue Apr 18 09:33:03 CEST 2017
+101032;Login to application;;;15090;94007;Login to application;Thu Apr 06 08:37:59 CEST 2017
+83373;Login to CS Portal;;;15089;81001;Login to CS Portal;Tue Mar 07 08:58:18 CET 2017
+98051;Login to hpe mercury flight reservation app;;;15090;94008;Login to hpe mercury flight reservation app;Fri Apr 07 11:27:20 CEST 2017
+99015;Login to hpe mercury flight reservation app;;;15090;94008;Login to hpe mercury flight reservation app;Fri Apr 07 11:27:43 CEST 2017
+98037;Login to mercury web tours;;;15090;94001;Login to mercury web tours;Mon Mar 27 09:14:11 CEST 2017
+101028;Login to mercury web tours application;;;15090;96004;Login to mercury web tours application;Tue Apr 04 07:29:52 CEST 2017
+99022;Login whatever;;;15090;95002;Login whatever;Thu Apr 13 15:18:55 CEST 2017
+100013;Login whatever;;;15090;95002;Login whatever;Thu Mar 30 15:07:24 CEST 2017
+61198;Messaging E2E;;;15090;59025;Messaging E2E;Wed Mar 29 11:27:54 CEST 2017
+68196;Messaging E2E;;;15090;59025;Messaging E2E;Tue Feb 21 13:42:47 CET 2017
+99021;Messaging E2E;;;15089;59025;Messaging E2E;Thu Apr 13 15:16:03 CEST 2017
+61196;planing;;;15090;59025;Messaging E2E;Tue Jan 24 13:44:11 CET 2017
+61197;planing;;;15090;59126;Login;Wed Mar 08 12:02:59 CET 2017
+71002;Send image in existing chat via API;;;15090;59001;Send image in existing chat via API;Tue Apr 18 08:53:33 CEST 2017
+71003;Send image in existing chat via API;;;15091;59001;Send image in existing chat via API;Tue Feb 21 11:45:24 CET 2017
+61195;Send messages using different keyboards;;;15090;59079;Send messages using different keyboards;Tue Jan 24 13:39:33 CET 2017
+83395;Swisscom - Login use case;;;15090;85002;Swisscom - Login use case;Thu Mar 09 08:25:15 CET 2017
+90001;Swisscom - Login use case;;;15090;85002;Swisscom - Login use case;Thu Mar 09 08:00:38 CET 2017
+85001;t;;;15093;59001;Send image in existing chat via API;Mon Mar 06 10:46:14 CET 2017
+85002;t;;;15093;59025;Messaging E2E;Wed Mar 15 09:57:55 CET 2017
+87004;Test Set ALM. NET;;;15093;59027;Check that when there is one indicator, message was sent;Tue Mar 07 09:04:47 CET 2017
+84138;Tester CS;;;15091;59025;Messaging E2E;Wed Mar 15 09:57:55 CET 2017
+84139;Tester CS;;;15093;81001;Login to CS Portal;Tue Mar 07 09:00:48 CET 2017
+94003;Tests 4 Amir;;;15090;59025;Messaging E2E;Wed Mar 15 09:58:08 CET 2017
+94004;Tests 4 Amir;;;15090;59126;Login;Wed Mar 15 09:58:38 CET 2017
+83381;TestSet;;;15091;59029;Add message in existing chat;Wed Mar 08 12:59:15 CET 2017
+83382;TestSet;;;15091;59027;Check that when there is one indicator, message was sent;Wed Mar 08 12:59:16 CET 2017
+83383;TestSet;;;15091;59026;Send message in foreign language;Wed Mar 08 12:59:17 CET 2017
+89005;TestSet;;;15093;59029;Add message in existing chat;Wed Mar 08 12:54:42 CET 2017
+89006;TestSet;;;15093;59027;Check that when there is one indicator, message was sent;Wed Mar 08 12:54:42 CET 2017
+89007;TestSet;;;15093;59026;Send message in foreign language;Wed Mar 08 12:56:30 CET 2017
+89009;TestSet;;;15090;59029;Add message in existing chat;Wed Mar 08 12:58:50 CET 2017
+89010;TestSet;;;15091;59027;Check that when there is one indicator, message was sent;Wed Mar 08 12:58:33 CET 2017
+89011;TestSet;;;15091;59026;Send message in foreign language;Wed Mar 08 12:58:34 CET 2017
+100024;Testset ALM;;;;15093;59126;Login;Tue Apr 18 09:35:27 CEST 2017
+100025;Testset ALM;;;;15093;70004;Login to HPE ALM Octane;Tue Apr 18 09:35:28 CEST 2017
+99018;Testsuite fÃ¼r Janik;;;;15090;59025;Messaging E2E;Thu Apr 13 15:15:46 CEST 2017
+99019;Testsuite fÃ¼r Janik;;;;15089;59069;Check app cannot start without Contacts permissions and proper message is displayed;Thu Apr 13 15:12:34 CEST 2017
+99020;Testsuite fÃ¼r Janik;;;;15091;59126;Login;Thu Apr 13 15:11:40 CEST 2017
