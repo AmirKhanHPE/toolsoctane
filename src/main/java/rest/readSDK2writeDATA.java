@@ -279,22 +279,14 @@ public class readSDK2writeDATA {
 
         ctextfiles.writeTextFile(PATH,
                 "NEW",
-                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature;Priority");
+                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature");
 
         for (int i = 0; i < mlArrayList.size(); i++) {
-            EntityModel voStoryType = (EntityModel) mlArrayList.get(i).getValue("feature_type").getValue();
+            String voStoryType = (String) mlArrayList.get(i).getValue("type").getValue();
             EntityModel voPhase = (EntityModel) mlArrayList.get(i).getValue("phase").getValue();
             EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
             EntityModel voParent = (EntityModel) mlArrayList.get(i).getValue("parent").getValue();
-            EntityModel voPriority = (EntityModel) mlArrayList.get(i).getValue("priority").getValue();
-            String vsPriority="";
-            if (voPriority ==null)
-            {
-                vsPriority= "";
-
-            } else {
-                vsPriority=(String) voPriority.getValue("id").getValue();
-            }
+            //EntityModel voPriority = (EntityModel) mlArrayList.get(i).getValue("priority").getValue();
             //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
 
             if (voStoryType!=null) {
@@ -302,12 +294,73 @@ public class readSDK2writeDATA {
                         "APPEND",
                         (String) mlArrayList.get(i).getValue("id").getValue()
                                 + ";" + mlArrayList.get(i).getValue("name").getValue()
-                                + ";" + IfNULL((String) voStoryType.getValue("id").getValue())
+                                + ";" + voStoryType
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + IfNULL((String)voParent.getValue("id").getValue()));
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";;"
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + IfNULL((String)voParent.getValue("id").getValue()));
+
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
+
+
+    public static Octane.Builder GetDefects2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\defects\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_defects.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("defects").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            String voBugType = (String) mlArrayList.get(i).getValue("type").getValue();
+            EntityModel voPhase = (EntityModel) mlArrayList.get(i).getValue("phase").getValue();
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            EntityModel voParent = (EntityModel) mlArrayList.get(i).getValue("parent").getValue();
+            EntityModel voSeverity = (EntityModel) mlArrayList.get(i).getValue("severity").getValue();
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+            String vsSeverity = "";
+            if (voSeverity!=null) {
+                vsSeverity= (String) voSeverity.getValue("id").getValue();
+
+            }
+
+            if (voBugType!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voBugType
                                 + ";" + voPhase.getValue("id").getValue()
                                 + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
                                 + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
                                 + ";" + IfNULL((String)voParent.getValue("id").getValue())
-                                + ";" + vsPriority);
+                                + ":" + vsSeverity);
             } else {
                 ctextfiles.writeTextFile(PATH,
                         "APPEND",
@@ -318,7 +371,7 @@ public class readSDK2writeDATA {
                                 + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
                                 + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
                                 + ";" + IfNULL((String)voParent.getValue("id").getValue())
-                                + ";" + vsPriority);
+                                + ":" + vsSeverity);
 
             }
 
@@ -328,6 +381,203 @@ public class readSDK2writeDATA {
 
         return voOctane;
     }
+
+
+
+    public static Octane.Builder GetManualTests2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\tests\\manual_tests\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_manual_tests.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("manual_tests").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;Phase;Author;Last_modified;steps_num");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voPhase = (EntityModel) mlArrayList.get(i).getValue("phase").getValue();
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+
+            if (voAuthor!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("steps_num").getValue());
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";;"
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("steps_num").getValue());
+
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
+
+    public static Octane.Builder GetGherkinTests2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\tests\\gherkin_tests\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_gherkin_tests.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("gherkin_tests").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;Phase;Author;Last_modified;steps_num;automation_status");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voPhase = (EntityModel) mlArrayList.get(i).getValue("phase").getValue();
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            EntityModel voAutomationStatus = (EntityModel) mlArrayList.get(i).getValue("automation_status").getValue();
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+
+            if (voAuthor!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("steps_num").getValue()
+                                + ";" + voAutomationStatus.getValue("id").getValue());
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + voPhase.getValue("id").getValue()
+                                + ";;"
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
+                                + ";" + mlArrayList.get(i).getValue("steps_num").getValue()
+                                + ";" + voAutomationStatus.getValue("id").getValue());
+
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
+
+    public static Octane.Builder GetTestSuites2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\tests\\test_suites\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_test_suites.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("test_suites").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,Name;Author;Last_modified");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+
+            if (voAuthor!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue());
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + mlArrayList.get(i).getValue("name").getValue()
+                                + ";;"
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue());
+
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
+    public static Octane.Builder GetTestsInSuites2File (Octane.Builder voOctane, int vnSharedSpace, int vnWorkspace) throws IOException
+
+    {
+        voOctane.workSpace(vnWorkspace);
+
+        Octane voConn = voOctane.build();
+
+        String PATH = "C:\\Users\\khanami\\IdeaProjects\\toolsoctane\\webapp\\data\\tests\\test_suite_link_to_tests\\"
+                + vnWorkspace + "_" + vnSharedSpace + "_test_suite_link_to_tests.txt";
+        //List nodes
+        ArrayList<EntityModel> mlArrayList = (ArrayList<EntityModel>) voConn.entityList("test_suite_link_to_tests").get().execute();
+
+        ctextfiles.writeTextFile(PATH,
+                "NEW",
+                (String) "ID,testsuite_id;test_id;author;Last_modified");
+
+        for (int i = 0; i < mlArrayList.size(); i++) {
+            EntityModel voAuthor = (EntityModel) mlArrayList.get(i).getValue("author").getValue();
+            EntityModel voTestSuite = (EntityModel) mlArrayList.get(i).getValue("test_suite").getValue();
+            EntityModel voTest = (EntityModel) mlArrayList.get(i).getValue("test").getValue();
+            //ArrayList<EntityModel> voAppModules = (ArrayList<EntityModel>) mlArrayList.get(i).getValue("product_areas").getValue();
+
+            if (voAuthor!=null) {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + voTestSuite.getValue("id").getValue()
+                                + ";" + voTest.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue());
+            } else {
+                ctextfiles.writeTextFile(PATH,
+                        "APPEND",
+                        (String) mlArrayList.get(i).getValue("id").getValue()
+                                + ";" + voTestSuite.getValue("id").getValue()
+                                + ";" + voTest.getValue("id").getValue()
+                                + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
+                                + ";" + mlArrayList.get(i).getValue("last_modified").getValue());
+            }
+
+        }
+
+        voConn.signOut();
+
+        return voOctane;
+    }
+
 
 
     public static String IfNULL(String vsInput)
