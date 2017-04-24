@@ -8,7 +8,6 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;TASK&quot;,&quot;entityName&quot;:&quot;publish files&quot;,&quot;id&quot;:60001}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

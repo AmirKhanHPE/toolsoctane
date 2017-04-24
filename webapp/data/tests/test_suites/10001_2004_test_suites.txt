@@ -1,0 +1,30 @@
+ID,Name;Author;Last_modified
+59022;Add audio file as attachment;;Wed Jan 18 17:29:46 CET 2017
+59015;Add new contact;;Wed Jan 18 17:29:44 CET 2017
+59021;Add new photo attachment;;Wed Jan 18 17:29:45 CET 2017
+59011;Check that all required contact details are displayed;;Wed Jan 18 17:29:44 CET 2017
+59020;Check that the app is no longer available after expiration date;;Wed Jan 18 17:29:45 CET 2017
+59003;Check that when there is no indicator, indeed message was not received;;Wed Jan 18 17:29:42 CET 2017
+59010;Contacts E2E;;Wed Jan 18 17:29:43 CET 2017
+59009;Create a new broadcast;;Wed Jan 18 17:29:43 CET 2017
+59006;Create a new chat with a person;;Thu Apr 06 08:38:54 CEST 2017
+59007;Create a new group;;Wed Jan 18 17:29:43 CET 2017
+59005;Delete existing chat;;Wed Jan 18 17:29:43 CET 2017
+59024;Make a new call when user is online;;Wed Jan 18 17:29:46 CET 2017
+59019;Modify chat settings and see that they affect new and existing chats;;Wed Jan 18 17:29:45 CET 2017
+59014;Search for user in contacts;;Wed Jan 18 17:29:44 CET 2017
+59012;See shared media for specific contact;;Wed Jan 18 17:29:44 CET 2017
+59013;See that all distribution options are listed;;Wed Jan 18 17:29:44 CET 2017
+59008;See the images sent in the group;;Wed Jan 18 17:29:43 CET 2017
+59004;Send audio message;;Wed Jan 18 17:29:42 CET 2017
+59002;Send message in English;;Wed Jan 18 17:29:42 CET 2017
+59016;Settings E2E;;Wed Jan 18 17:29:44 CET 2017
+68001;Swisscom Testset;;Tue Feb 21 13:40:57 CET 2017
+59017;Test phone number validation;;Wed Jan 18 17:29:45 CET 2017
+80002;Test Set ALM. NET;;Tue Mar 07 09:04:28 CET 2017
+86020;Tests 4 Amir;;Wed Mar 15 09:57:18 CET 2017
+78005;TestSet;;Wed Mar 08 12:53:52 CET 2017
+95008;Testset ALM;;Tue Apr 18 09:34:54 CEST 2017
+94009;Testsuite fÃ¼r Janik;;Thu Apr 13 15:10:31 CEST 2017
+59018;Turn popup notification on and off and see that it behaves correctly;;Wed Jan 18 17:29:45 CET 2017
+59023;Voice - E2E;;Wed Jan 18 17:29:46 CET 2017

@@ -1,0 +1,67 @@
+ID,Name;Phase;Author;Last_modified;steps_num
+59046;Add current location as attachment;21012;;Wed Jan 18 17:33:07 CET 2017;8
+59045;Add image from gallery as attachment;21013;;Wed Jan 18 17:33:01 CET 2017;8
+59031;Add members to an existing group;21010;;Wed Jan 18 17:32:59 CET 2017;8
+59029;Add message in existing chat;21009;;Wed Mar 08 13:00:54 CET 2017;10
+86022;Address Options;21009;;Fri Mar 17 12:39:28 CET 2017;7
+59044;Attachments - Sanity;21013;;Wed Jan 18 17:33:16 CET 2017;8
+59047;Calls - Sanity;21012;;Wed Jan 18 17:33:19 CET 2017;8
+59069;Check app cannot start without Contacts permissions and proper message is displayed;21010;;Fri Mar 17 08:36:25 CET 2017;9
+59076;Check app cannot start without Device ID and Call Information permissions and proper message is displayed;21013;;Wed Jan 18 17:33:31 CET 2017;8
+59068;Check app cannot start without Identity permissions and proper message is displayed;21011;;Wed Jan 18 17:33:35 CET 2017;8
+59071;Check app cannot start without SMS permissions and proper message is displayed;21010;;Wed Jan 18 17:33:39 CET 2017;8
+59073;Check app still works if Camera purchases permissions were removed;21011;;Wed Jan 18 17:33:41 CET 2017;8
+59067;Check app still works if Device and App History permissions were removed;21011;;Wed Jan 18 17:33:45 CET 2017;8
+59066;Check app still works if In-app purchases permissions were removed;21009;;Wed Jan 18 17:33:48 CET 2017;8
+59070;Check app still works if Location purchases permissions were removed;21010;;Wed Jan 18 17:33:50 CET 2017;8
+59074;Check app still works if Microphone permissions were removed;21013;;Wed Jan 18 17:33:54 CET 2017;8
+59077;Check app still works if Other permissions were removed;21009;;Wed Jan 18 17:33:57 CET 2017;8
+59072;Check app still works if Photos, Media, Files permissions were removed;21012;;Wed Jan 18 17:34:02 CET 2017;8
+59075;Check app still works if WiFi Connection Info permissions were removed;21010;;Wed Jan 18 17:34:02 CET 2017;8
+59042;Check task bar notifications for new messages;21013;;Wed Jan 18 17:34:06 CET 2017;8
+59040;Check that all user profile details are presented;21010;;Wed Jan 18 17:34:12 CET 2017;8
+59061;Check that app does not crash when network connection is interrupted;21010;;Wed Jan 18 17:34:15 CET 2017;8
+59059;Check that app works correctly after it is moved to SD card;21010;;Wed Jan 18 17:34:17 CET 2017;8
+59058;Check that app works correctly after reinstall;21010;;Wed Jan 18 17:34:20 CET 2017;8
+59063;Check that app works when signal is low;21009;;Wed Jan 18 17:34:21 CET 2017;8
+59062;Check that app works when switching cellular networks;21010;;Wed Jan 18 17:34:24 CET 2017;8
+59060;Check that auto-download installs correctly;21010;;Wed Jan 18 17:34:27 CET 2017;8
+59035;Check that basic contact details are displayed correctly;21013;;Wed Jan 18 17:34:32 CET 2017;8
+59064;Check that messages arrive after network connection is restored;21013;;Wed Jan 18 17:34:37 CET 2017;8
+59036;Check that the correct shared groups are presented in contact details;21010;;Wed Jan 18 17:34:40 CET 2017;8
+59051;Check that user can log in to the web interface using his account;21013;;Wed Jan 18 17:34:45 CET 2017;8
+59027;Check that when there is one indicator, message was sent;21013;;Wed Jan 18 17:34:48 CET 2017;8
+59043;Define account for new user;21013;;Wed Jan 18 17:34:53 CET 2017;8
+59039;Delete an existing contact;21010;;Wed Jan 18 17:34:59 CET 2017;8
+59078;Dev Integration - Sanity;21010;;Wed Jan 18 17:35:06 CET 2017;8
+59052;Help - Sanity;21009;;Wed Jan 18 17:35:12 CET 2017;8
+59056;Install and uninstall - Sanity;21012;;Wed Jan 18 17:35:15 CET 2017;8
+59057;Installation - E2E;21011;;Wed Jan 18 17:35:18 CET 2017;8
+59126;Login;21009;;Thu Apr 13 15:20:44 CEST 2017;5
+86021;Login;21009;;Thu Apr 13 15:21:48 CEST 2017;5
+94006;Login;21009;;Mon Apr 03 09:43:51 CEST 2017;6
+95005;Login testen;21009;;Sun Apr 16 15:29:04 CEST 2017;5
+84001;Login to app;21009;;Wed Mar 08 12:52:42 CET 2017;7
+94007;Login to application;21009;;Thu Apr 06 08:37:24 CEST 2017;6
+94011;Login to Application;21009;;Tue Apr 18 09:32:26 CEST 2017;7
+81001;Login to CS Portal;21009;;Tue Mar 07 08:57:29 CET 2017;4
+59048;Make new call when sound is muted;21012;;Wed Jan 18 17:35:24 CET 2017;8
+59025;Messaging E2E;21013;;Tue Apr 18 11:26:40 CEST 2017;11
+59041;Notifications - Sanity;21012;;Wed Jan 18 17:35:33 CET 2017;8
+59065;Permissions - Sanity;21012;;Wed Jan 18 17:35:37 CET 2017;8
+59030;Save chat history;21010;;Wed Jan 18 17:35:42 CET 2017;8
+59038;Search for phone num in contacts;21013;;Wed Jan 18 17:35:45 CET 2017;8
+59053;See information about the app and its version;21009;;Wed Jan 18 17:35:55 CET 2017;8
+59049;See list of calls with correct status;21010;;Wed Jan 18 17:36:02 CET 2017;8
+59054;See list of FAQ relevant to the device;21011;;Wed Jan 18 17:35:58 CET 2017;8
+59034;See that all contacts from phonebook are successfully imported;21013;;Wed Jan 18 17:36:05 CET 2017;8
+59032;See the videos sent in the group;21010;;Wed Jan 18 17:36:10 CET 2017;8
+59001;Send image in existing chat via API;21010;;Wed Jan 18 17:29:42 CET 2017;0
+59026;Send message in foreign language;21011;;Tue Apr 18 11:26:40 CEST 2017;9
+59033;Send message to existing broadcast group;21013;;Wed Jan 18 17:36:17 CET 2017;8
+59028;Send messages with different emoji;21010;;Wed Jan 18 17:36:22 CET 2017;8
+78001;t;21009;;Mon Mar 06 10:54:15 CET 2017;0
+94010;Test von AMir Khan via REST API;21009;;Sun Apr 16 18:57:10 CEST 2017;0
+59037;Use Tell a Friend and make sure they get the notification with download link;21010;;Wed Jan 18 17:36:27 CET 2017;8
+59055;Use the contact form and make sure request is received;21013;;Wed Jan 18 17:30:50 CET 2017;0
+59050;Web Interface - E2E;21012;;Wed Jan 18 17:30:38 CET 2017;0
