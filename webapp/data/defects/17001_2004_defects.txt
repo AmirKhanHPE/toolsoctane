@@ -1,0 +1,4 @@
+ID,Name;Story_type;Phase;Author;Last_modified;Feature
+88003;First Defect from Octane to ALM.NET;defect;33001;43001;Mon Mar 13 13:38:26 CET 2017;86002;23004
+88004;Second to Third one from .NET to Octane;defect;33001;43001;Mon Mar 13 13:43:36 CET 2017;86002;23004
+89039;Swiss Testing Community Defect;defect;33001;43001;Mon Mar 13 13:39:17 CET 2017;86002;23003

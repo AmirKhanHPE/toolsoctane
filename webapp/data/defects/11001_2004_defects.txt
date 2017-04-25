@@ -1,0 +1,7 @@
+ID,Name;Story_type;Phase;Author;Last_modified;Feature
+97027;11.04.2017 - demo defect;defect;23002;43001;Thu Apr 13 12:55:21 CEST 2017;63041;16003
+98040;ALM.NET migration to ALM Octane - no defect synchronized;defect;23003;43001;Mon Apr 03 10:18:40 CEST 2017;63041;16003
+90047;First Defect from Octane to ALM.NET;defect;23001;43001;Mon Mar 13 20:36:50 CET 2017;63041;16004
+97029;new defect;defect;23001;43001;Tue Apr 18 09:53:54 CEST 2017;63041;16006
+90048;Second to Third one from .NET to Octane;defect;23001;43001;Mon Mar 13 20:36:50 CET 2017;63041;16004
+90046;Swiss Testing Community Defect;defect;23002;43001;Mon Apr 10 10:11:53 CEST 2017;63041;16003

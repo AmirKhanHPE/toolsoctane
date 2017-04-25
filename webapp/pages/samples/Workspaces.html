@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+    // Load the Visualization API and the piechart package.
+    google.charts.load('current', {'packages':['corechart']});
+    // Load the Visualization API and the piechart package.
+    google.charts.load('current', {'packages':['table']});
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+  
+    function drawChart() {
+	
+      var responsedata = $.ajax({
+          url: "http://localhost:8083/data/workspaces/workspaces.txt",
+          dataType: "txt",
+          async: false
+          }).responseText;
+		  alert(responsedata);
+			  
+	  var data = new google.visualization.DataTable();
+	  var a = responsedata.split("\n"),i, c;
+
+
+  
+	  //Add Columns
+	  var b = a[0].split(";");
+	  //data.addColumn('string', b[0]);
+	  data.addColumn('string', b[1]);
+	  data.addColumn('number', b[0]);
+	  data.addRows(responsedata.length-1);
+	  //alert(a.length);
+	  for (i = 1; i < a.length - 1; i++) {
+		c= a[i].split(";");
+
+		//alert(c[1] + " " + c[0]);	
+		//data.setCell(0, 0, c[0]);
+		data.setCell(i, 0, c[1]);
+		data.setCell(i, 1, c[0]);
+	  }
+	  
+
+	//var table = new google.visualization.Table(document.getElementById('table_div'));
+   //table.draw(data, {showRowNumber: true, width: '50%', height: '50%'});
+
+ // google.visualization.events.addListener(table, 'select', function() {
+   // var row = table.getSelection()[0].row;
+    //alert('You selected ' + data.getValue(row, 0));
+//	});
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data, {width: "100%", height: "100%"});
+
+
+}
+
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+  </body>
+</html>

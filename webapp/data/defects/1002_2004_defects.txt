@@ -1,0 +1,142 @@
+ID,Name;Story_type;Phase;Author;Last_modified;Feature
+1034;After deletion chat still appears in the list;defect;1005;1006;Mon Mar 20 12:45:17 CET 2017;2009;1002
+6035;After deletion chat still appears in the list;defect;1004;4001;Wed Apr 06 15:32:58 CEST 2016;4002;1006
+7028;After deletion chat still appears in the list;defect;1003;3002;Sun Apr 17 11:26:49 CEST 2016;5017;1005
+8034;After deletion chat still appears in the list;defect;1005;3002;Thu Jan 26 09:50:24 CET 2017;5003;1005
+16001;Anatoly;defect;1001;22001;Mon Jul 25 10:59:27 CEST 2016;1001;1005
+1024;App crashed when Other permissions were disabled;defect;1006;1003;Sun Apr 17 18:06;12 CEST 2016;2011;1005
+6025;App crashed when Other permissions were disabled;defect;1003;4001;Wed Apr 06 15:32:54 CEST 2016;4004;1003
+7018;App crashed when Other permissions were disabled;defect;1002;3002;Sun Apr 17 11:26:43 CEST 2016;5019;1003
+8024;App crashed when Other permissions were disabled;defect;1008;3002;Tue Jan 03 23:46:29 CET 2017;5005;1004
+1021;App crashes when In-app purchases permission is not granted;defect;1003;1003;Thu Mar 31 12:30;10 CEST 2016;2011;1004
+6022;App crashes when In-app purchases permission is not granted;defect;1006;4001;Wed Apr 06 15:32:52 CEST 2016;4004;1003
+7015;App crashes when In-app purchases permission is not granted;defect;2001;3002;Sun Apr 17 11:26:41 CEST 2016;5019;1003
+8021;App crashes when In-app purchases permission is not granted;defect;2001;3002;Sun Apr 17 09:32:09 CEST 2016;5005;1006
+1023;App failed to start after Photos, Media, Files permissions were removed;defect;1006;1006;Thu Mar 31 12:30;10 CEST 2016;2011;1005
+6024;App failed to start after Photos, Media, Files permissions were removed;defect;1005;4001;Wed Apr 06 15:32:53 CEST 2016;4004;1003
+7017;App failed to start after Photos, Media, Files permissions were removed;defect;1001;3002;Sun Apr 17 11:26:42 CEST 2016;5019;1005
+8023;App failed to start after Photos, Media, Files permissions were removed;defect;1002;3002;Sun Apr 17 09:32;11 CEST 2016;5005;1002
+1022;App starts although no permissions to access contacts;defect;1003;1004;Thu Mar 31 12:30;10 CEST 2016;2011;1003
+6023;App starts although no permissions to access contacts;defect;1002;4001;Wed Apr 06 15:32:53 CEST 2016;4004;1004
+7016;App starts although no permissions to access contacts;defect;1001;3002;Sun Apr 17 11:26:41 CEST 2016;5019;1005
+8022;App starts although no permissions to access contacts;defect;1005;3002;Sun Apr 17 09:32;10 CEST 2016;5005;1006
+1012;Broadcast groups are not presented in contact details;defect;1004;1002;Sun Apr 03 13;13;11 CEST 2016;2011;1002
+6013;Broadcast groups are not presented in contact details;defect;1007;4001;Wed Apr 06 15:32:47 CEST 2016;4004;1004
+7006;Broadcast groups are not presented in contact details;defect;2001;3002;Tue Apr 11 08:38:53 CEST 2017;5019;1006
+8012;Broadcast groups are not presented in contact details;defect;1008;3002;Fri Jan 27 15:54:53 CET 2017;5005;1002
+44006;Build number font size in Pipeline live view;defect;1001;3003;Sun Dec 11 07:59:30 CET 2016;1001;1003
+45005;Build number font size in Pipeline live view;defect;1001;3003;Sun Dec 11 07:59;12 CET 2016;1001;1003
+46002;Build number font size in Pipeline live view;defect;1001;3003;Sun Dec 11 07:57:39 CET 2016;1001;1003
+47002;Build number font size in Pipeline live view;defect;1001;3003;Sun Dec 11 07:59:09 CET 2016;1001;1003
+48002;Build number font size in Pipeline live view;defect;1001;28001;Mon Dec 12 09:20:04 CET 2016;1001;1003
+49002;Build number font size in Pipeline live view;defect;1001;28001;Mon Dec 12 09:24:09 CET 2016;1001;1003
+50002;Build number font size in Pipeline live view;defect;1001;28001;Mon Dec 12 09:24:33 CET 2016;1001;1003
+51002;Build number font size in Pipeline live view;defect;1001;28001;Mon Dec 12 09:24:45 CET 2016;1001;1003
+52002;Build number font size in Pipeline live view;defect;1001;20003;Tue Jan 03 23:38:06 CET 2017;1001;1003
+53002;Build number font size in Pipeline live view;defect;1001;20003;Tue Jan 03 23:38;13 CET 2017;1001;1003
+54002;Build number font size in Pipeline live view;defect;1001;20003;Tue Jan 03 23:38:25 CET 2017;1001;1003
+55002;Build number font size in Pipeline live view;defect;1001;20003;Tue Jan 03 23:38:36 CET 2017;1001;1003
+56002;Build number font size in Pipeline live view;defect;1001;34001;Wed Jan 11 10:57:29 CET 2017;1001;1003
+57002;Build number font size in Pipeline live view;defect;1001;34001;Wed Jan 11 10:57:41 CET 2017;1001;1003
+58002;Build number font size in Pipeline live view;defect;1001;34001;Wed Jan 11 10:57:52 CET 2017;1001;1003
+59002;Build number font size in Pipeline live view;defect;1001;34001;Wed Jan 11 10:58:05 CET 2017;1001;1003
+1028;Cannot edit contact secondary phone num;defect;1008;1004;Thu Mar 31 12:30:50 CEST 2016;2010;1004
+6029;Cannot edit contact secondary phone num;defect;1007;4001;Wed Apr 06 15:32:56 CEST 2016;4003;1004
+7022;Cannot edit contact secondary phone num;defect;1007;3002;Sun Apr 17 11:26:46 CEST 2016;5018;1005
+8028;Cannot edit contact secondary phone num;defect;1006;3002;Sun Apr 17 09:32;13 CEST 2016;5004;1004
+1011;Cannot scroll between the images;defect;1006;1003;Wed Mar 08 12:36:01 CET 2017;2011;1006
+6012;Cannot scroll between the images;defect;1004;4001;Wed Apr 06 15:32:46 CEST 2016;4004;1003
+7005;Cannot scroll between the images;defect;1002;3002;Sun Apr 17 11:26:31 CEST 2016;5019;1005
+8011;Cannot scroll between the images;defect;1001;3002;Sun Apr 17 09:32:04 CEST 2016;5005;1003
+69007;checkbox guest is disabled;defect;1003;43001;Wed Mar 08 08:21:17 CET 2017;7038;1005
+8044;d1;defect;1001;8002;Sun Apr 17 18:47:03 CEST 2016;1001;1005
+61040;D1;defect;1001;20001;Wed Mar 08 08:21:17 CET 2017;7038;1005
+5025;d2;defect;1002;8002;Sun Apr 17 19:02;17 CEST 2016;1001;1005
+76004;Defect for Katy story;defect;1001;47001;Tue Feb 28 06:45:41 CET 2017;1001:
+6047;Defect on Many users;defect;1001;6004;Wed Apr 27 12;19:39 CEST 2016;1001;1003
+95002;defect2;defect;1001;61001;Tue Mar 21 09:51:04 CET 2017;1001;
+98038;Demo app is broken;defect;1001;6001;Fri Mar 31 10:40:23 CEST 2017;100005;1006
+64009;demo defect;defect;1001;18003;Thu Jan 19 15:29;13 CET 2017;2010;1004
+1020;Error message is presented when moving between networks;defect;1006;1005;Sun Apr 03 13;14:03 CEST 2016;2011;1004
+6021;Error message is presented when moving between networks;defect;1006;4001;Thu Mar 02 07:46;13 CET 2017;4004;1006
+7014;Error message is presented when moving between networks;defect;1005;3002;Sun Apr 17 11:26:40 CEST 2016;5019;1004
+8020;Error message is presented when moving between networks;defect;1006;3002;Tue Feb 14 12:01:54 CET 2017;5005;1003
+44005;Exception shown while closing the configuration dialog;defect;1001;3003;Sun Dec 11 07:59:29 CET 2016;1001;1003
+45004;Exception shown while closing the configuration dialog;defect;1001;3003;Sun Dec 11 07:59;12 CET 2016;1001;1003
+46001;Exception shown while closing the configuration dialog;defect;1001;3003;Sun Dec 11 07:57:38 CET 2016;1001;1003
+47001;Exception shown while closing the configuration dialog;defect;1001;3003;Sun Dec 11 07:59:08 CET 2016;1001;1003
+48001;Exception shown while closing the configuration dialog;defect;1001;28001;Mon Dec 12 09:20:03 CET 2016;1001;1003
+49001;Exception shown while closing the configuration dialog;defect;1001;28001;Mon Dec 12 09:24:08 CET 2016;1001;1003
+50001;Exception shown while closing the configuration dialog;defect;1001;28001;Mon Dec 12 09:24:32 CET 2016;1001;1003
+51001;Exception shown while closing the configuration dialog;defect;1001;28001;Mon Dec 12 09:24:44 CET 2016;1001;1003
+52001;Exception shown while closing the configuration dialog;defect;1001;20003;Tue Jan 03 23:38:04 CET 2017;1001;1003
+53001;Exception shown while closing the configuration dialog;defect;1001;20003;Tue Jan 03 23:38;13 CET 2017;1001;1003
+54001;Exception shown while closing the configuration dialog;defect;1001;20003;Tue Jan 03 23:38:25 CET 2017;1001;1003
+55001;Exception shown while closing the configuration dialog;defect;1001;20003;Tue Jan 03 23:38:36 CET 2017;1001;1003
+56001;Exception shown while closing the configuration dialog;defect;1001;34001;Wed Jan 11 10:57:28 CET 2017;1001;1003
+57001;Exception shown while closing the configuration dialog;defect;1001;34001;Wed Jan 11 10:57:40 CET 2017;1001;1003
+58001;Exception shown while closing the configuration dialog;defect;1001;34001;Wed Jan 11 10:57:51 CET 2017;1001;1003
+59001;Exception shown while closing the configuration dialog;defect;1001;34001;Wed Jan 11 10:58:04 CET 2017;1001;1003
+63001;Exception shown while closing the configuration dialog;defect;1001;43001;Wed Jan 18 17:26:01 CET 2017;1001;1003
+96001;Exception shown while closing the configuration dialog;defect;1001;47001;Wed Mar 22 13:25;18 CET 2017;1001;1003
+97001;Exception shown while closing the configuration dialog;defect;1001;47001;Wed Mar 22 13:27:35 CET 2017;1001;1003
+1037;Failed to find contact by name when name contains special chars;defect;1002;1004;Fri Jan 20 15:51:52 CET 2017;2013;1003
+6038;Failed to find contact by name when name contains special chars;defect;1007;4001;Wed Apr 06 15:33:00 CEST 2016;4006;1002
+7031;Failed to find contact by name when name contains special chars;defect;1008;3002;Sun Apr 17 11:26:51 CEST 2016;5021;1004
+8037;Failed to find contact by name when name contains special chars;defect;1006;3002;Sun Apr 17 09:32;17 CEST 2016;5007;1002
+1038;Failed to find contact by phone num - no results;defect;1006;1006;Fri Jan 20 15:51:56 CET 2017;2013;1003
+6039;Failed to find contact by phone num - no results;defect;1003;4001;Wed Apr 06 15:33:01 CEST 2016;4006;1006
+7032;Failed to find contact by phone num - no results;defect;1003;3002;Sun Apr 17 11:26:52 CEST 2016;5021;1006
+8038;Failed to find contact by phone num - no results;defect;1006;3002;Sun Apr 17 09:32;17 CEST 2016;5007;1004
+1008;Failed to send message;defect;1004;1004;Sun Feb 26 20:45:41 CET 2017;2011;1005
+6009;Failed to send message;defect;1004;4001;Wed Apr 06 15:32:44 CEST 2016;4004;1005
+7002;Failed to send message;defect;2001;3002;Sun Apr 17 11:26:29 CEST 2016;5019;1004
+8008;Failed to send message;defect;1001;3002;Sun Apr 17 09:32:02 CEST 2016;5005;1002
+94045;hgg,jg;defect;1001;61001;Tue Mar 21 09:49:24 CET 2017;1001;1003
+1009;Indicator is displayed before message reached recepient;defect;1005;1005;Wed Feb 22 12:34:28 CET 2017;2011;1002
+6010;Indicator is displayed before message reached recepient;defect;1002;4001;Wed Apr 06 15:32:45 CEST 2016;4004;1006
+7003;Indicator is displayed before message reached recepient;defect;2001;3002;Sun Apr 17 11:26:30 CEST 2016;5019;1002
+8009;Indicator is displayed before message reached recepient;defect;1006;3002;Sun Apr 17 09:32:02 CEST 2016;5005;1003
+19002;KerenDefectFromKerenMan test;defect;1001;26003;Wed Feb 15 08:40:37 CET 2017;6001;1006
+17001;Mensajes erroneos;defect;1003;20002;Wed Mar 08 08:27:26 CET 2017;7038;1004
+1017;Missing notification when sound is muted and trying to make a call;defect;1005;1002;Thu Mar 31 12:05:45 CEST 2016;2011;1004
+6018;Missing notification when sound is muted and trying to make a call;defect;1001;4001;Wed Apr 06 15:32:50 CEST 2016;4004;1002
+7011;Missing notification when sound is muted and trying to make a call;defect;3001;3002;Sun Apr 17 11:26:38 CEST 2016;5019;1003
+8017;Missing notification when sound is muted and trying to make a call;defect;1003;3002;Sun Apr 17 09:32:07 CEST 2016;5005;1004
+20002;new defect;defect;1001;27002;Fri Jul 29 03:32:22 CEST 2016;1001;1003
+19001;new1;defect;1001;28001;Wed Jul 27 09:29:54 CEST 2016;1001;1005
+20001;New2;defect;1001;28001;Wed Jul 27 09:30:08 CEST 2016;1001;1006
+4001;Performance in auto-download is almost unbearable;defect;1001;3001;Tue Mar 14 11:23;14 CET 2017;1001;1005
+1015;Received broadcast message although contact is blocked;defect;1007;1003;Tue Feb 14 12:43:57 CET 2017;2011;1002
+6016;Received broadcast message although contact is blocked;defect;1008;4001;Wed Apr 06 15:32:49 CEST 2016;4004;1003
+7009;Received broadcast message although contact is blocked;defect;1005;3002;Sun Apr 17 11:26:36 CEST 2016;5019;1003
+8015;Received broadcast message although contact is blocked;defect;32001;3002;Tue Mar 21 09:51:50 CET 2017;5005;1004
+6046;sdf;defect;1001;8002;Tue Apr 19 11:01:47 CEST 2016;1001;1002
+1013;Tell a Friend - download link is cut in the message;defect;1008;1005;Sun Feb 26 20:46:06 CET 2017;2011;1003
+6014;Tell a Friend - download link is cut in the message;defect;1006;4001;Wed Apr 06 15:32:47 CEST 2016;4004;1003
+7007;Tell a Friend - download link is cut in the message;defect;2001;3002;Sun Apr 17 11:26:33 CEST 2016;5019;1002
+8013;Tell a Friend - download link is cut in the message;defect;1007;3002;Sun Apr 17 09:32:05 CEST 2016;5005;1003
+13010;test;defect;1006;1001;Thu Mar 02 13:43:43 CET 2017;1001;1006
+71002;Test failed;defect;1001;44002;Wed Feb 15 14:24;12 CET 2017;2010:
+99001;Test this;defect;1001;43001;Fri Mar 24 16:30:32 CET 2017;1001:
+1014;User receives unclear notification when someone pays for them;defect;1001;1004;Tue Feb 14 12:44:01 CET 2017;2011;1002
+6015;User receives unclear notification when someone pays for them;defect;1007;4001;Wed Apr 06 15:32:48 CEST 2016;4004;1005
+7008;User receives unclear notification when someone pays for them;defect;1005;3002;Sun Apr 17 11:26:34 CEST 2016;5019;1004
+8014;User receives unclear notification when someone pays for them;defect;1006;3002;Sun Apr 17 09:32:05 CEST 2016;5005;1002
+14001;When calling microservices, can't get past cert page;defect;1001;3001;Tue Jun 14 07:25;16 CEST 2016;2015;1004
+1019;Wrong help URL on Android;defect;1008;1004;Thu Mar 31 12:05:21 CEST 2016;2011;1002
+6020;Wrong help URL on Android;defect;1006;4001;Wed Apr 06 15:32:51 CEST 2016;4004;1002
+7013;Wrong help URL on Android;defect;3001;3002;Sun Apr 17 11:26:39 CEST 2016;5019;1003
+8019;Wrong help URL on Android;defect;2001;3002;Sun Apr 17 09:32:08 CEST 2016;5005;1006
+6011;Wrong order in group media;defect;1007;4001;Wed Apr 06 15:32:46 CEST 2016;4004;1005
+7004;Wrong order in group media;defect;2001;3002;Sun Apr 17 11:26:31 CEST 2016;5019;1005
+8010;Wrong order in group media;defect;1004;3002;Mon Mar 20 09;19:30 CET 2017;5005;1006
+1010;Wrong order in group media1;defect;1003;1005;Thu Mar 02 07:37:47 CET 2017;2011;1006
+1018;Wrong status is presented for short calls;defect;1007;1004;Thu Mar 31 12:05:51 CEST 2016;2011;1005
+6019;Wrong status is presented for short calls;defect;1002;4001;Wed Apr 06 15:32:50 CEST 2016;4004;1006
+7012;Wrong status is presented for short calls;defect;3001;3002;Fri Mar 24 16:29:36 CET 2017;5019;1004
+8018;Wrong status is presented for short calls;defect;1003;3002;Sun Apr 17 09:32:08 CEST 2016;5005;1005
+1016;Wrong warning is displayed when trying to call offline user;defect;1002;1003;Thu Mar 31 12:05:30 CEST 2016;2011;1005
+6017;Wrong warning is displayed when trying to call offline user;defect;1008;4001;Wed Apr 06 15:32:49 CEST 2016;4004;1006
+7010;Wrong warning is displayed when trying to call offline user;defect;1003;3002;Tue Feb 28 11:47:44 CET 2017;5019;1002
+8016;Wrong warning is displayed when trying to call offline user;defect;3001;3002;Thu Sep 08 13:01:31 CEST 2016;5005;1004

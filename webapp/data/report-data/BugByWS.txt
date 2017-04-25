@@ -1,0 +1,595 @@
+Workspace;Defect;DefectID;Severity;Phase
+default_workspace;After deletion chat still appears in the list;1034;Low;Propose Closed
+default_workspace;After deletion chat still appears in the list;6035;Critical;Closed
+default_workspace;After deletion chat still appears in the list;7028;Very High;Fixed
+default_workspace;After deletion chat still appears in the list;8034;Very High;Propose Closed
+default_workspace;Anatoly;16001;Very High;New
+default_workspace;App crashed when Other permissions were disabled;1024;Very High;Deferred
+default_workspace;App crashed when Other permissions were disabled;6025;Medium;Fixed
+default_workspace;App crashed when Other permissions were disabled;7018;Medium;Opened
+default_workspace;App crashed when Other permissions were disabled;8024;High;Rejected
+default_workspace;App crashes when In-app purchases permission is not granted;1021;High;Fixed
+default_workspace;App crashes when In-app purchases permission is not granted;6022;Medium;Deferred
+default_workspace;App crashes when In-app purchases permission is not granted;7015;Medium;phase11
+default_workspace;App crashes when In-app purchases permission is not granted;8021;Critical;phase11
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;1023;Very High;Deferred
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;6024;Medium;Propose Closed
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;7017;Very High;New
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;8023;Low;Opened
+default_workspace;App starts although no permissions to access contacts;1022;Medium;Fixed
+default_workspace;App starts although no permissions to access contacts;6023;High;Opened
+default_workspace;App starts although no permissions to access contacts;7016;Very High;New
+default_workspace;App starts although no permissions to access contacts;8022;Critical;Propose Closed
+default_workspace;Broadcast groups are not presented in contact details;1012;Low;Closed
+default_workspace;Broadcast groups are not presented in contact details;6013;High;Duplicate
+default_workspace;Broadcast groups are not presented in contact details;7006;Critical;phase11
+default_workspace;Broadcast groups are not presented in contact details;8012;Low;Rejected
+default_workspace;Build number font size in Pipeline live view;44006;Medium;New
+default_workspace;Build number font size in Pipeline live view;45005;Medium;New
+default_workspace;Build number font size in Pipeline live view;46002;Medium;New
+default_workspace;Build number font size in Pipeline live view;47002;Medium;New
+default_workspace;Build number font size in Pipeline live view;48002;Medium;New
+default_workspace;Build number font size in Pipeline live view;49002;Medium;New
+default_workspace;Build number font size in Pipeline live view;50002;Medium;New
+default_workspace;Build number font size in Pipeline live view;51002;Medium;New
+default_workspace;Build number font size in Pipeline live view;52002;Medium;New
+default_workspace;Build number font size in Pipeline live view;53002;Medium;New
+default_workspace;Build number font size in Pipeline live view;54002;Medium;New
+default_workspace;Build number font size in Pipeline live view;55002;Medium;New
+default_workspace;Build number font size in Pipeline live view;56002;Medium;New
+default_workspace;Build number font size in Pipeline live view;57002;Medium;New
+default_workspace;Build number font size in Pipeline live view;58002;Medium;New
+default_workspace;Build number font size in Pipeline live view;59002;Medium;New
+default_workspace;Cannot edit contact secondary phone num;1028;High;Rejected
+default_workspace;Cannot edit contact secondary phone num;6029;High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;7022;Very High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;8028;High;Deferred
+default_workspace;Cannot scroll between the images;1011;Critical;Deferred
+default_workspace;Cannot scroll between the images;6012;Medium;Closed
+default_workspace;Cannot scroll between the images;7005;Very High;Opened
+default_workspace;Cannot scroll between the images;8011;Medium;New
+default_workspace;checkbox guest is disabled;69007;Very High;Fixed
+default_workspace;d1;8044;Very High;New
+default_workspace;D1;61040;Very High;New
+default_workspace;d2;5025;Very High;Opened
+default_workspace;Defect for Katy story;76004;;New
+default_workspace;Defect on Many users;6047;Medium;New
+default_workspace;defect2;95002;;New
+default_workspace;Demo app is broken;98038;Critical;New
+default_workspace;demo defect;64009;High;New
+default_workspace;Error message is presented when moving between networks;1020;High;Deferred
+default_workspace;Error message is presented when moving between networks;6021;Critical;Deferred
+default_workspace;Error message is presented when moving between networks;7014;High;Propose Closed
+default_workspace;Error message is presented when moving between networks;8020;Medium;Deferred
+default_workspace;Exception shown while closing the configuration dialog;44005;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;45004;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;46001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;47001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;48001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;49001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;50001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;51001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;52001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;53001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;54001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;55001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;56001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;57001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;58001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;59001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;63001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;96001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;97001;Medium;New
+default_workspace;Failed to find contact by name when name contains special chars;1037;Medium;Opened
+default_workspace;Failed to find contact by name when name contains special chars;6038;Low;Duplicate
+default_workspace;Failed to find contact by name when name contains special chars;7031;High;Rejected
+default_workspace;Failed to find contact by name when name contains special chars;8037;Low;Deferred
+default_workspace;Failed to find contact by phone num - no results;1038;Medium;Deferred
+default_workspace;Failed to find contact by phone num - no results;6039;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;7032;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;8038;High;Deferred
+default_workspace;Failed to send message;1008;Very High;Closed
+default_workspace;Failed to send message;6009;Very High;Closed
+default_workspace;Failed to send message;7002;High;phase11
+default_workspace;Failed to send message;8008;Low;New
+default_workspace;hgg,jg;94045;Medium;New
+default_workspace;Indicator is displayed before message reached recepient;1009;Low;Propose Closed
+default_workspace;Indicator is displayed before message reached recepient;6010;Critical;Opened
+default_workspace;Indicator is displayed before message reached recepient;7003;Low;phase11
+default_workspace;Indicator is displayed before message reached recepient;8009;Medium;Deferred
+default_workspace;KerenDefectFromKerenMan test;19002;Critical;New
+default_workspace;Mensajes erroneos;17001;High;Fixed
+default_workspace;Missing notification when sound is muted and trying to make a call;1017;High;Propose Closed
+default_workspace;Missing notification when sound is muted and trying to make a call;6018;Low;New
+default_workspace;Missing notification when sound is muted and trying to make a call;7011;Medium;phase9
+default_workspace;Missing notification when sound is muted and trying to make a call;8017;High;Fixed
+default_workspace;new defect;20002;Medium;New
+default_workspace;new1;19001;Very High;New
+default_workspace;New2;20001;Critical;New
+default_workspace;Performance in auto-download is almost unbearable;4001;Very High;New
+default_workspace;Received broadcast message although contact is blocked;1015;Low;Duplicate
+default_workspace;Received broadcast message although contact is blocked;6016;Medium;Rejected
+default_workspace;Received broadcast message although contact is blocked;7009;Medium;Propose Closed
+default_workspace;Received broadcast message although contact is blocked;8015;High;phase11
+default_workspace;sdf;6046;Low;New
+default_workspace;Tell a Friend - download link is cut in the message;1013;Medium;Rejected
+default_workspace;Tell a Friend - download link is cut in the message;6014;Medium;Deferred
+default_workspace;Tell a Friend - download link is cut in the message;7007;Low;phase11
+default_workspace;Tell a Friend - download link is cut in the message;8013;Medium;Duplicate
+default_workspace;test;13010;Critical;Deferred
+default_workspace;Test failed;71002;;New
+default_workspace;Test this;99001;;New
+default_workspace;User receives unclear notification when someone pays for them;1014;Low;New
+default_workspace;User receives unclear notification when someone pays for them;6015;Very High;Duplicate
+default_workspace;User receives unclear notification when someone pays for them;7008;High;Propose Closed
+default_workspace;User receives unclear notification when someone pays for them;8014;Low;Deferred
+default_workspace;When calling microservices, can't get past cert page;14001;High;New
+default_workspace;Wrong help URL on Android;1019;Low;Rejected
+default_workspace;Wrong help URL on Android;6020;Low;Deferred
+default_workspace;Wrong help URL on Android;7013;Medium;phase9
+default_workspace;Wrong help URL on Android;8019;Critical;phase11
+default_workspace;Wrong order in group media;6011;Very High;Duplicate
+default_workspace;Wrong order in group media;7004;Very High;phase11
+default_workspace;Wrong order in group media;8010;Critical;Closed
+default_workspace;Wrong order in group media1;1010;Critical;Fixed
+default_workspace;Wrong status is presented for short calls;1018;Very High;Duplicate
+default_workspace;Wrong status is presented for short calls;6019;Critical;Opened
+default_workspace;Wrong status is presented for short calls;7012;High;phase9
+default_workspace;Wrong status is presented for short calls;8018;Very High;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;1016;Very High;Opened
+default_workspace;Wrong warning is displayed when trying to call offline user;6017;Critical;Rejected
+default_workspace;Wrong warning is displayed when trying to call offline user;7010;Low;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;8016;High;phase9
+default_workspace;After deletion chat still appears in the list;1034;Low;Propose Closed
+default_workspace;After deletion chat still appears in the list;6035;Critical;Closed
+default_workspace;After deletion chat still appears in the list;7028;Very High;Fixed
+default_workspace;After deletion chat still appears in the list;8034;Very High;Propose Closed
+default_workspace;Anatoly;16001;Very High;New
+default_workspace;App crashed when Other permissions were disabled;1024;Very High;Deferred
+default_workspace;App crashed when Other permissions were disabled;6025;Medium;Fixed
+default_workspace;App crashed when Other permissions were disabled;7018;Medium;Opened
+default_workspace;App crashed when Other permissions were disabled;8024;High;Rejected
+default_workspace;App crashes when In-app purchases permission is not granted;1021;High;Fixed
+default_workspace;App crashes when In-app purchases permission is not granted;6022;Medium;Deferred
+default_workspace;App crashes when In-app purchases permission is not granted;7015;Medium;phase11
+default_workspace;App crashes when In-app purchases permission is not granted;8021;Critical;phase11
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;1023;Very High;Deferred
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;6024;Medium;Propose Closed
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;7017;Very High;New
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;8023;Low;Opened
+default_workspace;App starts although no permissions to access contacts;1022;Medium;Fixed
+default_workspace;App starts although no permissions to access contacts;6023;High;Opened
+default_workspace;App starts although no permissions to access contacts;7016;Very High;New
+default_workspace;App starts although no permissions to access contacts;8022;Critical;Propose Closed
+default_workspace;Broadcast groups are not presented in contact details;1012;Low;Closed
+default_workspace;Broadcast groups are not presented in contact details;6013;High;Duplicate
+default_workspace;Broadcast groups are not presented in contact details;7006;Critical;phase11
+default_workspace;Broadcast groups are not presented in contact details;8012;Low;Rejected
+default_workspace;Build number font size in Pipeline live view;44006;Medium;New
+default_workspace;Build number font size in Pipeline live view;45005;Medium;New
+default_workspace;Build number font size in Pipeline live view;46002;Medium;New
+default_workspace;Build number font size in Pipeline live view;47002;Medium;New
+default_workspace;Build number font size in Pipeline live view;48002;Medium;New
+default_workspace;Build number font size in Pipeline live view;49002;Medium;New
+default_workspace;Build number font size in Pipeline live view;50002;Medium;New
+default_workspace;Build number font size in Pipeline live view;51002;Medium;New
+default_workspace;Build number font size in Pipeline live view;52002;Medium;New
+default_workspace;Build number font size in Pipeline live view;53002;Medium;New
+default_workspace;Build number font size in Pipeline live view;54002;Medium;New
+default_workspace;Build number font size in Pipeline live view;55002;Medium;New
+default_workspace;Build number font size in Pipeline live view;56002;Medium;New
+default_workspace;Build number font size in Pipeline live view;57002;Medium;New
+default_workspace;Build number font size in Pipeline live view;58002;Medium;New
+default_workspace;Build number font size in Pipeline live view;59002;Medium;New
+default_workspace;Cannot edit contact secondary phone num;1028;High;Rejected
+default_workspace;Cannot edit contact secondary phone num;6029;High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;7022;Very High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;8028;High;Deferred
+default_workspace;Cannot scroll between the images;1011;Critical;Deferred
+default_workspace;Cannot scroll between the images;6012;Medium;Closed
+default_workspace;Cannot scroll between the images;7005;Very High;Opened
+default_workspace;Cannot scroll between the images;8011;Medium;New
+default_workspace;checkbox guest is disabled;69007;Very High;Fixed
+default_workspace;d1;8044;Very High;New
+default_workspace;D1;61040;Very High;New
+default_workspace;d2;5025;Very High;Opened
+default_workspace;Defect for Katy story;76004;;New
+default_workspace;Defect on Many users;6047;Medium;New
+default_workspace;defect2;95002;;New
+default_workspace;Demo app is broken;98038;Critical;New
+default_workspace;demo defect;64009;High;New
+default_workspace;Error message is presented when moving between networks;1020;High;Deferred
+default_workspace;Error message is presented when moving between networks;6021;Critical;Deferred
+default_workspace;Error message is presented when moving between networks;7014;High;Propose Closed
+default_workspace;Error message is presented when moving between networks;8020;Medium;Deferred
+default_workspace;Exception shown while closing the configuration dialog;44005;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;45004;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;46001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;47001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;48001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;49001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;50001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;51001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;52001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;53001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;54001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;55001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;56001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;57001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;58001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;59001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;63001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;96001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;97001;Medium;New
+default_workspace;Failed to find contact by name when name contains special chars;1037;Medium;Opened
+default_workspace;Failed to find contact by name when name contains special chars;6038;Low;Duplicate
+default_workspace;Failed to find contact by name when name contains special chars;7031;High;Rejected
+default_workspace;Failed to find contact by name when name contains special chars;8037;Low;Deferred
+default_workspace;Failed to find contact by phone num - no results;1038;Medium;Deferred
+default_workspace;Failed to find contact by phone num - no results;6039;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;7032;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;8038;High;Deferred
+default_workspace;Failed to send message;1008;Very High;Closed
+default_workspace;Failed to send message;6009;Very High;Closed
+default_workspace;Failed to send message;7002;High;phase11
+default_workspace;Failed to send message;8008;Low;New
+default_workspace;hgg,jg;94045;Medium;New
+default_workspace;Indicator is displayed before message reached recepient;1009;Low;Propose Closed
+default_workspace;Indicator is displayed before message reached recepient;6010;Critical;Opened
+default_workspace;Indicator is displayed before message reached recepient;7003;Low;phase11
+default_workspace;Indicator is displayed before message reached recepient;8009;Medium;Deferred
+default_workspace;KerenDefectFromKerenMan test;19002;Critical;New
+default_workspace;Mensajes erroneos;17001;High;Fixed
+default_workspace;Missing notification when sound is muted and trying to make a call;1017;High;Propose Closed
+default_workspace;Missing notification when sound is muted and trying to make a call;6018;Low;New
+default_workspace;Missing notification when sound is muted and trying to make a call;7011;Medium;phase9
+default_workspace;Missing notification when sound is muted and trying to make a call;8017;High;Fixed
+default_workspace;new defect;20002;Medium;New
+default_workspace;new1;19001;Very High;New
+default_workspace;New2;20001;Critical;New
+default_workspace;Performance in auto-download is almost unbearable;4001;Very High;New
+default_workspace;Received broadcast message although contact is blocked;1015;Low;Duplicate
+default_workspace;Received broadcast message although contact is blocked;6016;Medium;Rejected
+default_workspace;Received broadcast message although contact is blocked;7009;Medium;Propose Closed
+default_workspace;Received broadcast message although contact is blocked;8015;High;phase11
+default_workspace;sdf;6046;Low;New
+default_workspace;Tell a Friend - download link is cut in the message;1013;Medium;Rejected
+default_workspace;Tell a Friend - download link is cut in the message;6014;Medium;Deferred
+default_workspace;Tell a Friend - download link is cut in the message;7007;Low;phase11
+default_workspace;Tell a Friend - download link is cut in the message;8013;Medium;Duplicate
+default_workspace;test;13010;Critical;Deferred
+default_workspace;Test failed;71002;;New
+default_workspace;Test this;99001;;New
+default_workspace;User receives unclear notification when someone pays for them;1014;Low;New
+default_workspace;User receives unclear notification when someone pays for them;6015;Very High;Duplicate
+default_workspace;User receives unclear notification when someone pays for them;7008;High;Propose Closed
+default_workspace;User receives unclear notification when someone pays for them;8014;Low;Deferred
+default_workspace;When calling microservices, can't get past cert page;14001;High;New
+default_workspace;Wrong help URL on Android;1019;Low;Rejected
+default_workspace;Wrong help URL on Android;6020;Low;Deferred
+default_workspace;Wrong help URL on Android;7013;Medium;phase9
+default_workspace;Wrong help URL on Android;8019;Critical;phase11
+default_workspace;Wrong order in group media;6011;Very High;Duplicate
+default_workspace;Wrong order in group media;7004;Very High;phase11
+default_workspace;Wrong order in group media;8010;Critical;Closed
+default_workspace;Wrong order in group media1;1010;Critical;Fixed
+default_workspace;Wrong status is presented for short calls;1018;Very High;Duplicate
+default_workspace;Wrong status is presented for short calls;6019;Critical;Opened
+default_workspace;Wrong status is presented for short calls;7012;High;phase9
+default_workspace;Wrong status is presented for short calls;8018;Very High;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;1016;Very High;Opened
+default_workspace;Wrong warning is displayed when trying to call offline user;6017;Critical;Rejected
+default_workspace;Wrong warning is displayed when trying to call offline user;7010;Low;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;8016;High;phase9
+default_workspace;After deletion chat still appears in the list;1034;Low;Propose Closed
+default_workspace;After deletion chat still appears in the list;6035;Critical;Closed
+default_workspace;After deletion chat still appears in the list;7028;Very High;Fixed
+default_workspace;After deletion chat still appears in the list;8034;Very High;Propose Closed
+default_workspace;Anatoly;16001;Very High;New
+default_workspace;App crashed when Other permissions were disabled;1024;Very High;Deferred
+default_workspace;App crashed when Other permissions were disabled;6025;Medium;Fixed
+default_workspace;App crashed when Other permissions were disabled;7018;Medium;Opened
+default_workspace;App crashed when Other permissions were disabled;8024;High;Rejected
+default_workspace;App crashes when In-app purchases permission is not granted;1021;High;Fixed
+default_workspace;App crashes when In-app purchases permission is not granted;6022;Medium;Deferred
+default_workspace;App crashes when In-app purchases permission is not granted;7015;Medium;phase11
+default_workspace;App crashes when In-app purchases permission is not granted;8021;Critical;phase11
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;1023;Very High;Deferred
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;6024;Medium;Propose Closed
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;7017;Very High;New
+default_workspace;App failed to start after Photos, Media, Files permissions were removed;8023;Low;Opened
+default_workspace;App starts although no permissions to access contacts;1022;Medium;Fixed
+default_workspace;App starts although no permissions to access contacts;6023;High;Opened
+default_workspace;App starts although no permissions to access contacts;7016;Very High;New
+default_workspace;App starts although no permissions to access contacts;8022;Critical;Propose Closed
+default_workspace;Broadcast groups are not presented in contact details;1012;Low;Closed
+default_workspace;Broadcast groups are not presented in contact details;6013;High;Duplicate
+default_workspace;Broadcast groups are not presented in contact details;7006;Critical;phase11
+default_workspace;Broadcast groups are not presented in contact details;8012;Low;Rejected
+default_workspace;Build number font size in Pipeline live view;44006;Medium;New
+default_workspace;Build number font size in Pipeline live view;45005;Medium;New
+default_workspace;Build number font size in Pipeline live view;46002;Medium;New
+default_workspace;Build number font size in Pipeline live view;47002;Medium;New
+default_workspace;Build number font size in Pipeline live view;48002;Medium;New
+default_workspace;Build number font size in Pipeline live view;49002;Medium;New
+default_workspace;Build number font size in Pipeline live view;50002;Medium;New
+default_workspace;Build number font size in Pipeline live view;51002;Medium;New
+default_workspace;Build number font size in Pipeline live view;52002;Medium;New
+default_workspace;Build number font size in Pipeline live view;53002;Medium;New
+default_workspace;Build number font size in Pipeline live view;54002;Medium;New
+default_workspace;Build number font size in Pipeline live view;55002;Medium;New
+default_workspace;Build number font size in Pipeline live view;56002;Medium;New
+default_workspace;Build number font size in Pipeline live view;57002;Medium;New
+default_workspace;Build number font size in Pipeline live view;58002;Medium;New
+default_workspace;Build number font size in Pipeline live view;59002;Medium;New
+default_workspace;Cannot edit contact secondary phone num;1028;High;Rejected
+default_workspace;Cannot edit contact secondary phone num;6029;High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;7022;Very High;Duplicate
+default_workspace;Cannot edit contact secondary phone num;8028;High;Deferred
+default_workspace;Cannot scroll between the images;1011;Critical;Deferred
+default_workspace;Cannot scroll between the images;6012;Medium;Closed
+default_workspace;Cannot scroll between the images;7005;Very High;Opened
+default_workspace;Cannot scroll between the images;8011;Medium;New
+default_workspace;checkbox guest is disabled;69007;Very High;Fixed
+default_workspace;d1;8044;Very High;New
+default_workspace;D1;61040;Very High;New
+default_workspace;d2;5025;Very High;Opened
+default_workspace;Defect for Katy story;76004;;New
+default_workspace;Defect on Many users;6047;Medium;New
+default_workspace;defect2;95002;;New
+default_workspace;Demo app is broken;98038;Critical;New
+default_workspace;demo defect;64009;High;New
+default_workspace;Error message is presented when moving between networks;1020;High;Deferred
+default_workspace;Error message is presented when moving between networks;6021;Critical;Deferred
+default_workspace;Error message is presented when moving between networks;7014;High;Propose Closed
+default_workspace;Error message is presented when moving between networks;8020;Medium;Deferred
+default_workspace;Exception shown while closing the configuration dialog;44005;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;45004;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;46001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;47001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;48001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;49001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;50001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;51001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;52001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;53001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;54001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;55001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;56001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;57001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;58001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;59001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;63001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;96001;Medium;New
+default_workspace;Exception shown while closing the configuration dialog;97001;Medium;New
+default_workspace;Failed to find contact by name when name contains special chars;1037;Medium;Opened
+default_workspace;Failed to find contact by name when name contains special chars;6038;Low;Duplicate
+default_workspace;Failed to find contact by name when name contains special chars;7031;High;Rejected
+default_workspace;Failed to find contact by name when name contains special chars;8037;Low;Deferred
+default_workspace;Failed to find contact by phone num - no results;1038;Medium;Deferred
+default_workspace;Failed to find contact by phone num - no results;6039;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;7032;Critical;Fixed
+default_workspace;Failed to find contact by phone num - no results;8038;High;Deferred
+default_workspace;Failed to send message;1008;Very High;Closed
+default_workspace;Failed to send message;6009;Very High;Closed
+default_workspace;Failed to send message;7002;High;phase11
+default_workspace;Failed to send message;8008;Low;New
+default_workspace;hgg,jg;94045;Medium;New
+default_workspace;Indicator is displayed before message reached recepient;1009;Low;Propose Closed
+default_workspace;Indicator is displayed before message reached recepient;6010;Critical;Opened
+default_workspace;Indicator is displayed before message reached recepient;7003;Low;phase11
+default_workspace;Indicator is displayed before message reached recepient;8009;Medium;Deferred
+default_workspace;KerenDefectFromKerenMan test;19002;Critical;New
+default_workspace;Mensajes erroneos;17001;High;Fixed
+default_workspace;Missing notification when sound is muted and trying to make a call;1017;High;Propose Closed
+default_workspace;Missing notification when sound is muted and trying to make a call;6018;Low;New
+default_workspace;Missing notification when sound is muted and trying to make a call;7011;Medium;phase9
+default_workspace;Missing notification when sound is muted and trying to make a call;8017;High;Fixed
+default_workspace;new defect;20002;Medium;New
+default_workspace;new1;19001;Very High;New
+default_workspace;New2;20001;Critical;New
+default_workspace;Performance in auto-download is almost unbearable;4001;Very High;New
+default_workspace;Received broadcast message although contact is blocked;1015;Low;Duplicate
+default_workspace;Received broadcast message although contact is blocked;6016;Medium;Rejected
+default_workspace;Received broadcast message although contact is blocked;7009;Medium;Propose Closed
+default_workspace;Received broadcast message although contact is blocked;8015;High;phase11
+default_workspace;sdf;6046;Low;New
+default_workspace;Tell a Friend - download link is cut in the message;1013;Medium;Rejected
+default_workspace;Tell a Friend - download link is cut in the message;6014;Medium;Deferred
+default_workspace;Tell a Friend - download link is cut in the message;7007;Low;phase11
+default_workspace;Tell a Friend - download link is cut in the message;8013;Medium;Duplicate
+default_workspace;test;13010;Critical;Deferred
+default_workspace;Test failed;71002;;New
+default_workspace;Test this;99001;;New
+default_workspace;User receives unclear notification when someone pays for them;1014;Low;New
+default_workspace;User receives unclear notification when someone pays for them;6015;Very High;Duplicate
+default_workspace;User receives unclear notification when someone pays for them;7008;High;Propose Closed
+default_workspace;User receives unclear notification when someone pays for them;8014;Low;Deferred
+default_workspace;When calling microservices, can't get past cert page;14001;High;New
+default_workspace;Wrong help URL on Android;1019;Low;Rejected
+default_workspace;Wrong help URL on Android;6020;Low;Deferred
+default_workspace;Wrong help URL on Android;7013;Medium;phase9
+default_workspace;Wrong help URL on Android;8019;Critical;phase11
+default_workspace;Wrong order in group media;6011;Very High;Duplicate
+default_workspace;Wrong order in group media;7004;Very High;phase11
+default_workspace;Wrong order in group media;8010;Critical;Closed
+default_workspace;Wrong order in group media1;1010;Critical;Fixed
+default_workspace;Wrong status is presented for short calls;1018;Very High;Duplicate
+default_workspace;Wrong status is presented for short calls;6019;Critical;Opened
+default_workspace;Wrong status is presented for short calls;7012;High;phase9
+default_workspace;Wrong status is presented for short calls;8018;Very High;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;1016;Very High;Opened
+default_workspace;Wrong warning is displayed when trying to call offline user;6017;Critical;Rejected
+default_workspace;Wrong warning is displayed when trying to call offline user;7010;Low;Fixed
+default_workspace;Wrong warning is displayed when trying to call offline user;8016;High;phase9
+Pharma_Workshop;11.04.2017 - demo defect;97027;Medium;Opened
+Pharma_Workshop;ALM.NET migration to ALM Octane - no defect synchronized;98040;Medium;Fixed
+Pharma_Workshop;First Defect from Octane to ALM.NET;90047;High;New
+Pharma_Workshop;new defect;97029;Critical;New
+Pharma_Workshop;Second to Third one from .NET to Octane;90048;High;New
+Pharma_Workshop;Swiss Testing Community Defect;90046;Medium;Opened
+Pharma_Workshop;11.04.2017 - demo defect;97027;Medium;Opened
+Pharma_Workshop;ALM.NET migration to ALM Octane - no defect synchronized;98040;Medium;Fixed
+Pharma_Workshop;First Defect from Octane to ALM.NET;90047;High;New
+Pharma_Workshop;new defect;97029;Critical;New
+Pharma_Workshop;Second to Third one from .NET to Octane;90048;High;New
+Pharma_Workshop;Swiss Testing Community Defect;90046;Medium;Opened
+Pharma_Workshop;11.04.2017 - demo defect;97027;Medium;Opened
+Pharma_Workshop;ALM.NET migration to ALM Octane - no defect synchronized;98040;Medium;Fixed
+Pharma_Workshop;First Defect from Octane to ALM.NET;90047;High;New
+Pharma_Workshop;new defect;97029;Critical;New
+Pharma_Workshop;Second to Third one from .NET to Octane;90048;High;New
+Pharma_Workshop;Swiss Testing Community Defect;90046;Medium;Opened
+Software DevOps CHAT;[MC] production coverage widget: when interval between from and to is too small;61035;High;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61015;Medium;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61018;High;Fixed
+Software DevOps CHAT;After deletion chat still appears in the list;63021;Medium;Rejected
+Software DevOps CHAT;After upgrade SVN integration isn't working;61024;Critical;Fixed
+Software DevOps CHAT;After upgrade SVN integration isn't working;61027;Critical;Fixed
+Software DevOps CHAT;After upgrade we see the same build twice;61010;High;Opened
+Software DevOps CHAT;Amir Khan posted this defect via REST API;98049;Medium;Rejected
+Software DevOps CHAT;Amir Khans Defect;98032;High;New
+Software DevOps CHAT;App crashed when Other permissions were disabled;63019;Critical;Opened
+Software DevOps CHAT;App crashes when In-app purchases permission is not granted;63016;Very High;Duplicate
+Software DevOps CHAT;App failed to start after Photos, Media, Files permissions were removed;63018;Low;Rejected
+Software DevOps CHAT;app not starting;63040;High;New
+Software DevOps CHAT;App starts although no permissions to access contacts;63017;Critical;Closed
+Software DevOps CHAT;Broadcast groups are not presented in contact details;63007;Very High;Opened
+Software DevOps CHAT;Build number font size in Pipeline live view;61020;Medium;New
+Software DevOps CHAT;Cannot edit contact secondary phone num;63020;Very High;Closed
+Software DevOps CHAT;Cannot scroll between the images;63006;High;Proposed Closed
+Software DevOps CHAT;CS defect;84037;;New
+Software DevOps CHAT;Cut pipeline header;61021;High;Opened
+Software DevOps CHAT;Exception shown while closing the configuration dialog;61008;Medium;New
+Software DevOps CHAT;Failed to find contact by name when name contains special chars;63022;Very High;Duplicate
+Software DevOps CHAT;Failed to find contact by phone num - no results;63023;Very High;Duplicate
+Software DevOps CHAT;Failed to send message;63003;Critical;Proposed Closed
+Software DevOps CHAT;Fehler beim Test 2;99011;Very High;New
+Software DevOps CHAT;flurstrasse;88037;;Opened
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61025;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61028;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61032;Medium;Fixed
+Software DevOps CHAT;Icons should be aligned to left, and minimized;61013;High;Opened
+Software DevOps CHAT;Indicator is displayed before message reached recepient;63004;Low;Fixed
+Software DevOps CHAT;Link to feature defect;97028;;New
+Software DevOps CHAT;Login funktioniert nicht;98050;Critical;Deferred
+Software DevOps CHAT;Login not successful;60034;Critical;Fixed
+Software DevOps CHAT;Missing notification when sound is muted and trying to make a call;63012;Medium;Deferred
+Software DevOps CHAT;order is not created. app crashed;100024;;New
+Software DevOps CHAT;POST DEMO: this defect via REST API;98055;Medium;Rejected
+Software DevOps CHAT;POST DEMO: this defect via REST API;107001;Medium;Rejected
+Software DevOps CHAT;Product area with long name doens't show up in tree map.;61037;Low;New
+Software DevOps CHAT;Received broadcast message although contact is blocked;63010;Medium;Duplicate
+Software DevOps CHAT;Sort by of build number should be by default most descending;61012;Medium;Fixed
+Software DevOps CHAT;SVN integration isn't working;61030;Critical;Closed
+Software DevOps CHAT;Tell a Friend - download link is cut in the message;63008;Low;Deferred
+Software DevOps CHAT;User receives unclear notification when someone pays for them;63009;High;Deferred
+Software DevOps CHAT;Wrong help URL on Android;63014;Critical;Proposed Closed
+Software DevOps CHAT;Wrong order in group media;63005;Low;Duplicate
+Software DevOps CHAT;Wrong status is presented for short calls;63013;Critical;Opened
+Software DevOps CHAT;Wrong warning is displayed when trying to call offline user;63011;Low;Deferred
+Software DevOps CHAT;[MC] production coverage widget: when interval between from and to is too small;61035;High;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61015;Medium;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61018;High;Fixed
+Software DevOps CHAT;After deletion chat still appears in the list;63021;Medium;Rejected
+Software DevOps CHAT;After upgrade SVN integration isn't working;61024;Critical;Fixed
+Software DevOps CHAT;After upgrade SVN integration isn't working;61027;Critical;Fixed
+Software DevOps CHAT;After upgrade we see the same build twice;61010;High;Opened
+Software DevOps CHAT;Amir Khan posted this defect via REST API;98049;Medium;Rejected
+Software DevOps CHAT;Amir Khans Defect;98032;High;New
+Software DevOps CHAT;App crashed when Other permissions were disabled;63019;Critical;Opened
+Software DevOps CHAT;App crashes when In-app purchases permission is not granted;63016;Very High;Duplicate
+Software DevOps CHAT;App failed to start after Photos, Media, Files permissions were removed;63018;Low;Rejected
+Software DevOps CHAT;app not starting;63040;High;New
+Software DevOps CHAT;App starts although no permissions to access contacts;63017;Critical;Closed
+Software DevOps CHAT;Broadcast groups are not presented in contact details;63007;Very High;Opened
+Software DevOps CHAT;Build number font size in Pipeline live view;61020;Medium;New
+Software DevOps CHAT;Cannot edit contact secondary phone num;63020;Very High;Closed
+Software DevOps CHAT;Cannot scroll between the images;63006;High;Proposed Closed
+Software DevOps CHAT;CS defect;84037;;New
+Software DevOps CHAT;Cut pipeline header;61021;High;Opened
+Software DevOps CHAT;Exception shown while closing the configuration dialog;61008;Medium;New
+Software DevOps CHAT;Failed to find contact by name when name contains special chars;63022;Very High;Duplicate
+Software DevOps CHAT;Failed to find contact by phone num - no results;63023;Very High;Duplicate
+Software DevOps CHAT;Failed to send message;63003;Critical;Proposed Closed
+Software DevOps CHAT;Fehler beim Test 2;99011;Very High;New
+Software DevOps CHAT;flurstrasse;88037;;Opened
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61025;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61028;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61032;Medium;Fixed
+Software DevOps CHAT;Icons should be aligned to left, and minimized;61013;High;Opened
+Software DevOps CHAT;Indicator is displayed before message reached recepient;63004;Low;Fixed
+Software DevOps CHAT;Link to feature defect;97028;;New
+Software DevOps CHAT;Login funktioniert nicht;98050;Critical;Deferred
+Software DevOps CHAT;Login not successful;60034;Critical;Fixed
+Software DevOps CHAT;Missing notification when sound is muted and trying to make a call;63012;Medium;Deferred
+Software DevOps CHAT;order is not created. app crashed;100024;;New
+Software DevOps CHAT;POST DEMO: this defect via REST API;98055;Medium;Rejected
+Software DevOps CHAT;POST DEMO: this defect via REST API;107001;Medium;Rejected
+Software DevOps CHAT;Product area with long name doens't show up in tree map.;61037;Low;New
+Software DevOps CHAT;Received broadcast message although contact is blocked;63010;Medium;Duplicate
+Software DevOps CHAT;Sort by of build number should be by default most descending;61012;Medium;Fixed
+Software DevOps CHAT;SVN integration isn't working;61030;Critical;Closed
+Software DevOps CHAT;Tell a Friend - download link is cut in the message;63008;Low;Deferred
+Software DevOps CHAT;User receives unclear notification when someone pays for them;63009;High;Deferred
+Software DevOps CHAT;Wrong help URL on Android;63014;Critical;Proposed Closed
+Software DevOps CHAT;Wrong order in group media;63005;Low;Duplicate
+Software DevOps CHAT;Wrong status is presented for short calls;63013;Critical;Opened
+Software DevOps CHAT;Wrong warning is displayed when trying to call offline user;63011;Low;Deferred
+Software DevOps CHAT;[MC] production coverage widget: when interval between from and to is too small;61035;High;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61015;Medium;Fixed
+Software DevOps CHAT;[Regression Day] [Dashboard] [IE] Label in Mastercard graph is seen on top of drill down dialog;61018;High;Fixed
+Software DevOps CHAT;After deletion chat still appears in the list;63021;Medium;Rejected
+Software DevOps CHAT;After upgrade SVN integration isn't working;61024;Critical;Fixed
+Software DevOps CHAT;After upgrade SVN integration isn't working;61027;Critical;Fixed
+Software DevOps CHAT;After upgrade we see the same build twice;61010;High;Opened
+Software DevOps CHAT;Amir Khan posted this defect via REST API;98049;Medium;Rejected
+Software DevOps CHAT;Amir Khans Defect;98032;High;New
+Software DevOps CHAT;App crashed when Other permissions were disabled;63019;Critical;Opened
+Software DevOps CHAT;App crashes when In-app purchases permission is not granted;63016;Very High;Duplicate
+Software DevOps CHAT;App failed to start after Photos, Media, Files permissions were removed;63018;Low;Rejected
+Software DevOps CHAT;app not starting;63040;High;New
+Software DevOps CHAT;App starts although no permissions to access contacts;63017;Critical;Closed
+Software DevOps CHAT;Broadcast groups are not presented in contact details;63007;Very High;Opened
+Software DevOps CHAT;Build number font size in Pipeline live view;61020;Medium;New
+Software DevOps CHAT;Cannot edit contact secondary phone num;63020;Very High;Closed
+Software DevOps CHAT;Cannot scroll between the images;63006;High;Proposed Closed
+Software DevOps CHAT;CS defect;84037;;New
+Software DevOps CHAT;Cut pipeline header;61021;High;Opened
+Software DevOps CHAT;Exception shown while closing the configuration dialog;61008;Medium;New
+Software DevOps CHAT;Failed to find contact by name when name contains special chars;63022;Very High;Duplicate
+Software DevOps CHAT;Failed to find contact by phone num - no results;63023;Very High;Duplicate
+Software DevOps CHAT;Failed to send message;63003;Critical;Proposed Closed
+Software DevOps CHAT;Fehler beim Test 2;99011;Very High;New
+Software DevOps CHAT;flurstrasse;88037;;Opened
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61025;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61028;Medium;Deferred
+Software DevOps CHAT;Icons looks clickable in File Changes pane;61032;Medium;Fixed
+Software DevOps CHAT;Icons should be aligned to left, and minimized;61013;High;Opened
+Software DevOps CHAT;Indicator is displayed before message reached recepient;63004;Low;Fixed
+Software DevOps CHAT;Link to feature defect;97028;;New
+Software DevOps CHAT;Login funktioniert nicht;98050;Critical;Deferred
+Software DevOps CHAT;Login not successful;60034;Critical;Fixed
+Software DevOps CHAT;Missing notification when sound is muted and trying to make a call;63012;Medium;Deferred
+Software DevOps CHAT;order is not created. app crashed;100024;;New
+Software DevOps CHAT;POST DEMO: this defect via REST API;98055;Medium;Rejected
+Software DevOps CHAT;POST DEMO: this defect via REST API;107001;Medium;Rejected
+Software DevOps CHAT;Product area with long name doens't show up in tree map.;61037;Low;New
+Software DevOps CHAT;Received broadcast message although contact is blocked;63010;Medium;Duplicate
+Software DevOps CHAT;Sort by of build number should be by default most descending;61012;Medium;Fixed
+Software DevOps CHAT;SVN integration isn't working;61030;Critical;Closed
+Software DevOps CHAT;Tell a Friend - download link is cut in the message;63008;Low;Deferred
+Software DevOps CHAT;User receives unclear notification when someone pays for them;63009;High;Deferred
+Software DevOps CHAT;Wrong help URL on Android;63014;Critical;Proposed Closed
+Software DevOps CHAT;Wrong order in group media;63005;Low;Duplicate
+Software DevOps CHAT;Wrong status is presented for short calls;63013;Critical;Opened
+Software DevOps CHAT;Wrong warning is displayed when trying to call offline user;63011;Low;Deferred
+Swisscom;First Defect from Octane to ALM.NET;88003;High;New
+Swisscom;Second to Third one from .NET to Octane;88004;High;New
+Swisscom;Swiss Testing Community Defect;89039;Medium;New
+Swisscom;First Defect from Octane to ALM.NET;88003;High;New
+Swisscom;Second to Third one from .NET to Octane;88004;High;New
+Swisscom;Swiss Testing Community Defect;89039;Medium;New
+Swisscom;First Defect from Octane to ALM.NET;88003;High;New
+Swisscom;Second to Third one from .NET to Octane;88004;High;New
+Swisscom;Swiss Testing Community Defect;89039;Medium;New

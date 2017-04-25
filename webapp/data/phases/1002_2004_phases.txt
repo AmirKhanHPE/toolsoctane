@@ -1,0 +1,49 @@
+ID; Name; Logical_Name
+1001;New;phase.defect.new
+1009;New;phase.test_manual.new
+1015;New;phase.epic.new
+1019;New;phase.feature.new
+1023;New;phase.story.new
+5001;New;phase.quality_story.new
+8001;New;phase.task.new
+17003;New;phase.gherkin_test.new
+36001;Draft;phase.requirement_document.draft
+1006;Deferred;phase.defect.deferred
+1010;In Design;phase.test_manual.indesign
+1016;In Progress;phase.epic.inprogress
+1020;In Progress;phase.feature.inprogress
+1024;In Progress;phase.story.inprogress
+5002;In Progress;phase.quality_story.inprogress
+8002;In Progress;phase.task.inprogress
+17002;In Design;phase.gherkin_test.indesign
+36002;Accepted;phase.requirement_document.accepted
+1003;Fixed;phase.defect.fixed
+1011;Awaiting Review;phase.test_manual.awaitingreview
+1017;In Testing;phase.epic.intesting
+1021;In Testing;phase.feature.intesting
+1025;In Testing;phase.story.intesting
+5003;Done;phase.quality_story.done
+8003;Completed;phase.task.completed
+17001;Awaiting Review;phase.gherkin_test.awaitingreview
+1005;Propose Closed;phase.defect.proposeclose
+1012;Ready;phase.test_manual.ready
+1018;Done;phase.epic.done
+1022;Done;phase.feature.done
+1026;Done;phase.story.done
+9001;John;0wdmn9k1d6m1duv59r51wlqjg
+17005;Ready;phase.gherkin_test.ready
+36003;In Design;phase.requirement_document.indesign
+1004;Closed;phase.defect.closed
+36004;In Review;phase.requirement_document.inreview
+1002;Opened;phase.defect.opened
+1014;Obsolete;phase.test_manual.obsolete
+17004;Obsolete;phase.gherkin_test.obsolete
+36005;Approved;phase.requirement_document.approved
+1007;Duplicate;phase.defect.duplicate
+36006;Deferred;phase.requirement_document.deferred
+1008;Rejected;phase.defect.rejected
+36007;Rejected;phase.requirement_document.rejected
+32001;phase11;dvplq531od8v5a33kg6nr0m91
+29001;phase10;6p035m76dlnvvtm1lvr6p59rq
+2001;phase8;njq689ngq3w3yfx69ze65re5k
+3001;phase9;rn72kryd95y9lim71r2rdgy05

@@ -335,7 +335,7 @@ public class readSDK2writeDATA {
 
         ctextfiles.writeTextFile(PATH,
                 "NEW",
-                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature");
+                (String) "ID,Name;Story_type;Phase;Author;Last_modified;Feature;Severity");
 
         for (int i = 0; i < mlArrayList.size(); i++) {
             String voBugType = (String) mlArrayList.get(i).getValue("type").getValue();
@@ -360,7 +360,7 @@ public class readSDK2writeDATA {
                                 + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
                                 + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
                                 + ";" + IfNULL((String)voParent.getValue("id").getValue())
-                                + ":" + vsSeverity);
+                                + ";" + vsSeverity);
             } else {
                 ctextfiles.writeTextFile(PATH,
                         "APPEND",
@@ -371,7 +371,7 @@ public class readSDK2writeDATA {
                                 + ";" + IfNULL((String)voAuthor.getValue("id").getValue())
                                 + ";" + mlArrayList.get(i).getValue("last_modified").getValue()
                                 + ";" + IfNULL((String)voParent.getValue("id").getValue())
-                                + ":" + vsSeverity);
+                                + ";" + vsSeverity);
 
             }
 

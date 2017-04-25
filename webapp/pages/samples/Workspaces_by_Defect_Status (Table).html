@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+//Workspace;New;Opened;Duplicate;Fixed;Propose Closed;Closed;Rejected;Deferred;Total
+//default_workspace;177;27;27;36;27;18;24;48;384
+//Pharma_Workshop;9;6;0;3;0;0;0;0;18
+//Software DevOps CHAT;27;21;15;27;0;9;15;21;135
+//Swisscom;8;0;0;0;0;0;0;0;8  
+
+    function drawTable() {
+	
+      var responsedata = $.ajax({
+          url: "http://localhost:8083/data/report-data/BugByPhasePerWS.txt",
+          dataType: "txt",
+          async: false
+          }).responseText;
+		  //alert(responsedata);
+			  
+	  var data = new google.visualization.DataTable();
+	  var a = responsedata.split("\n"),i, c;
+		//alert(responsedata.length);
+
+  
+	  //Add Columns
+	  var b = a[0].split(";");
+	  //data.addColumn('string', b[0]);
+	  data.addColumn('string', b[0]);
+	  data.addColumn('string', b[1]);
+	  data.addColumn('string', b[2]);
+	  data.addColumn('string', b[3]);
+	  data.addColumn('string', b[4]);	  
+	  data.addColumn('string', b[5]);
+	  data.addColumn('string', b[6]);
+	  data.addColumn('string', b[7]);
+	  data.addColumn('string', b[8]);
+	  data.addColumn('string', b[9]);
+	  data.addRows(a.length-2);
+	  //alert(a.length);
+	  for (i = 1; i < a.length-1 ; i++) {
+		c= a[i].split(";");
+		//alert(i + " - " + a.length);
+
+		//alert(c[1] + " " + c[0]);	
+		data.setCell(i-1, 0, c[0]);
+		data.setCell(i-1, 1, c[1]);
+		data.setCell(i-1, 2, c[2]);
+		data.setCell(i-1, 3, c[3]);
+		data.setCell(i-1, 4, c[4]);
+		data.setCell(i-1, 5, c[5]);
+		data.setCell(i-1, 6, c[6]);
+		data.setCell(i-1, 7, c[7]);
+		data.setCell(i-1, 8, c[8]);
+		data.setCell(i-1, 9, c[9]);
+	  }
+	  
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+
+        table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+
+
+}
+
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="table_div"></div>
+  </body>
+</html>

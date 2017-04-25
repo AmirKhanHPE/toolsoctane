@@ -19,18 +19,19 @@ public class execution {
 
 
         octane = readSDK2writeDATA.GetNodes2File(octane,2004,10001);
-        //octane = readSDK2writeDATA.GetPhases2File(octane,2004,10001);
+        octane = readSDK2writeDATA.GetPhases2File(octane,2004,11001);
         //octane = readSDK2writeDATA.GetReleases2File(octane,2004,10001);
+        octane = readSDK2writeDATA.GetNodes2File(octane,2004,11001);
         //octane = readSDK2writeDATA.GetEpics2File(octane,2004,10001);
         //octane = readSDK2writeDATA.GetFeatures2File(octane,2004,10001);
         //octane = readSDK2writeDATA.GetStories2File(octane,2004,10001);
-        //octane =readSDK2writeDATA.GetDefects2File(octane,2004,10001);
+        octane =readSDK2writeDATA.GetDefects2File(octane,2004,11001);
         //octane =readSDK2writeDATA.GetManualTests2File(octane,2004,10001);
         //octane =readSDK2writeDATA.GetGherkinTests2File(octane,2004,10001);
         //octane =readSDK2writeDATA.GetTestSuites2File(octane,2004,10001);
         //octane =readSDK2writeDATA.GetTestsInSuites2File(octane,2004,10001);
         //octane = readSDK2writeDATA.GetTasks2File(octane,2004,10001);
-        octane = readSDK2writeDATA.GetManualRuns2File(octane,2004,10001);
+        //octane = readSDK2writeDATA.GetManualRuns2File(octane,2004,10001);
 
         //Forbidden and in Beta
         //octane = readSDK2writeDATA.GetAutomatedRuns2File(octane,2004,10001);
