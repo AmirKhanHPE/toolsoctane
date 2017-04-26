@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #109001: Display exported data with Javascript for Defects&quot;}" />
+  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #109001: Display exported data with Javascript for Defects&quot;}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;DEFECT&quot;,&quot;entityName&quot;:&quot;Exported data is not in readable format for VBS execution&quot;,&quot;id&quot;:110001}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
