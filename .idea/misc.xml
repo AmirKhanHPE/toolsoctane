@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106003: Export data with SDK of Octane Rest API for tests&quot;}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;TASK&quot;,&quot;entityName&quot;:&quot;exporting to files&quot;,&quot;id&quot;:57003}" />
+  <component name="OctanePluginState" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;TASK&quot;,&quot;entityName&quot;:&quot;create template scripts for query files&quot;,&quot;id&quot;:58004}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106003: Export data with SDK of Octane Rest API for teststask #57003: exporting to files&quot;}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

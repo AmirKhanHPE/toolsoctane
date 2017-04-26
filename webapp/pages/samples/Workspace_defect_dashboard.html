@@ -20,14 +20,6 @@
             float:left; /* add this */
             border: 1px solid;
         }
-        #piechart_6d {
-            border: 1px solid ;
-            float: left; /* add this */
-        }
-        #piechart_7d {
-            float:left; /* add this */
-            border: 1px solid;
-        }
         #piechart_8d {
             border: 1px solid ;
             float: left; /* add this */
@@ -40,9 +32,14 @@
             border: 1px solid ;
             float: left; /* add this */
         }
+        /* Feature */
+        .feature { background:darkslategray;padding:18px;}
+        .feature-inner { margin:auto;width:970px;}
+        .feature-inner h1 {color:#DAE9BC;font-size:32px;}
+
     </style>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../App/lib/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
         google.charts.load("current", {packages:['corechart','gauge','treemap','bar']});
         google.charts.setOnLoadCallback(drawChart);
@@ -371,15 +368,21 @@
             }
 
             var chart7 = new google.charts.Bar(document.getElementById('piechart_10d'));
-            chart7.draw(data7, options7);
+            chart7.draw(data7);
 
 
 
         }
     </script>
+    <script src="../App/lib/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<h1>HPE ALM Octane Cross Workspace Dashboard</h1>
+<div class="feature">
+    <div class="feature-inner">
+        <h1>Reporting Solution for ALM Octane</h1>
+        <img src="../App/images/ALM Octane.png" height="75" width="122"/>
+    </div>
+</div>
 <div id="piechart_3d" style="width: 450px; height: 250px;"></div>
 <div id="piechart_4d" style="width: 450px; height: 250px;"></div>
 <div id="piechart_5d" style="width: 450px; height: 250px;"></div>
