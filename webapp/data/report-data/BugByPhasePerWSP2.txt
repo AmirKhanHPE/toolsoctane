@@ -1,5 +1,2 @@
 Workspace;New;Opened;Duplicate;Fixed;Propose Closed;Closed;Rejected;Deferred;Total
-default_workspace;77;27;27;36;27;18;24;48;284
-Pharma_Workshop;9;6;0;3;0;0;0;0;18
 Software DevOps CHAT;27;21;15;27;0;9;15;21;135
-Swisscom;8;0;0;0;0;0;0;0;8

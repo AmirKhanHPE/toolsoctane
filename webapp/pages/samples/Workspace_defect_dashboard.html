@@ -1,0 +1,390 @@
+<html>
+<head>
+    <title>HPE ALM Octane Cross Workspace Dashboard</title>
+
+    <style type="text/css">
+        #wrapper {
+            width: 500px;
+            border: 1px solid ;
+            overflow: hidden; /* add this to contain floated children */
+        }
+        #piechart_3d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_4d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+        #piechart_5d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_6d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+        #piechart_7d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_8d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+        #piechart_9d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_10d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+    </style>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", {packages:['corechart','gauge','treemap','bar']});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+
+//Workspace;New;Opened;Duplicate;Fixed;Propose Closed;Closed;Rejected;Deferred;Total
+
+            var responsedata = $.ajax({
+                url: "http://localhost:8083/data/report-data/BugByPhasePerWS.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+            //alert(responsedata);
+
+            var a = responsedata.split("\n"),i, c;
+            //alert(responsedata.length);
+
+
+            //Add Columns
+            var b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            var data1 = new google.visualization.DataTable();
+            data1.addColumn('string', 'Phase');
+            data1.addColumn('number', 'Total');
+            c= a[1].split(";");
+            i=0;
+            data1.addRows(c.length-2);
+            data1.setCell(i, 0, b[1]);
+            data1.setCell(i, 1, c[1]);
+            i=i+1
+            data1.setCell(i, 0, b[2]);
+            data1.setCell(i, 1, c[2]);
+            i=i+1
+            data1.setCell(i, 0, b[3]);
+            data1.setCell(i, 1, c[3]);
+            i=i+1
+            data1.setCell(i, 0, b[4]);
+            data1.setCell(i, 1, c[4]);
+            i=i+1
+            data1.setCell(i, 0, b[5]);
+            data1.setCell(i, 1, c[5]);
+            i=i+1
+            data1.setCell(i, 0, b[6]);
+            data1.setCell(i, 1, c[6]);
+            i=i+1
+            data1.setCell(i, 0, b[7]);
+            data1.setCell(i, 1, c[7]);
+            i=i+1
+            data1.setCell(i, 0, b[8]);
+            data1.setCell(i, 1, c[8]);
+            //}
+
+
+            var options1 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+
+            var chart1 = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+            chart1.draw(data1, options1);
+
+            var data2 = new google.visualization.DataTable();
+            data2.addColumn('string', 'Phase');
+            data2.addColumn('number', 'Total');
+            c= a[2].split(";");
+            data2.addRows(c.length-2);
+            i=0;
+            data2.setCell(i, 0, b[1]);
+            data2.setCell(i, 1, c[1]);
+            i=i+1
+            data2.setCell(i, 0, b[2]);
+            data2.setCell(i, 1, c[2]);
+            i=i+1
+            data2.setCell(i, 0, b[3]);
+            data2.setCell(i, 1, c[3]);
+            i=i+1
+            data2.setCell(i, 0, b[4]);
+            data2.setCell(i, 1, c[4]);
+            i=i+1
+            data2.setCell(i, 0, b[5]);
+            data2.setCell(i, 1, c[5]);
+            i=i+1
+            data2.setCell(i, 0, b[6]);
+            data2.setCell(i, 1, c[6]);
+            i=i+1
+            data2.setCell(i, 0, b[7]);
+            data2.setCell(i, 1, c[7]);
+            i=i+1
+            data2.setCell(i, 0, b[8]);
+            data2.setCell(i, 1, c[8]);
+            //}
+
+
+            var options2 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+
+            var chart2 = new google.visualization.PieChart(document.getElementById('piechart_4d'));
+            chart2.draw(data2, options2);
+
+            //Add Columns
+            //var b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            var data3 = new google.visualization.DataTable();
+            data3.addColumn('string', 'Phase');
+            data3.addColumn('number', 'Total');
+            c= a[3].split(";");
+            i=0;
+            data3.addRows(c.length-2);
+            data3.setCell(i, 0, b[1]);
+            data3.setCell(i, 1, c[1]);
+            i=i+1
+            data3.setCell(i, 0, b[2]);
+            data3.setCell(i, 1, c[2]);
+            i=i+1
+            data3.setCell(i, 0, b[3]);
+            data3.setCell(i, 1, c[3]);
+            i=i+1
+            data3.setCell(i, 0, b[4]);
+            data3.setCell(i, 1, c[4]);
+            i=i+1
+            data3.setCell(i, 0, b[5]);
+            data3.setCell(i, 1, c[5]);
+            i=i+1
+            data3.setCell(i, 0, b[6]);
+            data3.setCell(i, 1, c[6]);
+            i=i+1
+            data3.setCell(i, 0, b[7]);
+            data3.setCell(i, 1, c[7]);
+            i=i+1
+            data3.setCell(i, 0, b[8]);
+            data3.setCell(i, 1, c[8]);
+            //}
+
+
+            var options3 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+            var chart3 = new google.visualization.PieChart(document.getElementById('piechart_5d'));
+            chart3.draw(data3, options3);
+
+
+            var data5 = new google.visualization.DataTable();
+            a = responsedata.split("\n");
+            var counterI;
+            //alert(responsedata.length);
+
+
+            //Add Columns
+            b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            data5.addColumn('string', 'Entity');
+            data5.addColumn('string', 'Parent');
+            data5.addColumn('number', 'Size');
+            data5.addColumn('number', 'Heat');
+            data5.addRows(a.length*6);
+            //alert(a.length);
+            data5.setCell(0, 0, 'Workspaces');
+            data5.setCell(0, 1, null);
+            data5.setCell(0, 2, 0);
+            data5.setCell(0, 3, 0);
+
+            counterI=0;
+            for (i = 1; i < a.length-1 ; i++) {
+                c= a[i].split(";");
+                //alert(i + " - " + a.length);
+
+                //alert(c[1] + " " + c[0]);
+                data5.setCell(i+counterI, 0, c[0]);
+                data5.setCell(i+counterI, 1, 'Workspaces');
+                data5.setCell(i+counterI, 2, c[9]);
+                data5.setCell(i+counterI, 3, 0);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'New '+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[1]);
+                data5.setCell(i+counterI, 3, -20);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Opened'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[2]);
+                data5.setCell(i+counterI, 3, -30);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Duplicate'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[3]);
+                data5.setCell(i+counterI, 3, -15);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Fixed'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[4]);
+                data5.setCell(i+counterI, 3, 63);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Propose Closed'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[5]);
+                data5.setCell(i+counterI, 3, 30);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Closed'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[6]);
+                data5.setCell(i+counterI, 3, 50);
+                counterI=counterI+1;
+
+                data5.setCell(i+counterI, 0, 'Deferred'+ '('+c[0]+')');
+                data5.setCell(i+counterI, 1, c[0]);
+                data5.setCell(i+counterI, 2, c[7]);
+                data5.setCell(i+counterI, 3, -10);
+                counterI=counterI+1;
+
+
+            }
+
+            tree = new google.visualization.TreeMap(document.getElementById('piechart_8d'));
+
+            var options5 = {
+                minColor: '#f70202',
+                midColor: '#f7e035',
+                maxColor: '#36f736',
+                showScale: true,
+                generateTooltip: showFullTooltip
+            };
+
+            tree.draw(data5, options5);
+
+            function showFullTooltip(row, size, value) {
+                return '<div style="background:#fd9; padding:10px; border-style:solid">' +
+                    '<span style="font-family:Arial"><b>' + data5.getValue(row, 0).replace('(' + data5.getValue(row,1)+')' , '') + ': ' + data5.getValue(row, 2) + '</span><br> </div>';
+            }
+
+
+
+
+            responsedata = $.ajax({
+                url: "http://localhost:8083/data/report-data/BugByPhasePerWSP1.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+
+            var data = new google.visualization.DataTable();
+            a = responsedata.split("\n"),i, c;
+            //alert(responsedata.length);
+
+
+            //Add Columns
+             b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            data.addColumn('string', b[0]);
+            data.addColumn('number', b[1]);
+            data.addColumn('number', b[2]);
+            data.addColumn('number', b[3]);
+            data.addColumn('number', b[4]);
+            data.addColumn('number', b[5]);
+            data.addColumn('number', b[6]);
+            data.addColumn('number', b[7]);
+            data.addColumn('number', b[8]);
+            data.addRows(a.length-2);
+            //alert(a.length);
+            for (i = 1; i < a.length-1 ; i++) {
+                c= a[i].split(";");
+                //alert(i + " - " + a.length);
+
+                //alert(c[1] + " " + c[0]);
+                data.setCell(i-1, 0, c[0]);
+                data.setCell(i-1, 1, c[1]);
+                data.setCell(i-1, 2, c[2]);
+                data.setCell(i-1, 3, c[3]);
+                data.setCell(i-1, 4, c[4]);
+                data.setCell(i-1, 5, c[5]);
+                data.setCell(i-1, 6, c[6]);
+                data.setCell(i-1, 7, c[7]);
+                data.setCell(i-1, 8, c[8]);
+            }
+
+            var chart = new google.charts.Bar(document.getElementById('piechart_9d'));
+            chart.draw(data);
+
+
+            responsedata = $.ajax({
+                url: "http://localhost:8083/data/report-data/BugByPhasePerWSP2.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+
+            var data7 = new google.visualization.DataTable();
+            a = responsedata.split("\n"),i, c;
+            //alert(responsedata.length);
+
+
+            //Add Columns
+            b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            data7.addColumn('string', b[0]);
+            data7.addColumn('number', b[1]);
+            data7.addColumn('number', b[2]);
+            data7.addColumn('number', b[3]);
+            data7.addColumn('number', b[4]);
+            data7.addColumn('number', b[5]);
+            data7.addColumn('number', b[6]);
+            data7.addColumn('number', b[7]);
+            data7.addColumn('number', b[8]);
+            data7.addRows(a.length-2);
+            //alert(a.length);
+            for (i = 1; i < a.length-1 ; i++) {
+                c= a[i].split(";");
+                //alert(i + " - " + a.length);
+
+                //alert(c[1] + " " + c[0]);
+                data7.setCell(i-1, 0, c[0]);
+                data7.setCell(i-1, 1, c[1]);
+                data7.setCell(i-1, 2, c[2]);
+                data7.setCell(i-1, 3, c[3]);
+                data7.setCell(i-1, 4, c[4]);
+                data7.setCell(i-1, 5, c[5]);
+                data7.setCell(i-1, 6, c[6]);
+                data7.setCell(i-1, 7, c[7]);
+                data7.setCell(i-1, 8, c[8]);
+            }
+
+            var chart7 = new google.charts.Bar(document.getElementById('piechart_10d'));
+            chart7.draw(data7, options7);
+
+
+
+        }
+    </script>
+</head>
+<body>
+<h1>HPE ALM Octane Cross Workspace Dashboard</h1>
+<div id="piechart_3d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_4d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_5d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_8d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_9d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_10d" style="width: 450px; height: 250px;"></div>
+</body>
+</html>
