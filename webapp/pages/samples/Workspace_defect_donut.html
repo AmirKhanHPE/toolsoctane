@@ -1,0 +1,221 @@
+<html>
+<head>
+    <title>HPE ALM Octane Cross Workspace Reporting</title>
+
+    <style type="text/css">
+        #wrapper {
+            width: 500px;
+            border: 1px solid black;
+            overflow: hidden; /* add this to contain floated children */
+        }
+        #piechart_3d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_4d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+        #piechart_5d {
+            float:left; /* add this */
+            border: 1px solid;
+        }
+        #piechart_6d {
+            border: 1px solid ;
+            float: left; /* add this */
+        }
+    </style>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        google.charts.load("current", {packages:["corechart"]});
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+
+//Workspace;New;Opened;Duplicate;Fixed;Propose Closed;Closed;Rejected;Deferred;Total
+
+            var responsedata = $.ajax({
+                url: "http://localhost:8083/data/report-data/BugByPhasePerWS.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+            //alert(responsedata);
+
+            var a = responsedata.split("\n"),i, c;
+            //alert(responsedata.length);
+
+
+            //Add Columns
+            var b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            var data1 = new google.visualization.DataTable();
+            data1.addColumn('string', 'Phase');
+            data1.addColumn('number', 'Total');
+            c= a[1].split(";");
+            i=0;
+            data1.addRows(c.length-2);
+            data1.setCell(i, 0, b[1]);
+            data1.setCell(i, 1, c[1]);
+            i=i+1
+            data1.setCell(i, 0, b[2]);
+            data1.setCell(i, 1, c[2]);
+            i=i+1
+            data1.setCell(i, 0, b[3]);
+            data1.setCell(i, 1, c[3]);
+            i=i+1
+            data1.setCell(i, 0, b[4]);
+            data1.setCell(i, 1, c[4]);
+            i=i+1
+            data1.setCell(i, 0, b[5]);
+            data1.setCell(i, 1, c[5]);
+            i=i+1
+            data1.setCell(i, 0, b[6]);
+            data1.setCell(i, 1, c[6]);
+            i=i+1
+            data1.setCell(i, 0, b[7]);
+            data1.setCell(i, 1, c[7]);
+            i=i+1
+            data1.setCell(i, 0, b[8]);
+            data1.setCell(i, 1, c[8]);
+            //}
+
+
+            var options1 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+
+            var chart1 = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+            chart1.draw(data1, options1);
+
+            var data2 = new google.visualization.DataTable();
+            data2.addColumn('string', 'Phase');
+            data2.addColumn('number', 'Total');
+            c= a[2].split(";");
+            data2.addRows(c.length-2);
+            i=0;
+            data2.setCell(i, 0, b[1]);
+            data2.setCell(i, 1, c[1]);
+            i=i+1
+            data2.setCell(i, 0, b[2]);
+            data2.setCell(i, 1, c[2]);
+            i=i+1
+            data2.setCell(i, 0, b[3]);
+            data2.setCell(i, 1, c[3]);
+            i=i+1
+            data2.setCell(i, 0, b[4]);
+            data2.setCell(i, 1, c[4]);
+            i=i+1
+            data2.setCell(i, 0, b[5]);
+            data2.setCell(i, 1, c[5]);
+            i=i+1
+            data2.setCell(i, 0, b[6]);
+            data2.setCell(i, 1, c[6]);
+            i=i+1
+            data2.setCell(i, 0, b[7]);
+            data2.setCell(i, 1, c[7]);
+            i=i+1
+            data2.setCell(i, 0, b[8]);
+            data2.setCell(i, 1, c[8]);
+            //}
+
+
+            var options2 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+
+            var chart2 = new google.visualization.PieChart(document.getElementById('piechart_4d'));
+            chart2.draw(data2, options2);
+
+            //Add Columns
+            //var b = a[0].split(";");
+            //data.addColumn('string', b[0]);
+            var data3 = new google.visualization.DataTable();
+            data3.addColumn('string', 'Phase');
+            data3.addColumn('number', 'Total');
+            c= a[3].split(";");
+            i=0;
+            data3.addRows(c.length-2);
+            data3.setCell(i, 0, b[1]);
+            data3.setCell(i, 1, c[1]);
+            i=i+1
+            data3.setCell(i, 0, b[2]);
+            data3.setCell(i, 1, c[2]);
+            i=i+1
+            data3.setCell(i, 0, b[3]);
+            data3.setCell(i, 1, c[3]);
+            i=i+1
+            data3.setCell(i, 0, b[4]);
+            data3.setCell(i, 1, c[4]);
+            i=i+1
+            data3.setCell(i, 0, b[5]);
+            data3.setCell(i, 1, c[5]);
+            i=i+1
+            data3.setCell(i, 0, b[6]);
+            data3.setCell(i, 1, c[6]);
+            i=i+1
+            data3.setCell(i, 0, b[7]);
+            data3.setCell(i, 1, c[7]);
+            i=i+1
+            data3.setCell(i, 0, b[8]);
+            data3.setCell(i, 1, c[8]);
+            //}
+
+
+            var options3 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+            var chart3 = new google.visualization.PieChart(document.getElementById('piechart_5d'));
+            chart3.draw(data3, options3);
+
+            var data4 = new google.visualization.DataTable();
+            data4.addColumn('string', 'Phase');
+            data4.addColumn('number', 'Total');
+            c= a[4].split(";");
+            i=0;
+            data4.addRows(c.length-2);
+            data4.setCell(i, 0, b[1]);
+            data4.setCell(i, 1, c[1]);
+            i=i+1
+            data4.setCell(i, 0, b[2]);
+            data4.setCell(i, 1, c[2]);
+            i=i+1
+            data4.setCell(i, 0, b[3]);
+            data4.setCell(i, 1, c[3]);
+            i=i+1
+            data4.setCell(i, 0, b[4]);
+            data4.setCell(i, 1, c[4]);
+            i=i+1
+            data4.setCell(i, 0, b[5]);
+            data4.setCell(i, 1, c[5]);
+            i=i+1
+            data4.setCell(i, 0, b[6]);
+            data4.setCell(i, 1, c[6]);
+            i=i+1
+            data4.setCell(i, 0, b[7]);
+            data4.setCell(i, 1, c[7]);
+            i=i+1
+            data4.setCell(i, 0, b[8]);
+            data4.setCell(i, 1, c[8]);
+            //}
+
+
+            var options4 = {
+                title: 'Summary Chart for ' + c[0],
+                is3D: true,
+            };
+            var chart4 = new google.visualization.PieChart(document.getElementById('piechart_6d'));
+            chart4.draw(data4, options4);
+
+        }
+    </script>
+</head>
+<body>
+<div id="piechart_3d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_4d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_5d" style="width: 450px; height: 250px;"></div>
+<div id="piechart_6d" style="width: 450px; height: 250px;"></div>
+</body>
+</html>
