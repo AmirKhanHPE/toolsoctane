@@ -1,0 +1,71 @@
+Runid;Test;Status
+63001;Add members to an existing group;Passed
+91884;Complex Gherkin Test;Not Completed
+93032;Complex Gherkin Test;Not Completed
+94009;Complex Gherkin Test;Not Completed
+94010;Complex Gherkin Test;Not Completed
+94011;Complex Gherkin Test;Not Completed
+99011;Create a new chat with a person;N/A
+99012;Create a new chat with a person;N/A
+99013;Create a new chat with a person;N/A
+77005;First Feature Testing;Passed
+61107;Login;Failed
+62061;Login;Passed
+68192;Login;Passed
+92177;Login;Passed
+98049;Login;Not Completed
+99008;Login;Not Completed
+100017;Login;Not Completed
+101026;Login;Passed
+101027;Login;Not Completed
+83374;Login CS;Not Completed
+101033;Login testen;Failed
+100026;Login to app;Passed
+100027;Login to app;Passed
+102001;Login to App;Passed
+76004;Login to app with registered user;Passed
+79003;Login to app with registered user;Passed
+83393;Login to application;Passed
+84151;Login to application;Passed
+98050;Login to application;Passed
+99009;Login to application;Planned
+100022;Login to Application;Failed
+101032;Login to application;Passed
+83373;Login to CS Portal;Failed
+98051;Login to hpe mercury flight reservation app;Passed
+99015;Login to hpe mercury flight reservation app;Passed
+98037;Login to mercury web tours;Passed
+101028;Login to mercury web tours application;Passed
+99022;Login whatever;Passed
+100013;Login whatever;Passed
+61198;Messaging E2E;Passed
+68196;Messaging E2E;Passed
+99021;Messaging E2E;Failed
+61196;planing;Passed
+61197;planing;Passed
+71002;Send image in existing chat via API;Passed
+71003;Send image in existing chat via API;Not Completed
+61195;Send messages using different keyboards;Passed
+83395;Swisscom - Login use case;Passed
+90001;Swisscom - Login use case;Passed
+85001;t;Planned
+85002;t;Planned
+87004;Test Set ALM. NET;Planned
+84138;Tester CS;Not Completed
+84139;Tester CS;Planned
+94003;Tests 4 Amir;Passed
+94004;Tests 4 Amir;Passed
+83381;TestSet;Not Completed
+83382;TestSet;Not Completed
+83383;TestSet;Not Completed
+89005;TestSet;Planned
+89006;TestSet;Planned
+89007;TestSet;Planned
+89009;TestSet;Passed
+89010;TestSet;Not Completed
+89011;TestSet;Not Completed
+100024;Testset ALM;N/A
+100025;Testset ALM;N/A
+99018;Testsuite fÃ¼r Janik;N/A
+99019;Testsuite fÃ¼r Janik;N/A
+99020;Testsuite fÃ¼r Janik;N/A
