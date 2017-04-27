@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;defect #109036: Apache webserver doesn't  access-control-allow-origin. Recofigure Apache&quot;}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;origin&quot;]}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;TASK&quot;,&quot;entityName&quot;:&quot;create template scripts for query files&quot;,&quot;id&quot;:58004}" />
+  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106004: As admin i want to use sample scripts for my queriestask #58004: create template scripts for query files&quot;}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;origin&quot;]}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
