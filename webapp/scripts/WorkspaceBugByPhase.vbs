@@ -15,7 +15,7 @@ Do Until voBugByWSFile.AtEndOfStream
 	If Len(Trim(vsWorkspace))=0 then
 		vsWorkspace=vaArrayLine(0)
 	end if
-
+    'changed by marco trachsel
 	If inStr(vsLine,vsWorkspace) = 0 or voBugByWSFile.AtEndOfStream = True then
 		vnTotal=vnNew+vnOpened+vnDeferred+vnDuplicate+vnFixed+vnProposeClosed+vnRejected+vnClosed
 		voBugByWS.WriteLine vsWorkspace & ";" & vnNew & ";" & vnOpened & ";" & vnDuplicate & ";" & vnFixed & ";" & vnProposeClosed & ";" & vnClosed & ";" & vnRejected & ";" & vnDeferred & ";" & vnTotal
