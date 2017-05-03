@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106004: As admin i want to use sample scripts for my queriestask #58004: create template scripts for query files&quot;}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;origin&quot;]}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;TASK&quot;,&quot;entityName&quot;:&quot;publish files&quot;,&quot;id&quot;:60001}" />
+  <component name="OctanePluginState" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;Login&quot;,&quot;origin&quot;]}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #107003: Export data with SDK of Octane Rest API for Workspacestask #60001: publish files&quot;}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;USER_STORY&quot;,&quot;entityName&quot;:&quot;Export data with SDK of Octane Rest API for Workspaces&quot;,&quot;id&quot;:107003}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

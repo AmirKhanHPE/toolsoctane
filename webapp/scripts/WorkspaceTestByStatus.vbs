@@ -15,7 +15,6 @@ Do Until voBugByWSFile.AtEndOfStream
 	If Len(Trim(vsWorkspace))=0 then
 		vsWorkspace=vaArrayLine(0)
 	end if
-
 	If inStr(vsLine,";") = 0 or voBugByWSFile.AtEndOfStream = True then
 		'vnTotal=vnNew+vnOpened+vnDeferred+vnDuplicate+vnFixed+vnProposeClosed+vnRejected+vnClosed
 		voBugByWS.WriteLine "Software Schweiz" & ";" & Passed & ";" & Failed & ";" & NotCompleted & ";" & NA & ";" & Planned
