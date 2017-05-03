@@ -13,7 +13,7 @@ voBugByWS.WriteLine "Workspace;Defect;DefectID;Severity;Phase"
 For Each voWSFile in voWSFiles
 
 
-'Uwe Kuehnreich the king was here and fixed issue on 3rd May 2017
+'Uwe Kuehnreich the King was here and fixed issue on 3rd May 2017
 
 
     'Wscript.Echo voWSFile.Name & " - " & voWSFile.Path
