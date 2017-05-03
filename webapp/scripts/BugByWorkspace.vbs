@@ -12,6 +12,10 @@ Set voWSFiles = voFSO.GetFolder(voWSFolder).Files
 voBugByWS.WriteLine "Workspace;Defect;DefectID;Severity;Phase"
 For Each voWSFile in voWSFiles
 
+
+'uwe the king was here and fixed issue on 3rd May 2017
+
+
     'Wscript.Echo voWSFile.Name & " - " & voWSFile.Path
 	set voWorkspaces = voFSO.OpenTextFile(voWSFolder & "\workspaces.txt")
 	vsLine = voWorkspaces.ReadLine
