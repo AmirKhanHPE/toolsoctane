@@ -11,7 +11,7 @@ Set voBugByWS = voFSO.CreateTextFile(voWSReportFolder & "TestByWS.txt", true)
 'Set voWSFiles = voFSO.GetFolder(voWSFolder).Files
 voBugByWS.WriteLine "Runid;Test;Status"
 'For Each voWSFile in voWSFiles
-
+'changed on 3rd may 2017
     'Wscript.Echo voWSFile.Name & " - " & voWSFile.Path
 	set voRunsManual = voFSO.OpenTextFile(voWSTestFolder)
 	vsLine = voRunsManual.ReadLine
