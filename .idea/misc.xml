@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;,&quot;Login&quot;,&quot;origin&quot;]}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;defect #109036: Apache webserver doesn't  access-control-allow-origin. Recofigure Apache&quot;}" />
+  <component name="OctanePluginState" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;defect #109036: Apache webserver doesn't  access-control-allow-origin. Recofigure Apache&quot;}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;DEFECT&quot;,&quot;entityName&quot;:&quot;Apache webserver doesn't  access-control-allow-origin. Recofigure Apache&quot;,&quot;id&quot;:109036}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;,&quot;Login&quot;,&quot;origin&quot;]}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
