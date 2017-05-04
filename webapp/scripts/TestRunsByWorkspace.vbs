@@ -7,7 +7,7 @@ voWSListNodesFolder = "C:\Users\khanami\IdeaProjects\toolsoctane\webapp\data\lis
 voWSReportFolder = "C:\Users\khanami\IdeaProjects\toolsoctane\webapp\data\report-data\"
 
 Set voBugByWS = voFSO.CreateTextFile(voWSReportFolder & "TestByWS.txt", true)
-'some code here, and remove it
+'some code here, and remove it.
 'Set voWSFiles = voFSO.GetFolder(voWSFolder).Files
 voBugByWS.WriteLine "Runid;Test;Status"
 'For Each voWSFile in voWSFiles
