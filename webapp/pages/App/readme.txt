@@ -9,3 +9,4 @@
        <filter-name>CorsFilter</filter-name>
        <url-pattern>/*</url-pattern>
      </filter-mapping>
+//Something here
