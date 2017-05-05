@@ -17,13 +17,9 @@ import com.hpe.alm.octane.OctaneCucumber;
 @RunWith(OctaneCucumber.class)
 
 @CucumberOptions(features={"Features"},
-        plugin = {"pretty" ,
-                "json:RunResults/cucumber.json",
-                "junit:RunResults/cucumber.xml",
-                "junit:RunResults/cucumber.html"},
+        plugin = {"junit:junitResult.xml"},
         glue={"automated"}
 )
-//        tags = {"@TID63003REV1.1.0","@TID73001REV0.2.0"},
 
 
 public class Testrunner {
