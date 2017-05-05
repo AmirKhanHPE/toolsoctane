@@ -43,7 +43,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:report:14.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:sdk:14.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.hp.lft:unittesting:14.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.hpe.alm.octane:octane-cucumber-jvm:12.53.22" level="project" />
+    <orderEntry type="library" name="Maven: com.hpe.alm.octane:octane-cucumber-jvm:12.53.19" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
     <orderEntry type="library" name="Maven: org.easymock:easymock:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.objenesis:objenesis:2.2" level="project" />

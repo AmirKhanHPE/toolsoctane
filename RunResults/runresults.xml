@@ -1,7 +1,7 @@
 <Results>
     <GeneralInfo>
         <Name/>
-        <RunStartTime>2017-05-05 19:04:50</RunStartTime>
+        <RunStartTime>2017-05-05 21:16:38</RunStartTime>
         <Timezone>W. Europe Standard Time</Timezone>
         <OrchestrationToolName>JUnit</OrchestrationToolName>
         <OrchestrationToolVersion/>
@@ -11,7 +11,7 @@
         <Data>
             <Name>Run Results</Name>
             <Description><![CDATA[ ]]></Description>
-            <StartTime>2017-05-05 19:04:50</StartTime>
+            <StartTime>2017-05-05 21:16:38</StartTime>
             <Result>Passed</Result>
             <Links/>
             <Duration>1</Duration>
@@ -39,7 +39,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-05-05 19:04:51</StartTime>
+                <StartTime>2017-05-05 21:16:38</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -55,7 +55,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-05-05 19:04:51</StartTime>
+                <StartTime>2017-05-05 21:16:38</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -71,7 +71,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-05-05 19:04:51</StartTime>
+                <StartTime>2017-05-05 21:16:38</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
