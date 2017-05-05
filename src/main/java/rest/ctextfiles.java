@@ -18,7 +18,7 @@ public class ctextfiles {
             voWriter = new BufferedWriter(voFile);
             voPrinter = new PrintWriter(voWriter);
         }
-
+//...
         if (vsMode == "APPEND") {
             voFile = new FileWriter(vsFileName, true);
             voWriter = new BufferedWriter(voFile);
