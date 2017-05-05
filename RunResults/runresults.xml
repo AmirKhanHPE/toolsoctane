@@ -1,0 +1,87 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2017-05-05 16:34:08</RunStartTime>
+        <Timezone>W. Europe Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2017-05-05 16:34:08</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>1</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>WHBAEKCLH0</HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>24491</TotalMemory>
+                <Locale><![CDATA[de-CH]]></Locale>
+                <Timezone><![CDATA[W. Europe Standard Time]]></Timezone>
+                <User>khanami</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion><![CDATA[14.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="CustomStep">
+            <Data>
+                <Name>Step executed</Name>
+                <Description><![CDATA[step executed]]></Description>
+                <StartTime>2017-05-05 16:34:08</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>0</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>CustomStep</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="CustomStep">
+            <Data>
+                <Name>Step executed</Name>
+                <Description><![CDATA[step executed]]></Description>
+                <StartTime>2017-05-05 16:34:08</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>0</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>CustomStep</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+        <ReportNode type="CustomStep">
+            <Data>
+                <Name>Step executed</Name>
+                <Description><![CDATA[step executed]]></Description>
+                <StartTime>2017-05-05 16:34:08</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>0</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>CustomStep</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+        </ReportNode>
+    </ReportNode>
+</Results>

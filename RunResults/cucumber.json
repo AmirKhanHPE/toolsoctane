@@ -1,0 +1,70 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Auto generated Octane revision tag"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User can access personal dashboard view",
+        "description": "",
+        "id": "access-dashboard-view;user-can-access-personal-dashboard-view",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1043851530,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is logged in",
+            "match": {
+              "location": "FeatureStepDef.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77344,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on my dashboard",
+            "match": {
+              "location": "FeatureStepDef.user_clicks_on_my_dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1126952434,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dashboard page is displayed",
+            "match": {
+              "location": "FeatureStepDef.dashboard_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Access Dashboard View",
+    "description": "",
+    "id": "access-dashboard-view",
+    "keyword": "Feature",
+    "uri": "Dashboard Feature-103005.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@TID103005REV0.2.0"
+      }
+    ]
+  }
+]

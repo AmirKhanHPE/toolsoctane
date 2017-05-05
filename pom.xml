@@ -16,6 +16,57 @@
             <artifactId>sdk-src</artifactId>
             <version>12.53.16</version>
         </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>report</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>sdk</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>unittesting</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hpe.alm.octane</groupId>
+            <artifactId>octane-cucumber-jvm</artifactId>
+            <version>12.53.19</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>reportbuilder</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.lft</groupId>
+            <artifactId>verifications</artifactId>
+            <version>14.0.0</version>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
