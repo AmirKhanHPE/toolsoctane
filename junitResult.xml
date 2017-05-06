@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.436843">
-<testcase classname="Access Dashboard View" name="User can access personal dashboard view" time="1.436843">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.795463">
+<testcase classname="Access Dashboard View" name="User can access personal dashboard view" time="2.795463">
 <system-out><![CDATA[Given user is logged in.....................................................passed
 When user clicks on my dashboard............................................passed
 Then dashboard page is displayed............................................passed
