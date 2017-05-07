@@ -1,6 +1,7 @@
 package automated;
 
 import com.hp.lft.report.Reporter;
+import com.hp.lft.report.Status;
 import com.hp.lft.sdk.ModifiableSDKConfiguration;
 import com.hp.lft.sdk.SDK;
 import com.hp.lft.sdk.web.*;
@@ -56,7 +57,8 @@ public class FeatureStepDef extends UnitTestClassBase{
         EditField EdtUserName = browser.describe(EditField.class, new EditFieldDescription.Builder()
                 .type("text").tagName("INPUT").name("uname").build());
         Verify.areEqual(EdtUserName.getAttribute("name"),"User");
-        Verify.areEqual(UserName.getInnerText(),"Logîn");
+        if (!Verify.areEqual(UserName.getInnerText(), "Logîn"))
+        {Reporter.reportEvent("Step Check", "Checkpoint", Status.Failed);}
         browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
         browser.close();
