@@ -56,7 +56,7 @@ public class FeatureStepDef extends UnitTestClassBase{
         EditField EdtUserName = browser.describe(EditField.class, new EditFieldDescription.Builder()
                 .type("text").tagName("INPUT").name("uname").build());
         Verify.areEqual(EdtUserName.getAttribute("name"),"User");
-        Verify.areEqual(UserName.getInnerText(),"Login");
+        Verify.areEqual(UserName.getInnerText(),"Anmelden");
         browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
         browser.close();
