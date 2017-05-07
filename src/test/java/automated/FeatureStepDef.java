@@ -45,7 +45,7 @@ public class FeatureStepDef extends UnitTestClassBase{
         // Write code here that turns the phrase above into concrete actions
         Reporter.reportEvent("Step executed", "step executed");
         Button UserName = browser.describe(Button.class, new ButtonDescription.Builder()
-                .buttonType("submit").tagName("BUTTON").name("Login").build());
+                .buttonType("submit").tagName("BUTTON").name("Anmelden").build());
 
         WebElement myLabel = browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .tagName("B").innerText("Username").build());
@@ -58,7 +58,7 @@ public class FeatureStepDef extends UnitTestClassBase{
         Verify.areEqual(EdtUserName.getAttribute("name"),"User");
         Verify.areEqual(UserName.getInnerText(),"Anmelden");
         browser.describe(Button.class, new ButtonDescription.Builder()
-                .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
+                .buttonType("submit").tagName("BUTTON").name("Anmelden").build()).click();
         browser.close();
         Reporter.generateReport();
         SDK.cleanup();
