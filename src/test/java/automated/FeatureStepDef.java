@@ -2,6 +2,7 @@ package automated;
 
 import com.hp.lft.report.Reporter;
 import com.hp.lft.report.Status;
+import com.hp.lft.sdk.GeneralLeanFtException;
 import com.hp.lft.sdk.ModifiableSDKConfiguration;
 import com.hp.lft.sdk.SDK;
 import com.hp.lft.sdk.web.*;
@@ -13,14 +14,13 @@ import unittesting.UnitTestClassBase;
 
 import java.net.URI;
 
-/**
- * Created by khanami on 04.05.2017.
- */
+
+
 public class FeatureStepDef extends UnitTestClassBase{
     Browser browser;
 
     @Given("^user is logged in$")
-    public void user_is_logged_in() throws Throwable {
+    public void user_is_logged_in() throws Throwable{
         // Write code here that turns the phrase above into concrete actions
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
@@ -48,17 +48,7 @@ public class FeatureStepDef extends UnitTestClassBase{
         Button UserName = browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build());
 
-        WebElement myLabel = browser.describe(WebElement.class, new WebElementDescription.Builder()
-                .tagName("B").innerText("Username").build());
-        Verify.areEqual(myLabel.getInnerText(),"User");
-        Verify.areEqual(myLabel.getAttribute("value"),"User");
-        Verify.areEqual(myLabel.getAttribute("type"),"User");
-
-        EditField EdtUserName = browser.describe(EditField.class, new EditFieldDescription.Builder()
-                .type("text").tagName("INPUT").name("uname").build());
-        Verify.areEqual(EdtUserName.getAttribute("name"),"User");
-        if (!Verify.areEqual(UserName.getInnerText(), "Logîn"))
-        {Reporter.reportEvent("Step Check", "Checkpoint", Status.Failed);}
+        Verify.areEqual(UserName.getInnerText(), "Login");
         browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
         browser.close();

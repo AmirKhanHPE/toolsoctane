@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;login&quot;,&quot;dashboard&quot;,&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;,&quot;Login&quot;]}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #109041: Login only with a validated user&quot;}" />
+  <component name="OctanePluginState" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;DEFECT&quot;,&quot;entityName&quot;:&quot;Charts are not displayed&quot;,&quot;id&quot;:109046}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;login&quot;,&quot;dashboard&quot;,&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;,&quot;Login&quot;]}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #109041: Login only with a validated user&quot;}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
