@@ -59,10 +59,10 @@ public class FeatureStepDef extends UnitTestClassBase{
         Verify.areEqual(UserName.getInnerText(),"Login");
         browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
+        browser.close();
         Reporter.generateReport();
         SDK.cleanup();
     }
-
 
 
 }
