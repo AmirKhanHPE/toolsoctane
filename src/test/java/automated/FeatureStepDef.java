@@ -7,6 +7,7 @@ import com.hp.lft.sdk.ModifiableSDKConfiguration;
 import com.hp.lft.sdk.SDK;
 import com.hp.lft.sdk.web.*;
 import com.hp.lft.verifications.Verify;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -54,7 +55,9 @@ public class FeatureStepDef extends UnitTestClassBase{
         browser.close();
         Reporter.generateReport();
         SDK.cleanup();
-    }
+        throw new PendingException();
+
+        }
 
 
 }
