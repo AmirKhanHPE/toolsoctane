@@ -13,6 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.junit.Cucumber;
 import cucumber.runtime.CucumberException;
+import jdk.nashorn.internal.runtime.Undefined;
 import org.junit.runner.notification.Failure;
 import unittesting.UnitTestClassBase;
 
@@ -62,6 +63,56 @@ public class FeatureStepDef extends UnitTestClassBase{
 
 
         }
+
+
+
+    @Given("^navigate to \"([^\"]*)\"$")
+    public void navigate_to(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //Undefined step: Given  navigate to "http://localhost:8083/pages/App/pages/login.sample.html"
+        ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
+        config.setServerAddress(new URI("ws://localhost:5095"));
+        SDK.init(config);
+        Reporter.init();
+        browser.navigate("http://localhost:8083/pages/App/pages/login.sample.html");
+
+
+    }
+
+    @Given("^page is loaded$")
+    public void page_is_loaded() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        browser.sync();
+    }
+
+    @Given("^user and password are provided and valid$")
+    public void user_and_password_are_provided_and_valid() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+        browser.describe(EditField.class, new EditFieldDescription.Builder()
+                .type("text").tagName("INPUT").name("uname").build()).setValue("amir.khan");
+
+        browser.describe(EditField.class, new EditFieldDescription.Builder()
+                .type("password").tagName("INPUT").name("psw").build()).setValue("microfocus");
+    }
+
+    @When("^user clicks on Login button$")
+    public void user_clicks_on_Login_button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        browser.describe(Button.class, new ButtonDescription.Builder()
+                .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
+    }
+
+    @Then("^user is logged into CPR$")
+    public void user_is_logged_into_CPR() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        browser.close();
+
+
+        Reporter.generateReport();
+        SDK.cleanup();
+
+    }
 
 
 }
