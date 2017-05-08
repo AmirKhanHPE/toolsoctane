@@ -51,14 +51,14 @@ public class FeatureStepDef extends UnitTestClassBase{
         Reporter.reportEvent("Step executed", "step executed");
         Button UserName = browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build());
-
+//
         Verify.areEqual(UserName.getInnerText(), "Login");
         browser.describe(Button.class, new ButtonDescription.Builder()
                 .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
         browser.close();
         Reporter.generateReport();
         SDK.cleanup();
-        throw new PendingException();
+        //throw new PendingException();
 
 
         }
