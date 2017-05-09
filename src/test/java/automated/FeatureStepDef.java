@@ -65,18 +65,15 @@ public class FeatureStepDef extends UnitTestClassBase{
         }
 
 
-
-    @Given("^navigate to \"([^\"]*)\"$")
-    public void navigate_to(String arg1) throws Throwable {
+    @Given("^navigate to CPR$")
+    public void navigate_to_CPR() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        //Undefined step: Given  navigate to "http://localhost:8083/pages/App/pages/login.sample.html"
         ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
         config.setServerAddress(new URI("ws://localhost:5095"));
         SDK.init(config);
         Reporter.init();
+        browser = BrowserFactory.launch(BrowserType.CHROME);
         browser.navigate("http://localhost:8083/pages/App/pages/login.sample.html");
-
-
     }
 
     @Given("^page is loaded$")
