@@ -11,8 +11,8 @@ public class execution {
     public static void main(String[] args)  throws IOException
     {
        Octane.Builder octane= readSDK2writeDATA.Login2Octane("https://mqast001pngx.saas.hpe.com",
-               "Amir_Khan_API_46zgykz6lq8v4sedn443oyevl",
-               "+bf4c8fb48cc89394Q",
+               "Amir_Khan_API_46zgyv4sedn443oyevl",
+               "+bf48cc89394Q",
                2004);
 
        //octane.signOut();
