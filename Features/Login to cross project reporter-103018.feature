@@ -9,4 +9,4 @@ Das beschreibt mein Feature
         And page is loaded
         And user and password are provided and valid
 		When user clicks on Login button
-		Then user is logged into CPR 
+		Then user is logged into CPR

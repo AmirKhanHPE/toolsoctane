@@ -12,7 +12,7 @@ public class ctextfiles {
         PrintWriter voPrinter = null;
         FileWriter voFile = null;
 
-
+//some cde
         if (vsMode == "NEW") {
             voFile = new FileWriter(vsFileName);
             voWriter = new BufferedWriter(voFile);
