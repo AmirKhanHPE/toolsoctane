@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="..\css\styles.css">
+  <link rel="stylesheet" href="..\css\w3.css">
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="../lib/require.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#"  class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <span class="w3-bar-item w3-right">
+                        <img src="../images/Octane.png" height="30" width="100"/>
+    </span>
+  </div>
+</div>
+<br>
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">Planning Poker</h2>
+  <input type="text" id="myInput" placeholder="Enter stories here...">
+  <span onclick="newElement()" class="addBtn">Add Story to Bucket</span>
+</div>
+
+<ul id="StoryBucket">
+</ul>
+<button onclick="loadElements()" class="button">Load from Workspace</button>
+<button onclick="startsession()" class="button" id="startsession" >Start Session</button>
+
+<script type="text/javascript">
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("StoryBucket").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+
+function loadElements() {
+            var responsedata = $.ajax({
+                url: "http://localhost:8083/data/stories/10001_2004_stories.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+            var EachLineInTextFile = responsedata.split("\n");
+            for (var i = 1, len = EachLineInTextFile.length; i < len; i++) {
+                var StoryLists = EachLineInTextFile[i].split(";");
+                STORE_TO_REPLACE = StoryLists[0] + " - " + StoryLists[1];
+             li = document.createElement("li");
+                 t = document.createTextNode(STORE_TO_REPLACE);
+                li.appendChild(t);
+                //STORE_TO_REPLACE: I would have to the entire format of your file to do this.
+
+                document.getElementById("StoryBucket").appendChild(li);
+
+                var span = document.createElement("SPAN");
+                var txt = document.createTextNode("\u00D7");
+                span.className = "close";
+                span.appendChild(txt);
+                li.appendChild(span);
+
+                for (i = 0; i < close.length; i++) {
+                  close[i].onclick = function() {
+                    var div = this.parentElement;
+                    div.style.display = "none";
+                  }
+                }
+                delete li;
+                delete t;
+
+                }
+
+}
+
+
+function startsession(){
+
+if (document.getElementById("startsession").innerHTML=="Start Session") {
+
+    document.getElementById("startsession").innerHTML= "Join Session";
+}
+var fs = require('fs');
+fs.writeFile("test.txt", "Hey there!", function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
+}
+</script>
+
+</body>
+</html>

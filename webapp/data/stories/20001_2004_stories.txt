@@ -1,0 +1,13 @@
+ID,Name;Story_type;Phase;Author;Last_modified;Feature
+106004;As admin i want to use sample scripts for my queries;story;39030;43001;Wed Apr 26 13:58:32 CEST 2017;107004
+110005;As an admin i want to create my own query scripts for data collection;story;39027;43001;Wed May 03 16:53:45 CEST 2017;107008
+107009;As an admin, i want to have async datacollection;story;39027;43001;Wed May 03 17:34:58 CEST 2017;107008
+109045;As an user i want to create graphs and reports;story;39027;43001;Sun May 07 10:51:24 CEST 2017;108003
+106008;As an user i want to have my personal dashboard;story;39027;43001;Thu May 04 17:13:17 CEST 2017;108003
+109001;Display exported data with Javascript for Defects;story;39029;43001;Wed May 03 18:18:27 CEST 2017;108003
+108001;Export data with SDK of Octane Rest API for Backlogs;story;39030;43001;Wed Apr 26 13:41:36 CEST 2017;107002
+108002;Export data with SDK of Octane Rest API for Listnodes;story;39030;43001;Wed May 03 18:18:34 CEST 2017;107002
+106002;Export data with SDK of Octane Rest API for Releases;story;39029;43001;Wed Apr 26 13:40:31 CEST 2017;107002
+106003;Export data with SDK of Octane Rest API for tests;story;39030;43001;Wed Apr 26 13:40:57 CEST 2017;107002
+107003;Export data with SDK of Octane Rest API for Workspaces;story;39029;43001;Wed May 03 18:17:32 CEST 2017;107002
+109041;Login only with a validated user;story;39028;43001;Sun May 07 10:43:34 CEST 2017;109040

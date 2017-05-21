@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Planning Poker with ALM Octane</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="..\css\w3.css">
+<link rel="stylesheet" href="..\css\login.css">
+<!--
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-->
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card-2">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a onclick= "document.getElementById('id01').style.display='block'" href="#login" class="w3-bar-item w3-button w3-padding-large w3-hide-small">START SESSION</a>
+        <span class="w3-bar-item w3-right">
+                        <img src="../images/Octane.png" height="30" width="100"/>
+    </span>
+    </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+        <img src="..\images\Planning Poker.jpg" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        </div>
+    </div>
+</div>
+
+
+<div id="id01" class="modal">
+
+    <form class="modal-content animate">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="../images/avatar.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label><b>Full Name</b></label>
+            <input type="text" placeholder="Enter Name" id="name" name="uname" required>
+
+            <label><b>Workspace</b></label>
+            <select name="workspace">
+                <option value="default_workspace">default_workspace</option>
+                <option value="Software_DevOps_CHAT">Software_DevOps_CHAT</option>
+                <option value="toolsoctane">toolsoctane</option>
+                <option value="nightly_builds">nightly_builds</option>
+            </select>
+            <label><b></b></label>
+
+            <button type="button" id="Login">Login</button>
+        </div>
+
+    </form>
+</div>
+
+<script>
+
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+
+    document.getElementById("Login").onclick = function () {
+
+        location.href = "planstories.html";
+    };
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+</script>
+
+</body>
+</html>

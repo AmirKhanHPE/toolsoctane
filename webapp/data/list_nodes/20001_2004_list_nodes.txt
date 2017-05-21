@@ -1,0 +1,149 @@
+ID; Name; Logical_Name
+28085;Passed;list_node.run_status.passed
+28091;Passed;list_node.run_native_status.passed
+28096;Validate;list_node.manual_test_run_step_type.validate
+28101;None;list_node.pipeline_classification.none
+28109;Scrum;list_node.release_agile_type.scrum
+28112;Not automated;list_node.automation_status.not_automated
+28117;Research;list_node.task_item_type.research
+28123;Continuously Failing;list_node.run_problem.continuously_failing
+28130;Defect;list_node.scm_commit_pattern_entity_type.defect
+28134;Success;list_node.pipeline_run_status.success
+28143;Environment â Network;list_node.bfc.environment_network
+28003;Low;list_node.severity.low
+28009;XS;list_node.tShirtSizeEstimation.xs
+28015;Low;list_node.priority.low
+28021;Architecture;list_node.feature_type.Architecture
+28024;Architecture;list_node.epic_type.Architecture
+28027;Pre-release;list_node.defect_type.PreRelease
+28030;1;list_node.wsjf_scale_type.1
+28040;Service Anywhere;list_node.item_origin.service_anywhere
+28045;Test Authoring;list_node.quality_story_type.test_authoring
+28047;Definition;list_node.defect_root_level.definition
+28054;JUnit;list_node.je.framework.junit
+28063;Integration Test;list_node.test_level.integration
+28067;Acceptance;list_node.test_type.acceptance
+28074;Manual Runner;list_node.testing_tool_type.manual
+28084;Failed;list_node.run_status.failed
+28090;Failed;list_node.run_native_status.failed
+28097;Normal;list_node.manual_test_run_step_type.normal
+28102;Compile;list_node.pipeline_classification.compile
+28107;Default;list_node.team.default
+28110;Kanban;list_node.release_agile_type.kanban
+28113;Ready for automation;list_node.automation_status.ready_for_automation
+28118;Develop;list_node.task_item_type.develop
+28124;Oscillating;list_node.run_problem.oscillating
+28131;User story;list_node.scm_commit_pattern_entity_type.user_story
+28135;Failure;list_node.pipeline_run_status.failure
+28142;Environment â Disk;list_node.bfc.environment_disk
+28004;Medium;list_node.severity.medium
+28010;S;list_node.tShirtSizeEstimation.s
+28016;Medium;list_node.priority.medium
+28022;Business;list_node.feature_type.Business
+28025;Business;list_node.epic_type.Business
+28028;Escaped;list_node.defect_type.Escaped
+28031;2;list_node.wsjf_scale_type.2
+28041;ALM;list_node.item_origin.alm
+28048;UX;list_node.defect_root_level.ux
+28055;TestNG;list_node.je.framework.testng
+28064;System Test;list_node.test_level.system
+28068;End to End;list_node.test_type.end_to_end
+28075;Selenium;list_node.testing_tool_type.selenium
+28086;Skipped;list_node.run_status.skipped
+28093;Blocked;list_node.run_native_status.blocked
+28098;Feature;list_node.manual_test_run_step_type.feature
+28103;Package;list_node.pipeline_classification.package
+28114;Automated;list_node.automation_status.automated
+28119;Document;list_node.task_item_type.document
+28125;Regression;list_node.run_problem.regression
+28132;Quality story;list_node.scm_commit_pattern_entity_type.quality_story
+28136;Unstable;list_node.pipeline_run_status.unstable
+28141;Environment â Permissions;list_node.bfc.environment_permissions
+28005;High;list_node.severity.high
+28011;M;list_node.tShirtSizeEstimation.m
+28017;High;list_node.priority.high
+28032;3;list_node.wsjf_scale_type.3
+28042;AGM;list_node.item_origin.agm
+28049;New_Code;list_node.defect_root_level.new_code
+28056;UFT;list_node.je.framework.uft
+28065;Unit Test;list_node.test_level.unit
+28069;Regression;list_node.test_type.regression
+28083;Requires Attention;list_node.run_status.requires_attention
+28089;Skipped;list_node.run_native_status.skipped
+28099;Scenario;list_node.manual_test_run_step_type.scenario
+28104;Deploy;list_node.pipeline_classification.deploy
+28115;Requires update;list_node.automation_status.requires_update
+28120;Test;list_node.task_item_type.test
+28126;Continuously Skipped;list_node.run_problem.continuously_skipped
+28137;Running;list_node.pipeline_run_status.running
+28144;Environment â DataBase;list_node.bfc.environment_dataBase
+28006;Very High;list_node.severity.very_high
+28012;L;list_node.tShirtSizeEstimation.l
+28018;Very High;list_node.priority.very_high
+28043;Jira;list_node.item_origin.jira
+28050;Testing;list_node.defect_root_level.testing
+28057;NUnit;list_node.je.framework.nunit
+28070;Sanity;list_node.test_type.sanity
+28076;UFT;list_node.testing_tool_type.uft
+28087;Planned;list_node.run_status.planned
+28092;Not Completed;list_node.run_native_status.not_completed
+28105;Test;list_node.pipeline_classification.test
+28121;Requires approval;list_node.automation_status.requires_approval
+28128;Slowdown;list_node.run_problem.slowdown
+28138;Aborted;list_node.pipeline_run_status.aborted
+28145;Environment â Other;list_node.bfc.environment_other
+28007;Critical;list_node.severity.urgent
+28013;XL;list_node.tShirtSizeEstimation.xl
+28019;Urgent;list_node.priority.urgent
+28033;5;list_node.wsjf_scale_type.5
+28051;Regression;list_node.defect_root_level.regression
+28058;JBehave;list_node.je.framework.jbehave
+28071;Security;list_node.test_type.security
+28094;Planned;list_node.run_native_status.planned
+28127;Unstable;list_node.run_problem.unstable
+28139;Queued;list_node.pipeline_run_status.queued
+28146;Code issue;list_node.bfc.code_issue
+28052;Integration;list_node.defect_root_level.integration
+28059;Karma;list_node.je.framework.karma
+28072;Performance;list_node.test_type.performance
+28077;LeanFT;list_node.testing_tool_type.leanft
+28140;Unavailable;list_node.pipeline_run_status.unavailable
+28147;Test code issue;list_node.bfc.test_code_issue
+28060;Jasmine;list_node.je.framework.jasmine
+28148;Test stability issue;list_node.bfc.test_stability_issue
+28034;8;list_node.wsjf_scale_type.8
+28061;Mocha;list_node.je.framework.mocha
+28078;StormRunner;list_node.testing_tool_type.storm_runner
+28079;SoapUI;list_node.testing_tool_type.soapaui
+28080;Protractor;list_node.testing_tool_type.protractor
+28081;LoadRunner;list_node.testing_tool_type.loadrunner
+28035;13;list_node.wsjf_scale_type.13
+28036;21;list_node.wsjf_scale_type.21
+28037;40;list_node.wsjf_scale_type.40
+28038;100;list_node.wsjf_scale_type.100
+28002;Severity;list_node.severity
+28008;T shirt size estimation;list_node.tShirtSizeEstimation
+28014;Priority;list_node.priority
+28020;Feature type;list_node.feature_type
+28023;Epic type;list_node.epic_type
+28026;Defect type;list_node.defect_type
+28029;WSJF scale;list_node.wsjf_scale_type
+28039;Item Origin;list_node.item_origin
+28044;Quality story type;list_node.quality_story_type
+28046;Defect Root Cause;list_node.defect_root_level
+28053;Framework;list_node.je.framework
+28062;Test_Level;list_node.test_level
+28066;Test_Type;list_node.test_type
+28073;Testing_Tool_Type;list_node.testing_tool_type
+28082;Run_Status;list_node.run_status
+28088;Run_Native_Status;list_node.run_native_status
+28095;Manual Test Run Step Type;list_node.manual_test_run_step_type
+28100;Classification;list_node.pipeline_classification
+28106;Team;list_node.team
+28108;Agile Type;list_node.release_agile_type
+28111;automation_status;list_node.automation_status
+28116;Task Item Type;list_node.task_item_type
+28122;Problem;list_node.run_problem
+28129;Entity type;list_node.scm_commit_pattern_entity_type
+28133;Status;list_node.pipeline_run_status
+28149;Build Classification;list_node.bfc
