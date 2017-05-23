@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://localhost:8083/pages/App/pages/planstories.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/w3.css">
+  <script type="text/javascript" src="../lib/jquery.min.js.Download"></script>
+  <script type="text/javascript" src="../lib/require.js.Download"></script>
+<style>
+#dropzone {
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+}
+
+.static {
+    border: 1px solid #aaaaaa;
+}
+
+.drop-into-me {
+    border: 1px dotted #aaaaaa;
+}
+
+.over-me {
+    background-color: yellow;
+    border: 1px dotted #aaaaaa;
+}
+
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="http://localhost:8083/pages/App/pages/planstories.html#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <span class="w3-bar-item w3-right">
+                        <img src="../images/Octane.png" height="30" width="100">
+    </span>
+  </div>
+</div>
+
+
+<br><br><br>
+<div id="dropzone" class="static" ondrop="onDrop(event)" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)"></div>
+<br>
+<div id="a-draggable-div" draggable="true" ondragend="onDragEnd(event)" ondragstart="onDragStart(event)">
+    <img src="../images/_1.png" height="426" width="330">
+</div>
+
+
+<script type="text/javascript">
+function onDragOver(e) {
+    e.preventDefault();
+    e.target.className = "over-me";
+}
+
+function onDragLeave(e) {
+    e.target.className = "static";
+}
+
+function onDragStart(e) {
+    e.target.innerHTML = "<h4>You are Dragging me</h4>";
+    document.getElementById('dropzone').className = 'drop-into-me'
+}
+
+function onDragEnd(e) {
+    e.target.innerHTML = "<h4>Drag Me into the Box :)</h4>";
+    document.getElementById('dropzone').className = 'static'
+    if (e.target.parentElement.id === "dropzone") {
+        e.target.innerHTML = "<h4>Yayyy !! :)</h4>";
+    }
+}
+
+function onDrop(e) {
+    e.preventDefault();
+    var draggableDiv = document.getElementById("a-draggable-div");
+    draggableDiv.setAttribute("draggable", "false");
+    e.target.appendChild(draggableDiv);
+}
+</script>
+
+
+
+</body></html>
