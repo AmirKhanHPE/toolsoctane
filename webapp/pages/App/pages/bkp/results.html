@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<title>Planning Poker</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="..\css\styles.css">
+<link rel="stylesheet" href="..\css\w3.css">
+<script type="text/javascript" src="../scripts/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/require.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<!--
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-->
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <span class="w3-bar-item w3-right">
+                        <img src="../images/Octane.png" height="30" width="100"/></div>
+</span>
+</div>
+
+
+
+<br>
+
+<!-- !PAGE CONTENT! -->
+<div>
+
+    <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+        <h5><b><i class="fa fa-dashboard"></i>Scrum Poker</b></h5>
+    </header>
+
+    <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-quarter">
+            <div class="w3-container w3-red w3-padding-16">
+                <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Total Players: 3</h4>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-container w3-blue w3-padding-16">
+                <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Total Stories: 32</h4>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-container w3-teal w3-padding-16">
+                <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Average Poker Points: 5.4</h4>
+            </div>
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Project: Software_DevOps_CHAT</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-panel">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third">
+                <h5>List of Players</h5>
+                <table class="w3-table w3-striped w3-white">
+                    <tr>
+                        <td>Marco Trachsel</td>
+                        <td><i>Product Owner</i></td>
+                    </tr>
+                    <tr>
+                        <td>Amir Khan</td>
+                        <td><i>Developer</i></td>
+                    </tr>
+                    <tr>
+                        <td>Andrej Rebernjak</td>
+                        <td><i>Dev Lead</i></td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="w3-twothird" >
+                <h5>Poker Stories</h5>
+                <ul id="StoryBucket" >
+                    <li>66003 - As an user i want to delete the broadcast group</li>
+                    <li>82015 - As an user i want to have access to swisscom ALM octane instance from the internet</li>
+                    <li>82016 - As an user i want to have access using VPN</li>
+                    <li>98039 - as an user i want to have customization option with octane</li>
+                    <li>88040 - Car Rental</li>
+                    <li>89049 - Flight Tickets</li>
+                    <li>89050 - Hotel Reservation</li>
+                    <li>60036 - Login as Guest</li>
+                    <li>80001 - Login to app with admin account</li>
+                    <li>79002 - Login to app with registered user</li>
+                    <li>79001 - Login to application with guest account</li>
+                    <li>61031 - US#10033 - as a user i want to add new test in test suite</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- End page content -->
+</div>
+
+<script>
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Get the Sidebar
+
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+
+
+function loadElements() {
+            var responsedata = $.ajax({
+                url: "http://localhost:8083/data/stories/10001_2004_stories.txt",
+                dataType: "txt",
+                async: false
+            }).responseText;
+            var EachLineInTextFile = responsedata.split("\n");
+            for (var i = 1, len = EachLineInTextFile.length; i < len; i++) {
+                var StoryLists = EachLineInTextFile[i].split(";");
+                STORE_TO_REPLACE = StoryLists[0] + " - " + StoryLists[1];
+             li = document.createElement("li");
+                 t = document.createTextNode(STORE_TO_REPLACE);
+                li.appendChild(t);
+                //STORE_TO_REPLACE: I would have to the entire format of your file to do this.
+
+                document.getElementById("StoryBucket").appendChild(li);
+
+                var span = document.createElement("SPAN");
+                var txt = document.createTextNode("\u00D7");
+                span.className = "close";
+                span.appendChild(txt);
+                li.appendChild(span);
+
+                for (i = 0; i < close.length; i++) {
+                  close[i].onclick = function() {
+                    var div = this.parentElement;
+                    div.style.display = "none";
+                  }
+                }
+                delete li;
+                delete t;
+
+                }
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>

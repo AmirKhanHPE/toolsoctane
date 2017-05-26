@@ -25,6 +25,15 @@
     border: 1px dotted #aaaaaa;
 }
 
+.container{
+    display: flex;
+}
+.fixed{
+    width: 200px;
+}
+.flex-item{
+    flex-grow: 1;
+}
 </style>
 </head>
 <body>
@@ -44,8 +53,23 @@
 <div id="dropzone" class="static" ondrop="onDrop(event)" ondragover="onDragOver(event)" ondragleave="onDragLeave(event)"></div>
 <br>
 <div id="a-draggable-div" draggable="true" ondragend="onDragEnd(event)" ondragstart="onDragStart(event)">
-    <img src="../images/_1.png" height="426" width="330">
+      <img src="../images/_1.png" alt="Avatar" style="width:10%">
 </div>
+<div id="a-draggable-div" draggable="true" ondragend="onDragEnd(event)" ondragstart="onDragStart(event)">
+      <img src="../images/_2.png" alt="Avatar" style="width:10%">
+</div>
+<div id="a-draggable-div" draggable="true" ondragend="onDragEnd(event)" ondragstart="onDragStart(event)">
+      <img src="../images/_3.png" alt="Avatar" style="width:10%">
+</div>
+
+
+
+
+  <div class="flex-item">
+      <img src="../images/_1.png" alt="Avatar" style="width:10%">
+      <img src="../images/_2.png" alt="Avatar" style="width:10%">
+      <img src="../images/_3.png" alt="Avatar" style="width:10%">
+	</div>
 
 
 <script type="text/javascript">

@@ -3,8 +3,9 @@
 <head>
   <link rel="stylesheet" href="..\css\styles.css">
   <link rel="stylesheet" href="..\css\w3.css">
-  <!--<script type="text/javascript" src="../scripts/jquery.min.js"></script>-->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="../lib/require.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 </head>
 <body>
@@ -19,19 +20,16 @@
   </div>
 </div>
 <br>
-<form action="planstories.php" method="POST"> 
 <div id="myDIV" class="header"style="background-color:DARKSLATEGRAY">
   <h2 style="margin:5px;color:white">Planning Poker</h2>
   <input type="text" id="myInput" placeholder="Enter stories here...">
-  <input type="hidden" id="storylist" name="storylist" value="">
   <span onclick="newElement()" class="addBtn">Add Story to Bucket</span>
 </div>
-<button onclick="loadElements()" id="loadelements" class="button" style="background-color:DARKSLATEGRAY">Load from Workspace</button>
-<button type="submit" class="button" id="startsession" style="background-color:DARKSLATEGRAY">Start Session</button>
-<label id="count"></label>
-<ul id="StoryBucket" name="storybucket">
+
+<ul id="StoryBucket">
 </ul>
-</form>
+<button onclick="loadElements()" class="button"style="background-color:DARKSLATEGRAY">Load from Workspace</button>
+<button onclick="startsession()" class="button" id="startsession" style="background-color:DARKSLATEGRAY">Start Session</button>
 
 <script type="text/javascript">
 // Create a "close" button and append it to each list item
@@ -67,7 +65,7 @@ list.addEventListener('click', function(ev) {
 function newElement() {
 
   var li = document.createElement("li");
-  var inputValue = "NULL - " + document.getElementById("myInput").value;
+  var inputValue = document.getElementById("myInput").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
@@ -92,57 +90,72 @@ function newElement() {
 }
 
 function loadElements() {
-            var responsedata = $.ajax({
-                url: "http://localhost:8085/pp/data/stories/10001_2004_stories.txt",
-                dataType: "txt",
-                async: false
-            }).responseText;
-            var EachLineInTextFile = responsedata.split("\n");
-			document.getElementById("count").innerText = "Total stories loaded from ALM Octane: " + (EachLineInTextFile.length - 1)
-            for (var i = 1, len = EachLineInTextFile.length; i < len; i++) {
-				if (EachLineInTextFile[i].length != 0) {
-					var StoryLists = EachLineInTextFile[i].split(";");
-					STORE_TO_REPLACE = StoryLists[0] + " - " + StoryLists[1];
-					li = document.createElement("li");
-					 t = document.createTextNode(STORE_TO_REPLACE);
-					li.appendChild(t);
-					//STORE_TO_REPLACE: I would have to the entire format of your file to do this.
-					li.id= StoryLists[0];
-					li.name="story_" + i;
-					document.getElementById("StoryBucket").appendChild(li);
+	alert('here');
 
-					var span = document.createElement("SPAN");
-					var txt = document.createTextNode("\u00D7");
-					span.className = "close";
-					span.appendChild(txt);
-					li.appendChild(span);
+$.ajax({
+    type: "POST",
+    url: 'http://localhost:8085/pp/pages/App/php/myphp.php',
+    dataType: 'json',
+    data: {functionname: 'add', arguments: [1, 2]},
+    success: function (result ) {
+                  if( !('error' in result ) ) {
+                      yourVariable = result ;
+					  alert(yourVariable);
+                  }
+                  else {
+                      alert(result );
+                  }
+            }
+		}
+)}
 
-					for (i = 0; i < close.length; i++) {
-					  close[i].onclick = function() {
-						var div = this.parentElement;
-						div.style.display = "none";
-					  }
-					}
-					//alert(li.id);
-					//alert(li.name);
-					delete li;
-					delete t;
-					}
-                }
-				document.getElementById("loadelements").disabled=true;
-				document.getElementById("loadelements").style="background-color:#D0D3D3";
-				  var array = [];
-			  // iterate backwards ensuring that length is an UInt32
-			  for (var i = $( "li" ).length >>> 0; i--;) { 
-				array[i] = $( "li" )[i].innerText ;
-			  }
-			  
-			  //  window.location.href = "planstories.php?a1=" + array;
 
-			  document.getElementById("storylist").value= array;
+function startsession(){
+
+if (document.getElementById("startsession").innerHTML=="Start Session") {
+
+    document.getElementById("startsession").innerHTML= "Join Session";
 }
+var fs = require('fs');
+fs.writeFile("test.txt", "Hey there!", function(err) {
+    if(err) {
+        return console.log(err);
+    }
 
+    console.log("The file was saved!");
+});
+}
 </script>
+ <?php
+    header('Content-Type: application/json');
 
+    $aResult = array();
+
+    if( !isset($_POST['functionname']) ) { $aResult['error'] = 'No function name!'; }
+
+    if( !isset($_POST['arguments']) ) { $aResult['error'] = 'No function arguments!'; }
+
+    if( !isset($aResult['error']) ) {
+
+        switch($_POST['functionname']) {
+            case 'add':
+               if( !is_array($_POST['arguments']) || (count($_POST['arguments']) < 2) ) {
+                   $aResult['error'] = 'Error in arguments!';
+               }
+               else {
+                   $aResult['result'] = add(floatval($_POST['arguments'][0]), floatval($_POST['arguments'][1]));
+               }
+               break;
+
+            default:
+               $aResult['error'] = 'Not found function '.$_POST['functionname'].'!';
+               break;
+        }
+
+    }
+
+    echo json_encode($aResult);
+
+?>
 </body>
 </html>
