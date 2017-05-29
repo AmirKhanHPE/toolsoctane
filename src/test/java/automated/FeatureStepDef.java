@@ -112,4 +112,46 @@ public class FeatureStepDef extends UnitTestClassBase{
     }
 
 
+    @Given("^user name is valid$")
+    public void user_name_is_valid() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
+        config.setServerAddress(new URI("ws://localhost:5095"));
+        SDK.init(config);
+        Reporter.init();
+        browser = BrowserFactory.launch(BrowserType.INTERNET_EXPLORER);
+        browser.navigate("http://localhost:8083/pages/App/pages/login.sample.html");
+        browser.describe(EditField.class, new EditFieldDescription.Builder()
+                .type("text").tagName("INPUT").name("uname").build()).setValue("Andrej");
+
+    }
+
+    @Given("^password is valid$")
+    public void password_is_valid() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        browser.describe(EditField.class, new EditFieldDescription.Builder()
+                .type("password").tagName("INPUT").name("psw").build()).setSecure("592be67846f75c58e9b60d90bb0951481af327d1f1fa509df2c7");
+    }
+
+    @When("^user clicks on login button$")
+    public void user_clicks_on_login_button() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        browser.describe(Button.class, new ButtonDescription.Builder()
+                .buttonType("submit").tagName("BUTTON").name("Login").build()).click();
+    }
+
+    @Then("^user is logged into the reporting tool$")
+    public void user_is_logged_into_the_reporting_tool() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        browser.close();
+        Reporter.generateReport();
+        SDK.cleanup();
+
+    }
+
+
 }
