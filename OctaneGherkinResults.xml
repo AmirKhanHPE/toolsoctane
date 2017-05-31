@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Access Dashboard View" path="Features\Dashboard Feature-103005.feature" started="1496219144257" tag="@TID103005REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID103005REV0.2.0
+Feature: Access Dashboard View
+
+	Scenario: User can access personal dashboard view
+		Given user is logged in
+		When user clicks on my dashboard
+		Then dashboard page is displayed
+]]></file><scenarios><scenario name="User can access personal dashboard view"><steps><step duration="2502999919" name="Given user is logged in" status="passed"/><step duration="53518" name="When user clicks on my dashboard" status="passed"/><step duration="2032336732" name="Then dashboard page is displayed" status="passed"/></steps></scenario></scenarios></feature><feature name="demo gherkin jenkins execution" path="Features\Demo_119001.feature" started="1496219148801" tag="@TID119001REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID119001REV0.2.0
+Feature: demo gherkin jenkins execution
+Scenario: demo something
+Given some webpage is loaded and user pw provided
+When button on webpage is clicked 
+Then user is logged in and something happens.]]></file><scenarios><scenario name="demo something"><steps><step duration="16493687" name="Given some webpage is loaded and user pw provided" status="passed"/><step duration="42154" name="When button on webpage is clicked" status="passed"/><step duration="838077340" name="Then user is logged in and something happens." status="passed"/></steps></scenario></scenarios></feature><feature name="Login to workspace reporting tool hpsw" path="Features\Login to Workspace Reporting Tool_116001.feature" started="1496219149659" tag="@TID116001REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID116001REV0.2.0
+Feature: Login to workspace reporting tool hpsw
+
+	Scenario: user can login into the reporting plattform
+		Given user name is valid
+        And password is valid 
+		When user clicks on login button
+		Then user is logged into the reporting tool
+]]></file><scenarios><scenario name="user can login into the reporting plattform"><steps><step duration="1211081518" name="Given user name is valid" status="passed"/><step duration="38621386" name="And password is valid" status="passed"/><step duration="37856744" name="When user clicks on login button" status="passed"/><step duration="1846265534" name="Then user is logged into the reporting tool" status="passed"/></steps></scenario></scenarios></feature><feature name="Login to CPR" path="Features\Login to cross project reporter-103018.feature" started="1496219152798" tag="@TID103018REV0.3.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID103018REV0.3.0
+Feature: Login to CPR
+Das beschreibt mein Feature
+
+
+	Scenario: Login with valid user
+		Given navigate to CPR
+        And page is loaded
+        And user and password are provided and valid
+		When user clicks on Login button
+		Then user is logged into CPR
+]]></file><scenarios><scenario name="Login with valid user"><steps><step duration="649344922" name="Given navigate to CPR" status="passed"/><step duration="535288266" name="And page is loaded" status="passed"/><step duration="65443606" name="And user and password are provided and valid" status="passed"/><step duration="28738956" name="When user clicks on Login button" status="passed"/><step duration="1827773367" name="Then user is logged into CPR" status="passed"/></steps></scenario></scenarios></feature></features>

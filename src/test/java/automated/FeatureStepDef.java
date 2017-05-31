@@ -120,11 +120,10 @@ public class FeatureStepDef extends UnitTestClassBase{
         config.setServerAddress(new URI("ws://localhost:5095"));
         SDK.init(config);
         Reporter.init();
-        browser = BrowserFactory.launch(BrowserType.INTERNET_EXPLORER);
+        browser = BrowserFactory.launch(BrowserType.CHROME);
         browser.navigate("http://localhost:8083/pages/App/pages/login.sample.html");
         browser.describe(EditField.class, new EditFieldDescription.Builder()
-                .type("text").tagName("INPUT").name("uname").build()).setValue("Andrej");
-
+                .type("text").tagName("INPUT").name("uname").build()).setValue("amir.khan");
     }
 
     @Given("^password is valid$")
@@ -154,4 +153,30 @@ public class FeatureStepDef extends UnitTestClassBase{
     }
 
 
+    @Given("^some webpage is loaded and user pw provided$")
+    public void some_webpage_is_loaded_and_user_pw_provided() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        ModifiableSDKConfiguration config = new ModifiableSDKConfiguration();
+        config.setServerAddress(new URI("ws://localhost:5095"));
+        SDK.init(config);
+        Reporter.init();
+        Reporter.reportEvent("Step", "description");
+    }
+
+    @When("^button on webpage is clicked$")
+    public void button_on_webpage_is_clicked() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        Reporter.reportEvent("Step", "description");
+    }
+
+    @Then("^user is logged in and something happens\\.$")
+    public void user_is_logged_in_and_something_happens() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+        Reporter.reportEvent("Step", "description");
+        Reporter.generateReport();
+        SDK.cleanup();
+    }
 }
