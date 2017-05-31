@@ -171,6 +171,8 @@ public class FeatureStepDef extends UnitTestClassBase{
         Reporter.reportEvent("Step", "description");
     }
 
+
+    //something
     @Then("^user is logged in and something happens\\.$")
     public void user_is_logged_in_and_something_happens() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
