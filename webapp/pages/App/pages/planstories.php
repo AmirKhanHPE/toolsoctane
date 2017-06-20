@@ -22,7 +22,7 @@
 
 
 <br>
-<br><br>
+<br>
 <br>
 
 <div class="w3-container" align="center" style="background-color:white;">
@@ -60,12 +60,22 @@
 		  <img value="" src="../images/us.png" id="selectedOne" class="w3-left w3-circle w3-margin-right" style="width:60px" >
 		  <p id="currentstory" name="currentstory">As an user i want to have the option to register a guest user access for logging into the application website with viewer access.</p><br>
 	  </div>
+	  <div>
+	<!--<textarea rows="4" cols="50" name="comment">
+	Enter comment / reason for estimation...</textarea>
+	<br>
+	-->
 	<button onclick="prevElements()" class="button" id="previous" style="background-color:DARKSLATEGRAY">Previous</button>
 	<button onclick="nextElements()" class="button" id="next" style="background-color:DARKSLATEGRAY">Next</button>
 	<button  class="button" id="submitselection" style="background-color:DARKSLATEGRAY">Submit Selection</button>
+	</div>
     </div>
 <br>
 <br>
+
+<br>
+
+
   <div class="w3-row">
      <div class="w3-col w3-hover-shadow"  style="width:10%;background-color:#C0C0C0" >
       <img onclick="javascript:changeimg('../images/_1.png')" src="../images/_1.png" class="w3-circle" style="width:100%" id="first" >

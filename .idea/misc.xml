@@ -8,7 +8,7 @@
     </option>
   </component>
   <component name="OctanePluginConnectionSettings" Url="https://mqast001pngx.saas.hpe.com" SharedSpace="2004" WorkSpace="20001" User="amir.khan@hpe.com" />
-  <component name="OctanePluginState" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;login&quot;,&quot;Login&quot;,&quot;dashboard&quot;,&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;]}" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;USER_STORY&quot;,&quot;entityName&quot;:&quot;Export data with SDK of Octane Rest API for Releases&quot;,&quot;id&quot;:106002}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106002: Export data with SDK of Octane Rest API for Releases&quot;}" />
+  <component name="OctanePluginState" ACTIVE_WORK_ITEM="{&quot;entityType&quot;:&quot;USER_STORY&quot;,&quot;entityName&quot;:&quot;Display exported data with Javascript for Defects&quot;,&quot;id&quot;:109001}" EXPECTED_COMMIT_MESSAGE="{&quot;value&quot;:&quot;user story #106002: Export data with SDK of Octane Rest API for Releases&quot;}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[&quot;login&quot;,&quot;Login&quot;,&quot;dashboard&quot;,&quot;Exporting service crashing sequently&quot;,&quot;Format of txt file incorrect. No CSV formatting&quot;]}" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
