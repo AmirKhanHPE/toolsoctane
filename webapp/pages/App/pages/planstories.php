@@ -67,7 +67,7 @@
 	-->
 	<button onclick="prevElements()" class="button" id="previous" style="background-color:DARKSLATEGRAY">Previous</button>
 	<button onclick="nextElements()" class="button" id="next" style="background-color:DARKSLATEGRAY">Next</button>
-	<button  class="button" id="submitselection" style="background-color:DARKSLATEGRAY">Submit Selection</button>
+	<button onclick="commentfunc()" class="button" id="submitselection" style="background-color:DARKSLATEGRAY">Submit Selection</button>
 	</div>
     </div>
 <br>
@@ -166,6 +166,17 @@ function prevElements() {
     i=0;
 	document.getElementById("previous").disabled=true;
 	}
+}
+
+function commentfunc() {
+    var txt;
+    var person = prompt("Please enter your Comment for assessment:", "Planning Poker");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = person;
+    }
+    //document.getElementById("demo").innerHTML = txt;
 }
 
 </script>
