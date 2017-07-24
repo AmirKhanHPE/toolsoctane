@@ -102,7 +102,7 @@ ul li.checked::before {
 }
 
 /* Clear floats after the header */
-/* new code */
+/* test */
 .header:after {
   content: "";
   display: table;
