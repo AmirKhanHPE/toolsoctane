@@ -103,6 +103,8 @@ ul li.checked::before {
 
 /* Clear floats after the header */
 /* test */
+/* do your code changes */
+/* Comments for BIT DEmo */
 .header:after {
   content: "";
   display: table;
