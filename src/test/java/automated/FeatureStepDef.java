@@ -1,20 +1,16 @@
 package automated;
 
 import com.hp.lft.report.Reporter;
-import com.hp.lft.report.Status;
-import com.hp.lft.sdk.GeneralLeanFtException;
+
 import com.hp.lft.sdk.ModifiableSDKConfiguration;
 import com.hp.lft.sdk.SDK;
 import com.hp.lft.sdk.web.*;
 import com.hp.lft.verifications.Verify;
-import cucumber.api.PendingException;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
-import cucumber.runtime.CucumberException;
-import jdk.nashorn.internal.runtime.Undefined;
-import org.junit.runner.notification.Failure;
+
 import unittesting.UnitTestClassBase;
 
 import java.net.URI;
@@ -181,5 +177,8 @@ public class FeatureStepDef extends UnitTestClassBase{
         Reporter.reportEvent("Step", "description");
         Reporter.generateReport();
         SDK.cleanup();
+
+        //Code something
+        //Implement the user story.
     }
 }

@@ -1,7 +1,7 @@
 <Results>
     <GeneralInfo>
         <Name/>
-        <RunStartTime>2017-06-20 11:26:51</RunStartTime>
+        <RunStartTime>2017-09-19 10:58:17</RunStartTime>
         <Timezone>W. Europe Standard Time</Timezone>
         <OrchestrationToolName>JUnit</OrchestrationToolName>
         <OrchestrationToolVersion/>
@@ -11,7 +11,7 @@
         <Data>
             <Name>Run Results</Name>
             <Description><![CDATA[ ]]></Description>
-            <StartTime>2017-06-20 11:26:51</StartTime>
+            <StartTime>2017-09-19 10:58:17</StartTime>
             <Result>Passed</Result>
             <Links/>
             <Duration>3</Duration>
@@ -39,7 +39,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-06-20 11:26:51</StartTime>
+                <StartTime>2017-09-19 10:58:17</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -55,7 +55,7 @@
             <Data>
                 <Name><![CDATA[Browser.launch]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;CHROME&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:51</StartTime>
+                <StartTime>2017-09-19 10:58:17</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -83,7 +83,7 @@
             <Data>
                 <Name><![CDATA[Browser.navigate]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://localhost:8083/pages/App/pages/login.sample.html&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:51</StartTime>
+                <StartTime>2017-09-19 10:58:17</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -105,7 +105,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
@@ -134,7 +134,7 @@
             <Data>
                 <Name><![CDATA[uname.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;Amir&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:51</StartTime>
+                <StartTime>2017-09-19 10:58:18</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -207,7 +207,7 @@
             <Data>
                 <Name><![CDATA[psw.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;HPE&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:18</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -280,7 +280,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:18</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -296,7 +296,7 @@
             <Data>
                 <Name>Step executed</Name>
                 <Description><![CDATA[step executed]]></Description>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:18</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -312,7 +312,7 @@
             <Data>
                 <Name>Verification</Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:19</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Extension>
@@ -335,7 +335,7 @@
             <Data>
                 <Name><![CDATA[Login.click]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:19</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -406,19 +406,19 @@
         </ReportNode>
         <ReportNode type="Step">
             <Data>
-                <Name><![CDATA[HPE ALM Octane Reports.close]]></Name>
+                <Name><![CDATA[Browser.close]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:52</StartTime>
+                <StartTime>2017-09-19 10:58:19</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>2</Duration>
+                <Duration>1</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
                             <Path>
                                 <Object>
                                     <Type>Web.Browser</Type>
-                                    <Name><![CDATA[HPE ALM Octane Reports]]></Name>
+                                    <Name><![CDATA[Browser]]></Name>
                                 </Object>
                             </Path>
                             <Operation>close</Operation>
@@ -430,7 +430,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
@@ -444,7 +444,7 @@
                                 <Path>
                                     <Object>
                                         <Type>Web.Browser</Type>
-                                        <Name><![CDATA[HPE ALM Octane Reports]]></Name>
+                                        <Name><![CDATA[Browser]]></Name>
                                         <IconKey>Browser</IconKey>
                                     </Object>
                                 </Path>
@@ -459,7 +459,7 @@
             <Data>
                 <Name>Step</Name>
                 <Description><![CDATA[description]]></Description>
-                <StartTime>2017-06-20 11:26:54</StartTime>
+                <StartTime>2017-09-19 10:58:20</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -475,7 +475,7 @@
             <Data>
                 <Name>Step</Name>
                 <Description><![CDATA[description]]></Description>
-                <StartTime>2017-06-20 11:26:54</StartTime>
+                <StartTime>2017-09-19 10:58:20</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -491,7 +491,7 @@
             <Data>
                 <Name>Step</Name>
                 <Description><![CDATA[description]]></Description>
-                <StartTime>2017-06-20 11:26:54</StartTime>
+                <StartTime>2017-09-19 10:58:20</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -507,7 +507,7 @@
             <Data>
                 <Name><![CDATA[Browser.launch]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;CHROME&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:54</StartTime>
+                <StartTime>2017-09-19 10:58:21</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -535,10 +535,10 @@
             <Data>
                 <Name><![CDATA[Browser.navigate]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://localhost:8083/pages/App/pages/login.sample.html&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:55</StartTime>
+                <StartTime>2017-09-19 10:58:21</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>1</Duration>
+                <Duration>2</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -557,7 +557,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
@@ -586,7 +586,7 @@
             <Data>
                 <Name><![CDATA[uname.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;amir.khan&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:55</StartTime>
+                <StartTime>2017-09-19 10:58:22</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -659,7 +659,7 @@
             <Data>
                 <Name><![CDATA[psw.setSecure]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;592be67846f75c58e9b60d90bb0951481af327d1f1fa509df2c7&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:56</StartTime>
+                <StartTime>2017-09-19 10:58:22</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -732,7 +732,7 @@
             <Data>
                 <Name><![CDATA[Login.click]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:56</StartTime>
+                <StartTime>2017-09-19 10:58:22</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -805,7 +805,7 @@
             <Data>
                 <Name><![CDATA[HPE ALM Octane Reports.close]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:56</StartTime>
+                <StartTime>2017-09-19 10:58:22</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>2</Duration>
@@ -827,7 +827,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
@@ -856,7 +856,7 @@
             <Data>
                 <Name><![CDATA[Browser.launch]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;CHROME&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:57</StartTime>
+                <StartTime>2017-09-19 10:58:24</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>0</Duration>
@@ -884,10 +884,10 @@
             <Data>
                 <Name><![CDATA[Browser.navigate]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;http://localhost:8083/pages/App/pages/login.sample.html&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:57</StartTime>
+                <StartTime>2017-09-19 10:58:24</StartTime>
                 <Result>Passed</Result>
                 <Links/>
-                <Duration>1</Duration>
+                <Duration>2</Duration>
                 <Extension>
                     <Any>
                         <TestObject>
@@ -906,7 +906,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
@@ -935,7 +935,7 @@
             <Data>
                 <Name><![CDATA[uname.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;amir.khan&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:58</StartTime>
+                <StartTime>2017-09-19 10:58:26</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -1008,7 +1008,7 @@
             <Data>
                 <Name><![CDATA[psw.setValue]]></Name>
                 <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>&quot;microfocus&quot;</td></tr></table>]]></Description>
-                <StartTime>2017-06-20 11:26:58</StartTime>
+                <StartTime>2017-09-19 10:58:26</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -1081,7 +1081,7 @@
             <Data>
                 <Name><![CDATA[Login.click]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:59</StartTime>
+                <StartTime>2017-09-19 10:58:26</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>1</Duration>
@@ -1154,7 +1154,7 @@
             <Data>
                 <Name><![CDATA[HPE ALM Octane Reports.close]]></Name>
                 <Description/>
-                <StartTime>2017-06-20 11:26:59</StartTime>
+                <StartTime>2017-09-19 10:58:26</StartTime>
                 <Result>Passed</Result>
                 <Links/>
                 <Duration>2</Duration>
@@ -1176,7 +1176,7 @@
                                 </Property>
                                 <Property>
                                     <Name><![CDATA[version]]></Name>
-                                    <Value><![CDATA[58.0]]></Value>
+                                    <Value><![CDATA[60.0]]></Value>
                                 </Property>
                             </Properties>
                         </TestObject>
